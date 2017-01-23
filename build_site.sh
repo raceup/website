@@ -16,12 +16,12 @@
 # limitations under the License.
 
 
-BUILD_FOLDER=/home/stefano/Projects/Raceup/webpage/raceup.github.io/
+BUILD_FOLDER="/home/stefano/Projects/Raceup/webpage/raceup.github.io/"
 
 echo "Building"
 jekyll build
-cp -r _site BUILD_FOLDER
-cd BUILD_FOLDER
+cp -r _site $BUILD_FOLDER
+cd $BUILD_FOLDER
 
 echo "Pushing online"
 git add --all

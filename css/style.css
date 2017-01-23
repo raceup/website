@@ -215,7 +215,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #990033;  /*83d3c9*/
+			border-color: #990033;
 		}
 
 	input[type="text"],
@@ -324,7 +324,7 @@
 			}
 
 			.icon.circle.fa-twitter {
-				background: #70aecd;
+				background: #0084b4;
 				color: white;
 			}
 
@@ -333,7 +333,7 @@
 				}
 
 			.icon.circle.fa-facebook {
-				background: #7490c3;
+				background: #3b5998;
 				color: white;
 			}
 
@@ -341,22 +341,13 @@
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
-				background: #db6b67;
-				color: white;
-			}
-
-				.icon.circle.fa-google-plus:hover {
-					background: #df7b77;
-				}
-
 			.icon.circle.fa-github {
-				background: #dcad8b;
+				background: #000000;
 				color: white;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #e1b89b;
+					background: #333333;
 				}
 
 			.icon.circle.fa-dribbble {

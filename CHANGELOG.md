@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - stylish vintage feel
 - diagonal lines in headers
+- orbitron git repo
 
 ## 0.1.2 - 2017-01-23
 ### Added

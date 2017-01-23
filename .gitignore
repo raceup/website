@@ -1,4 +1,4 @@
 ### Jekyll ###
-# no _site/ because I've to run it with plugins
+_site/
 .sass-cache/
 .jekyll-metadata

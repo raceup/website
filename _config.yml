@@ -1,12 +1,19 @@
 # site settings
 title: RaceUp Team
 email: info@raceup.it
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: RaceUp is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "raceup.github.io" # the base hostname & protocol for your site
+
+# plugins
+gems: 
+  - jekyll-multiple-languages-plugin
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["it", "en"]
+
+# to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
+exclude_from_localizations: ["javascript", "images", "css"]
 
 # social
 twitter_username: RaceUpTeam

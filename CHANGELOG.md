@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 ## TODOs
 - fix view in different browsers
+- it/en posts
+
+## 0.1.7 - 2017-01-23
+### Added
+- language support
 
 ## 0.1.6 - 2017-01-23
 ### Fixed

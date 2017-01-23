@@ -16,14 +16,18 @@
 # limitations under the License.
 
 
-BUILD_FOLDER="/home/stefano/Projects/Raceup/webpage/raceup.github.io/"
+OUTPUT_FOLDER="/home/stefano/Projects/Raceup/webpage/raceup.github.io/"
 
+echo "------------------------"
 echo "Building"
+echo "------------------------"
 jekyll build
-cp -r _site $BUILD_FOLDER
-cd $BUILD_FOLDER
+yes | cp -rf _site/* $OUTPUT_FOLDER
+cd $OUTPUT_FOLDER
 
+echo "------------------------"
 echo "Pushing online"
+echo "------------------------"
 git add --all
 git commit -m "built sources, see CHANGELOG here https://github.com/sirfoga/raceup.github.io/blob/master/CHANGELOG.md for more info"
 git push origin master

@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file.
 ## 0.1.9 - 2017-01-23
 ### Added
 - it/en banner.html
+### Fixed
+- upload site script
 
 ## 0.1.8 - 2017-01-23
 ### Added

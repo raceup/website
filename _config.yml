@@ -9,5 +9,15 @@ url: "raceup.github.io" # the base hostname & protocol for your site
 twitter_username: RaceUpTeam
 github_username: raceup
 
+# plugins
+gems: 
+  - jekyll-multiple-languages-plugin
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["it", "en"]
+
+# to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
+exclude_from_localizations: ["javascript", "images", "css"]
+
 # build settings
 markdown: kramdown

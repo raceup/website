@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.3 - 2017-01-23
+### Removed
+- stylish vintage feel
+- diagonal lines in headers
+
 ## 0.1.2 - 2017-01-23
 ### Added
 - Orbitron font

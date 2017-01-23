@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 - fix view in different browsers
 - it/en posts
 
+## 0.1.9 - 2017-01-23
+### Added
+- it/en banner.html
+
 ## 0.1.8 - 2017-01-23
 ### Added
 - scripts to run and build website

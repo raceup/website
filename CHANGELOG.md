@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## TODOs
+- fix view in different browsers
+
+## 0.1.4 - 2017-01-23
+### Removed
+- useless forked images
+### Added
+- sponsors page layout
+
 ## 0.1.3 - 2017-01-23
 ### Removed
 - stylish vintage feel

@@ -5,16 +5,6 @@ description: RaceUp is the FSAE team of the University of Padova. Since 2006 we 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "raceup.github.io" # the base hostname & protocol for your site
 
-# plugins
-gems: 
-  - jekyll-multiple-languages-plugin
-
-# jekyll-multiple-languages-plugin settings:
-languages: ["it", "en"]
-
-# to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
-exclude_from_localizations: ["javascript", "images", "css"]
-
 # social
 twitter_username: RaceUpTeam
 github_username: raceup

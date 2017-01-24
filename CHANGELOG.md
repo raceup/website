@@ -9,6 +9,10 @@ All notable changes to this project will be documented in this file.
 ### Added
 - it/en banner.html
 - it/en about.html
+- it/en index.html
+- it/en blog.html
+- it/en cars
+- it/en team
 ### Fixed
 - upload site script
 - {{ site.baseurl }} bug

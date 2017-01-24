@@ -20,6 +20,7 @@ All notable changes to this project will be documented in this file.
 - upload site script
 - {{ site.baseurl }} bug
 - it/en header
+- hover colors
 
 ## 0.1.8 - 2017-01-23
 ### Added

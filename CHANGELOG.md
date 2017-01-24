@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - only 1 page of team
+- page colors
 ### Add
 - team images
 
@@ -12,7 +13,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - cars ed/cd
 - team members page layout
-- team members names
+- team members names, emails, socials
 
 ## 0.1.9 - 2017-01-24
 ### Added

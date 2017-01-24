@@ -6,8 +6,7 @@ langs:
 titles:
   home: "Pagina iniziale"
   blog: "Blog"
-  team_cd: "Divisione a combustione"
-  team_ed: "Divisione elettrica"
+  team: "Il nostro team"
   car_cd: "Auto a combustione"
   car_ed: "Auto elettrica"
   sponsors_cd: "Sponsors CD"

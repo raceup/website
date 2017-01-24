@@ -2,10 +2,17 @@
 All notable changes to this project will be documented in this file.
 
 ## TODOs
-- fix view in different browsers
-- it/en posts
+### Fix
+- view in different browsers
+- only 1 page of team
+### Add
+- team images
 
-## 0.1.9 - 2017-01-23
+## 0.2 - 2017-01-24
+### Added
+- cars ed/cd
+
+## 0.1.9 - 2017-01-24
 ### Added
 - it/en banner.html
 - it/en about.html
@@ -15,7 +22,7 @@ All notable changes to this project will be documented in this file.
 - it/en team
 - it/en sponsors
 - it/en titles pages
-- instagram, youtube and email logos and shortcuts
+- instagram, youtube, bitbucket and email logos and shortcuts
 ### Fixed
 - upload site script
 - {{ site.baseurl }} bug

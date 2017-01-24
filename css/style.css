@@ -376,6 +376,16 @@
 					background: #333333;
 				}
 
+			.icon.circle.fa-bitbucket {
+				background: #003366;
+				color: white;
+			}
+
+				.icon.circle.fa-bitbucket:hover {
+					background: #57afe5;
+				}
+
+
 		.icon.featured {
 			cursor: default;
 			display: block;

@@ -340,6 +340,33 @@
 					background: #829bc9;
 				}
 
+			.icon.circle.fa-instagram {
+				background: #cd486b;
+				color: white;
+			}
+
+				.icon.circle.fa-instagram:hover {
+					background: #4c68d7;
+				}
+
+			.icon.circle.fa-youtube {
+				background: #e52d27;
+				color: white;
+			}
+
+				.icon.circle.fa-youtube:hover {
+					background: #b31217;
+				}
+
+			.icon.circle.fa-envelope {
+				background: #333333;
+				color: white;
+			}
+
+				.icon.circle.fa-envelope:hover {
+					background: #323333;
+				}
+
 			.icon.circle.fa-github {
 				background: #000000;
 				color: white;
@@ -347,15 +374,6 @@
 
 				.icon.circle.fa-github:hover {
 					background: #333333;
-				}
-
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
-				color: white;
-			}
-
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
 				}
 
 		.icon.featured {

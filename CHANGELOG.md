@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - it/en team
 - it/en sponsors
 - it/en titles pages
+- instagram logo and shortcut
 ### Fixed
 - upload site script
 - {{ site.baseurl }} bug

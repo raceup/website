@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
 ## 0.2 - 2017-01-24
 ### Added
 - cars ed/cd
+- team members page layout
+- team members names
 
 ## 0.1.9 - 2017-01-24
 ### Added

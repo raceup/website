@@ -331,6 +331,15 @@
 					background: #7fb7d2;
 				}
 
+			.icon.circle.fa-linkedin {
+				background: #0077b5;
+				color: white;
+			}
+
+				.icon.circle.fa-linkedin:hover {
+					background: #000000;
+				}
+
 			.icon.circle.fa-facebook {
 				background: #3b5998;
 				color: white;

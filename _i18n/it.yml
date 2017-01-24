@@ -1,0 +1,16 @@
+global:
+  tagline: "Italiano"
+langs:
+  it: "Italiano"
+  en: "English"
+titles:
+  home: "Pagina iniziale"
+  blog: "Blog"
+  team_cd: "Divisione a combustione"
+  team_ed: "Divisione elettrica"
+  car_cd: "Auto a combustione"
+  car_ed: "Auto elettrica"
+  sponsors_cd: "Sponsors CD"
+  sponsors_ed: "Sponsors ED"
+  about: "About"
+  contact: "Contattaci"

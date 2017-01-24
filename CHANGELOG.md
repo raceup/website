@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - it/en cars
 - it/en team
 - it/en sponsors
+- it/en titles pages
 ### Fixed
 - upload site script
 - {{ site.baseurl }} bug

@@ -182,6 +182,32 @@
 		padding-bottom: 2em;
 	}
 
+	header.special-title {
+		margin-bottom: 5em;
+		padding-top: 1.2em;
+		position: relative;
+		text-align: center;
+	}
+
+		header.special-title:before, header.special-title:after {
+			border-bottom: solid 2px;
+			border-top: solid 2px;
+			content: '';
+			height: 7px;
+			opacity: 0.1;
+			position: absolute;
+			top: 1.75em;
+			width: 10%;
+		}
+
+		header.special-title:before {
+			left: 0;
+		}
+
+		header.special-title:after {
+			right: 0;
+		}
+
 	header.special {
 		margin-bottom: 5em;
 		padding-top: 7em;

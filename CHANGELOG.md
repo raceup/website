@@ -13,8 +13,10 @@ All notable changes to this project will be documented in this file.
 - fade-in logo instead of text in banner in homepage
 ### Added
 - background image transparency in banner in homepage
+- car datasheets
 ### Fixed
 - "la home è sballata" by tav
+- lines between team divisions in team page
 
 ## 0.2.2 - 2017-01-25
 ### Added

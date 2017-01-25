@@ -457,10 +457,7 @@
 
 				.icon.circle.fa-bitbucket:hover {
 					background: var(--color-icon-bitbucket-hover);
-				}
-
-
-		.icon.featured {
+				}		.icon.featured {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
@@ -888,15 +885,16 @@
 
 /* Blog */
 
-.post-next {
-    float: right;
-    margin-right: 3em;
-}
+/* Posts */
+	.post-next {
+	    float: right;
+	    margin-right: 3em;
+	}
 
-.post-prev {
-    float: left;
-    margin-left: 3em;
-}
+	.post-prev {
+	    float: left;
+	    margin-left: 3em;
+	}
 
 /* Dropotron */
 /* The dropdown menu in page header */
@@ -970,7 +968,6 @@
 		padding: 6em 0;
 		text-align: center;
 	}
-
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -982,18 +979,14 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
 			color: white;
 			display: inline-block;
-			opacity: 0;
+			opacity: 0;  /* not visible before fade-in */
 			padding: 3em;
 			text-align: center;
 		}
 
 			#banner .inner header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}

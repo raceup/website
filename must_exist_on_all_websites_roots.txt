@@ -1,8 +1,5 @@
 This file exists for testing purposes only to verify possible bugs on the Jekyll
 Multiple Languages Plugin.
-
-
-
 With  the  default configuration of the demo website, this file should be copied
 and exist on the translated sites and main site root folders.
 

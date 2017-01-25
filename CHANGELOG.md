@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file.
 ### Add
 - team members images
 
+## 0.2.3 - 2017-01-25
+### Changed
+- fade-in logo instead of text in banner in homepage
+### Added
+- background image transparency in banner in homepage
+
 ## 0.2.2 - 2017-01-25
 ### Added
 - changing header color based on team (cd/ed)

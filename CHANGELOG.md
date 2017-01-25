@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - changing header color based on team (cd/ed)
 - color vars
+- old car images
 ### Changed
 - car pages layout
 ### Fixed

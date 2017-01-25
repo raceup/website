@@ -107,7 +107,7 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: var(--color-first);
+		color: var(--color-dark-background);
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -634,7 +634,7 @@
 		input[type="reset"].special,
 		.button.special {
 			background: var(--color-first);
-			border-color:var(--color-first);
+			border-color: var(--color-first);
 			color: white !important;
 		}
 
@@ -899,6 +899,7 @@
 }
 
 /* Dropotron */
+/* The dropdown menu in page header */
 
 	.dropotron {
 		background: white;
@@ -943,7 +944,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: var(--color-first);
+				background: var(--color-dark-background);
 				color: white;
 			}
 

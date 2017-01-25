@@ -14,6 +14,9 @@ All notable changes to this project will be documented in this file.
 - color vars
 ### Changed
 - car pages layout
+### Fixed
+- hover color in header
+- en changing color header
 
 ## 0.2.1 - 2017-01-25
 ### Fixed

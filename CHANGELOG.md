@@ -12,6 +12,8 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - page colors
 - shrunk page size
+### Added
+- script to optimize images for web
 
 ## 0.2 - 2017-01-24
 ### Added

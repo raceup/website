@@ -80,7 +80,7 @@
 /* Header */
 
 	#header {
-		display: none;
+		display: none;  /* no horizontal header */
 	}
 
 /* Banner */

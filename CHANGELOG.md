@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - view in different browsers
 - only 1 page of team
 - page colors
+- team page: when minimized some names cover others nearby
 ### Add
 - team images
 

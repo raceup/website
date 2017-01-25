@@ -17,10 +17,58 @@
  * limitations under the License.
  */
 
+/* Colors */
+
+:root{
+	/* palette */
+	--color-first: #b30000;
+	--color-dark-first: #790700;
+	--color-bordeaux: #310118;
+	--color-blue: #2963ff;
+	--color-grey: #6b859e;
+	--color-light-grey: #7d9ca1;
+	--color-dark-grey: #1f3436;
+
+
+	/* background */
+	--color-light-background: #f3f6fa;
+	--color-dark-background: #7c8081;
+
+	/* text */
+	--color-text: #1f3436;
+	--color-dark-text: #1c2021;
+	--color-table-text: #7c8081;
+
+	/* social icons */
+	--color-icon-twitter: #0084b4;
+	--color-icon-twitter-hover: #7fb7d2;
+
+	--color-icon-linkedin: #0077b5;
+	--color-icon-linkedin-hover: #000000;
+
+	--color-icon-facebook: #3b5998;
+	--color-icon-facebook-hover: #829bc9;
+
+	--color-icon-instagram: #cd486b;
+	--color-icon-instagram-hover: #4c68d7;
+
+	--color-icon-youtube: #e52d27;
+	--color-icon-youtube-hover: #b31217;
+
+	--color-icon-email: #333333;
+	--color-icon-email-hover: #323333;
+
+	--color-icon-github: #000000;
+	--color-icon-github-hover: #333333;
+
+	--color-icon-bitbucket: #003366;
+	--color-icon-bitbucket-hover: #57afe5;
+}
+
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		background: var(--color-light-background);
 	}
 
 	body.is-loading * {
@@ -37,7 +85,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #000000;
+		color: var(--color-text);
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -51,7 +99,7 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		color: #990033;
+		color: var(--color-first);
 		text-decoration: none;
 		border-bottom: dotted 1px;
 	}
@@ -214,7 +262,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #990033;
+			border-color: var(--color-first);
 		}
 
 	input[type="text"],
@@ -323,75 +371,75 @@
 			}
 
 			.icon.circle.fa-twitter {
-				background: #0084b4;
+				background: var(--color-icon-twitter);
 				color: white;
 			}
 
 				.icon.circle.fa-twitter:hover {
-					background: #7fb7d2;
+					background: var(--color-icon-twitter-hover);
 				}
 
 			.icon.circle.fa-linkedin {
-				background: #0077b5;
+				background: var(--color-icon-linkedin);
 				color: white;
 			}
 
 				.icon.circle.fa-linkedin:hover {
-					background: #000000;
+					background: var(--color-icon-linkedin-hover);
 				}
 
 			.icon.circle.fa-facebook {
-				background: #3b5998;
+				background: var(--color-icon-facebook);
 				color: white;
 			}
 
 				.icon.circle.fa-facebook:hover {
-					background: #829bc9;
+					background: var(--color-icon-facebook-hover);
 				}
 
 			.icon.circle.fa-instagram {
-				background: #cd486b;
+				background: var(--color-icon-instagram);
 				color: white;
 			}
 
 				.icon.circle.fa-instagram:hover {
-					background: #4c68d7;
+					background: var(--color-icon-instagram-hover);
 				}
 
 			.icon.circle.fa-youtube {
-				background: #e52d27;
+				background: var(--color-icon-youtube);
 				color: white;
 			}
 
 				.icon.circle.fa-youtube:hover {
-					background: #b31217;
+					background: var(--color-icon-youtube-hover);
 				}
 
 			.icon.circle.fa-envelope {
-				background: #333333;
+				background: var(--color-icon-email);
 				color: white;
 			}
 
 				.icon.circle.fa-envelope:hover {
-					background: #323333;
+					background: var(--color-icon-email-hover);
 				}
 
 			.icon.circle.fa-github {
-				background: #000000;
+				background: var(--color-icon-github);
 				color: white;
 			}
 
 				.icon.circle.fa-github:hover {
-					background: #333333;
+					background: var(--color-icon-github-hover);
 				}
 
 			.icon.circle.fa-bitbucket {
-				background: #003366;
+				background: var(--color-icon-bitbucket);
 				color: white;
 			}
 
 				.icon.circle.fa-bitbucket:hover {
-					background: #57afe5;
+					background: var(--color-icon-bitbucket-hover);
 				}
 
 
@@ -520,8 +568,8 @@
 			}
 
 			table.default thead {
-				background: #7c8081;
-				color: #fff;
+				background: var(--color-table-text);
+				color: white;
 			}
 
 /* Button */
@@ -568,8 +616,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #990033;
-			border-color: #990033;
+			background: var(--color-first);
+			border-color:var(--color-first);
 			color: white !important;
 		}
 
@@ -577,8 +625,8 @@
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #990033 !important;
-				border-color: #990033 !important;
+				background: var(--color-first) !important;
+				border-color: var(--color-first) !important;
 			}
 
 		input[type="button"].fit,
@@ -609,7 +657,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #990033;
+			background-color: var(--color-first);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -624,7 +672,7 @@
 			.wrapper.style2 .button.special {
 				background: white;
 				border-color: white;
-				color: #990033 !important;
+				color: var(--color-first) !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -653,7 +701,7 @@
 	#header {
 		background: white;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: inherit;
+		color: var(--color-dark-first);
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
@@ -678,6 +726,7 @@
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
+			font-weight: bold;
 			top: 0.75em;
 		}
 
@@ -780,7 +829,7 @@
 /* Dropotron */
 
 	.dropotron {
-		background: #fff;
+		background: white;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		line-height: 2.25em;
 		min-width: 13em;
@@ -796,7 +845,7 @@
 		}
 
 			.dropotron.level-0:before {
-				border-bottom: solid 0.5em #fff;
+				border-bottom: solid 0.5em white;
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				content: '';
@@ -822,7 +871,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #990033;
+				background: var(--color-first);
 				color: white;
 			}
 
@@ -955,8 +1004,8 @@
 /* Footer */
 
 	#footer {
-		background: #e8eef4;
-		color: #7c8081;
+		background: var(--color-light-background);
+		color: var(--color-dark-background);
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
@@ -1074,7 +1123,7 @@
 
 	#topPanel,
 	#sidePanel {
-		background: #1c2021;
+		background: var(--color-dark-text);
 		color: white;
 		font-size: 0.8em;
 		letter-spacing: 0.075em;

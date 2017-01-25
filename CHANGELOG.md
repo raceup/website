@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file.
 ## TODOs
 ### Fix
 - view in different browsers
-- only 1 page of team
-- page colors
 - team page: when minimized some names cover others nearby
 ### Add
-- team images
+- team members images
+
+## 0.2.1 - 2017-01-25
+### Fixed
+- page colors
 
 ## 0.2 - 2017-01-24
 ### Added

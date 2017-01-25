@@ -19,51 +19,59 @@
 
 /* Colors */
 
-:root{
-	/* palette */
-	--color-first: #b30000;
-	--color-dark-first: #790700;
-	--color-bordeaux: #310118;
-	--color-blue: #2963ff;
-	--color-grey: #6b859e;
-	--color-light-grey: #7d9ca1;
-	--color-dark-grey: #1f3436;
+	:root{
+		/* palette */
+		--color-first: #b30000;
+		--color-dark-first: #790700;
+		--color-bordeaux: #310118;
+		--color-blue: #2963ff;
+		--color-grey: #6b859e;
+		--color-light-grey: #7d9ca1;
+		--color-dark-grey: #1f3436;
 
+		/* cars */
+		--color-car-cd: #fb2323;
+		--color-car-cd-dark: #bb2323;
+		--color-car-ed: #0023ff;
+		--color-car-ed-dark: #112399;
 
-	/* background */
-	--color-light-background: #f3f6fa;
-	--color-dark-background: #7c8081;
+		/* background */
+		--color-light-background: #f3f6fa;
+		--color-dark-background: #7c8081;
 
-	/* text */
-	--color-text: #1f3436;
-	--color-dark-text: #1c2021;
-	--color-table-text: #7c8081;
+		/* text */
+		--color-text: #1f3436;
+		--color-dark-text: #1c2021;
+		--color-table-text: #7c8081;
 
-	/* social icons */
-	--color-icon-twitter: #0084b4;
-	--color-icon-twitter-hover: #7fb7d2;
+		/* social icons */
+		--color-icon-twitter: #0084b4;
+		--color-icon-twitter-hover: #7fb7d2;
 
-	--color-icon-linkedin: #0077b5;
-	--color-icon-linkedin-hover: #000000;
+		--color-icon-linkedin: #0077b5;
+		--color-icon-linkedin-hover: #000000;
 
-	--color-icon-facebook: #3b5998;
-	--color-icon-facebook-hover: #829bc9;
+		--color-icon-facebook: #3b5998;
+		--color-icon-facebook-hover: #829bc9;
 
-	--color-icon-instagram: #cd486b;
-	--color-icon-instagram-hover: #4c68d7;
+		--color-icon-instagram: #cd486b;
+		--color-icon-instagram-hover: #4c68d7;
 
-	--color-icon-youtube: #e52d27;
-	--color-icon-youtube-hover: #b31217;
+		--color-icon-youtube: #e52d27;
+		--color-icon-youtube-hover: #b31217;
 
-	--color-icon-email: #333333;
-	--color-icon-email-hover: #323333;
+		--color-icon-email: #333333;
+		--color-icon-email-hover: #323333;
 
-	--color-icon-github: #000000;
-	--color-icon-github-hover: #333333;
+		--color-icon-wikipedia: #333333;
+		--color-icon-wikipedia-hover: #323333;
 
-	--color-icon-bitbucket: #003366;
-	--color-icon-bitbucket-hover: #57afe5;
-}
+		--color-icon-github: #000000;
+		--color-icon-github-hover: #333333;
+
+		--color-icon-bitbucket: #003366;
+		--color-icon-bitbucket-hover: #57afe5;
+	}
 
 /* Basic */
 
@@ -424,6 +432,15 @@
 					background: var(--color-icon-email-hover);
 				}
 
+			.icon.circle.fa-wikipedia-w {
+				background: var(--color-icon-wikipedia);
+				color: white;
+			}
+
+				.icon.circle.fa-wikipedia-w:hover {
+					background: var(--color-icon-wikipedia-hover);
+				}
+
 			.icon.circle.fa-github {
 				background: var(--color-icon-github);
 				color: white;
@@ -691,6 +708,54 @@
 			padding: 4em;
 		}
 
+		.wrapper.styleED {
+			background-color: var(--color-car-ed);
+			background-image: url("images/ll.svg"), url("images/ll.svg");
+			background-position: bottom left, bottom right;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			color: white;
+		}
+
+			.wrapper.styleED .button:hover {
+				background: rgba(255, 255, 255, 0.15) !important;
+			}
+
+			.wrapper.styleED .button.special {
+				background: white;
+				border-color: white;
+				color: var(--color-car-ed) !important;
+			}
+
+				.wrapper.styleED .button.special:hover {
+					border-color: inherit !important;
+					color: white !important;
+				}
+
+		.wrapper.styleCD {
+			background-color: var(--color-car-cd);
+			background-image: url("images/ll.svg"), url("images/ll.svg");
+			background-position: bottom left, bottom right;
+			background-repeat: no-repeat, no-repeat;
+			background-size: 25em, 25em;
+			color: white;
+		}
+
+			.wrapper.styleCD .button:hover {
+				background: rgba(255, 255, 255, 0.15) !important;
+			}
+
+			.wrapper.styleCD .button.special {
+				background: white;
+				border-color: white;
+				color: var(--color-car-cd) !important;
+			}
+
+				.wrapper.styleCD .button.special:hover {
+					border-color: inherit !important;
+					color: white !important;
+				}
+
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 	@-webkit-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
@@ -698,10 +763,17 @@
 	@-ms-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
+	#header.styleED {
+		color: var(--color-car-ed-dark);
+	}
+
+	#header.styleCD {
+		color: var(--color-car-cd-dark);
+	}
+
 	#header {
-		background: white;
+		background: var(--color-light-background);
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
-		color: var(--color-dark-first);
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;

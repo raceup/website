@@ -15,4 +15,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-jekyll serve --port 1729
+jekyll serve --port 1729  --watch

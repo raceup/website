@@ -5,12 +5,28 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - team page: when minimized some names cover others nearby
+- missing icon in sponsors page
+- missing send button in contact form
+
+#### Internet Explorer/Microsoft
+- header collision
+- no red area in home
+
+#### Mobiles
+- header collision
+- no red area in home
+- missing flavicon
+- transparent menu
+
 ### Add
 - team members images
+- car mg16 datasheet
 
 ## 0.2.4 - 2017-01-26
 ### Removed
 - title in footer
+### Fixed
+- header logo too big in home
 
 ## 0.2.3 - 2017-01-25
 ### Changed

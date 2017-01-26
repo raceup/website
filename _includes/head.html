@@ -1,4 +1,8 @@
 <head>
+    {% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+    
     <title>{% if page.title %}{% t page.title %}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="icon" type="image/png" href="/logo.png">

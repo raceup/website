@@ -5,7 +5,6 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - team page: when minimized some names cover others nearby
-- add send message function
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -17,6 +16,7 @@ All notable changes to this project will be documented in this file.
 - missing flavicon
 - transparent menu
 - missing send button in contact form
+- add send message function
 
 ### Add
 - team members images

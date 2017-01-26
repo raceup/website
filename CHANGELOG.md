@@ -22,7 +22,6 @@ All notable changes to this project will be documented in this file.
 - team members images
 - car mg16 datasheet
 - origin-e description
-- 404 page
 
 ## 0.2.4 - 2017-01-26
 ### Removed
@@ -32,6 +31,7 @@ All notable changes to this project will be documented in this file.
 - missing icon in sponsors page
 ### Added
 - cars technical data
+- 404 page
 
 ## 0.2.3 - 2017-01-25
 ### Changed

@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - team page: when minimized some names cover others nearby
-- missing send button in contact form
+- add send message function
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file.
 - no red area in home
 - missing flavicon
 - transparent menu
+- missing send button in contact form
 
 ### Add
 - team members images
@@ -27,6 +28,8 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - header logo too big in home
 - missing icon in sponsors page
+### Added
+- cars technical data
 
 ## 0.2.3 - 2017-01-25
 ### Changed

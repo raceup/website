@@ -4,7 +4,6 @@ All notable changes to this project will be documented in this file.
 ## TODOs
 ### Fix
 - team page: when minimized some names cover others nearby
-- "Pagina non trovata" even if language is "en"
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -29,6 +28,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - header logo too big in home
 - missing icon in sponsors page
+- "Pagina non trovata" even if language is "en"
 ### Added
 - cars technical data
 - 404 page

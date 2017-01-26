@@ -1,9 +1,13 @@
 # site settings
-title: RaceUp Team
+title: Race UP Team
 email: info@raceup.it
-description: RaceUp is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
+description: Race UP is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "raceup.github.io" # the base hostname & protocol for your site
+
+# allow posts with date in the future
+future: true
+permalink: /:year/:month/:day/:title
 
 # plugins
 gems: 
@@ -17,3 +21,6 @@ exclude_from_localizations: ["javascript", "images", "css"]
 
 # build settings
 markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: true

@@ -1,4 +1,4 @@
-# RaceUp Webpage
+# Race UP Webpage
 *You can find the web page [here](raceup.github.io)*
 
 ## Install

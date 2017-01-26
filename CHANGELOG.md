@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - team page: when minimized some names cover others nearby
+- "Pagina non trovata" even if language is "en"
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -20,8 +21,8 @@ All notable changes to this project will be documented in this file.
 
 ### Add
 - team members images
-- car mg16 datasheet
 - origin-e description
+- CD sponsors
 
 ## 0.2.4 - 2017-01-26
 ### Removed
@@ -33,6 +34,9 @@ All notable changes to this project will be documented in this file.
 - cars technical data
 - 404 page
 - ed sponsors
+- 2 introductory posts
+- css class icon.square
+- post footer with share buttons
 
 ## 0.2.3 - 2017-01-25
 ### Changed

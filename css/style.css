@@ -2,7 +2,7 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /**
- * Copyright 2017 RaceUp Team
+ * Copyright 2017 Race UP Team
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -71,6 +71,9 @@
 
 		--color-icon-bitbucket: #003366;
 		--color-icon-bitbucket-hover: #57afe5;
+
+		--color-icon-google-plus: #dd4b39;
+		--color-icon-google-plus-hover: #fd4b39;
 	}
 
 /* Basic */
@@ -406,90 +409,120 @@
 			width: 2.25em;
 		}
 
-			.icon.circle:hover {
+		.icon.square {
+			-moz-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+			-o-transition: all 0.2s ease-in-out;
+			-ms-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+			border: 0;
+			display: inline-block;
+			font-size: 1.25em;
+			height: 2.25em;
+			left: 0;
+			line-height: 2.25em;
+			text-align: center;
+			text-decoration: none;
+			top: 0;
+			width: 2.25em;
+			height: 2.25em;
+		}
+
+			.icon.circle:hover, .icon.square:hover {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
+			.icon.circle.fa-twitter, .icon.square.fa-twitter {
 				background: var(--color-icon-twitter);
 				color: white;
 			}
 
-				.icon.circle.fa-twitter:hover {
+				.icon.circle.fa-twitter:hover, .icon.square.fa-twitter:hover {
 					background: var(--color-icon-twitter-hover);
 				}
 
-			.icon.circle.fa-linkedin {
+			.icon.circle.fa-linkedin, .icon.square.fa-linkedin {
 				background: var(--color-icon-linkedin);
 				color: white;
 			}
 
-				.icon.circle.fa-linkedin:hover {
+				.icon.circle.fa-linkedin:hover, .icon.circle.fa-linkedin:hover {
 					background: var(--color-icon-linkedin-hover);
 				}
 
-			.icon.circle.fa-facebook {
+			.icon.circle.fa-facebook, .icon.square.fa-facebook {
 				background: var(--color-icon-facebook);
 				color: white;
 			}
 
-				.icon.circle.fa-facebook:hover {
+				.icon.circle.fa-facebook:hover, .icon.circle.fa-facebook:hover {
 					background: var(--color-icon-facebook-hover);
 				}
 
-			.icon.circle.fa-instagram {
+			.icon.circle.fa-instagram, .icon.square.fa-instagram {
 				background: var(--color-icon-instagram);
 				color: white;
 			}
 
-				.icon.circle.fa-instagram:hover {
+				.icon.circle.fa-instagram:hover, .icon.circle.fa-instagram:hover {
 					background: var(--color-icon-instagram-hover);
 				}
 
-			.icon.circle.fa-youtube {
+			.icon.circle.fa-youtube, .icon.square.fa-youtube {
 				background: var(--color-icon-youtube);
 				color: white;
 			}
 
-				.icon.circle.fa-youtube:hover {
+				.icon.circle.fa-youtube:hover, .icon.circle.fa-youtube:hover {
 					background: var(--color-icon-youtube-hover);
 				}
 
-			.icon.circle.fa-envelope {
+			.icon.circle.fa-envelope, .icon.square.fa-envelope {
 				background: var(--color-icon-email);
 				color: white;
 			}
 
-				.icon.circle.fa-envelope:hover {
+				.icon.circle.fa-envelope:hover, .icon.circle.fa-envelope:hover {
 					background: var(--color-icon-email-hover);
 				}
 
-			.icon.circle.fa-wikipedia-w {
+			.icon.circle.fa-wikipedia-w, .icon.square.fa-wikipedia-w {
 				background: var(--color-icon-wikipedia);
 				color: white;
 			}
 
-				.icon.circle.fa-wikipedia-w:hover {
+				.icon.circle.fa-wikipedia-w:hover, .icon.circle.fa-wikipedia-w:hover {
 					background: var(--color-icon-wikipedia-hover);
 				}
 
-			.icon.circle.fa-github {
+			.icon.circle.fa-github, .icon.square.fa-github {
 				background: var(--color-icon-github);
 				color: white;
 			}
 
-				.icon.circle.fa-github:hover {
+				.icon.circle.fa-github:hover, .icon.circle.fa-github:hover {
 					background: var(--color-icon-github-hover);
 				}
 
-			.icon.circle.fa-bitbucket {
+			.icon.circle.fa-bitbucket, .icon.square.fa-bitbucket {
 				background: var(--color-icon-bitbucket);
 				color: white;
 			}
 
-				.icon.circle.fa-bitbucket:hover {
+				.icon.circle.fa-bitbucket:hover, .icon.circle.fa-bitbucket:hover {
 					background: var(--color-icon-bitbucket-hover);
-				}		.icon.featured {
+				}
+
+			.icon.circle.fa-google-plus, .icon.square.fa-google-plus {
+				background: var(--color-icon-google-plus);
+				color: white;
+			}
+
+				.icon.circle.fa-google-plus:hover, .icon.circle.fa-google-plus:hover {
+					background: var(--color-icon-google-plus-hover);
+				}	
+
+		.icon.featured {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;

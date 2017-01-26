@@ -44,7 +44,9 @@ pngoptimize() {
         apt-get install optipng
         pngoptimize
     fi
-}if [ -f "$DEBIAN" ]
+}
+
+if [ -f "$DEBIAN" ]
 then
     cd $FOLDER
     echo "jpeg Optimization start ...."

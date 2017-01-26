@@ -3,7 +3,6 @@ All notable changes to this project will be documented in this file.
 
 ## TODOs
 ### Fix
-- view in different browsers
 - team page: when minimized some names cover others nearby
 - "Pagina non trovata" even if language is "en"
 

@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 ### Add
 - team members images
 
+## 0.2.4 - 2017-01-26
+### Removed
+- title in footer
+
 ## 0.2.3 - 2017-01-25
 ### Changed
 - fade-in logo instead of text in banner in homepage

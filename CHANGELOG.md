@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file.
 - 2 introductory posts
 - css class icon.square
 - post footer with share buttons
+- background color in "contact us" button in footer
 ### Removed
 - duplicate link to homepage in header
 

@@ -5,7 +5,6 @@ All notable changes to this project will be documented in this file.
 ### Fix
 - view in different browsers
 - team page: when minimized some names cover others nearby
-- missing icon in sponsors page
 - missing send button in contact form
 
 #### Internet Explorer/Microsoft
@@ -27,6 +26,7 @@ All notable changes to this project will be documented in this file.
 - title in footer
 ### Fixed
 - header logo too big in home
+- missing icon in sponsors page
 
 ## 0.2.3 - 2017-01-25
 ### Changed

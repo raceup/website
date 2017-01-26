@@ -32,6 +32,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - cars technical data
 - 404 page
+- ed sponsors
 
 ## 0.2.3 - 2017-01-25
 ### Changed

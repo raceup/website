@@ -37,6 +37,8 @@ All notable changes to this project will be documented in this file.
 - 2 introductory posts
 - css class icon.square
 - post footer with share buttons
+### Removed
+- duplicate link to homepage in header
 
 ## 0.2.3 - 2017-01-25
 ### Changed

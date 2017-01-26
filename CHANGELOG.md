@@ -39,6 +39,8 @@ All notable changes to this project will be documented in this file.
 - background color in "contact us" button in footer
 ### Removed
 - duplicate link to homepage in header
+### Changed
+- {surname} {name} -> {name} {surname} in team members
 
 ## 0.2.3 - 2017-01-25
 ### Changed

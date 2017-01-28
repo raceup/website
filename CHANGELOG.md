@@ -29,6 +29,9 @@ All notable changes to this project will be documented in this file.
 - some surnames where not fixed in {surname} {name} -> {name} {surname} change
 - not found links to linkedin accounts
 
+### Changed
+- Home button -> nav not h1
+
 ## 0.2.4 - 2017-01-26
 
 ### Removed

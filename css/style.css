@@ -839,22 +839,12 @@
 		cursor: default;
 		font-size: 0.8em;
 		left: 0;
-		padding: 1em 1.5em;
+		padding: 1.75em;
 		position: fixed;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 	}
-
-		#header h1 {
-			font-weight: 900;
-			margin: 0;
-		}
-
-			#header h1 span {
-				font-weight: 300;
-			}
-
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;

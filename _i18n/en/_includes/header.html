@@ -1,7 +1,13 @@
 <nav id="nav">
     <ul>
         <li class="icon fa-home"><a href="/en">Home</a></li>
-        <li><a href="{{ site.baseurl }}/team.html">Team</a></li>
+        <li class="submenu">
+            <a>Team</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/team.html">Race UP</a></li>
+                <li><a href="{{ site.baseurl }}/team-stuff.html">Stuff we do</a></li>
+            </ul>
+        </li>
         <li class="submenu">
             <a>Cars</a>
             <ul>
@@ -12,6 +18,7 @@
         <li class="submenu">
             <a>Sponsors</a>
             <ul>
+                <li><a href="{{ site.baseurl }}/sponsors/why.html">Why support us</a></li>
                 <li><a href="{{ site.baseurl }}/sponsors/cd.html">Combustion Division</a></li>
                 <li><a href="{{ site.baseurl }}/sponsors/ed.html">Electric Division</a></li>
             </ul>

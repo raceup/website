@@ -23,6 +23,12 @@ All notable changes to this project will be documented in this file.
 - origin-e description
 - CD sponsors
 
+## 0.2.6 - 2017-01-29
+
+### Added
+- new header sections
+- logos in before banner and after header
+
 ## 0.2.5 - 2017-01-28
 
 ### Fixed

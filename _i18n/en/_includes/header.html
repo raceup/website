@@ -1,14 +1,6 @@
-{% if page.url contains "ed" %}
-<header id="header" class="styleED">
-{% elsif page.url contains "cd" %}
-<header id="header" class="styleCD">
-{% else %}
-<header id="header">
-{% endif %}
-
 <nav id="nav">
     <ul>
-        <li class="icon fa-home"><a href="/en"></a></li>
+        <li class="icon fa-home"><a href="/en">Home</a></li>
         <li><a href="{{ site.baseurl }}/team.html">Team</a></li>
         <li class="submenu">
             <a>Cars</a>
@@ -24,9 +16,9 @@
                 <li><a href="{{ site.baseurl }}/sponsors/ed.html">Electric Division</a></li>
             </ul>
         </li>
+        <li><a href="{{ site.baseurl }}/join.html">Join the team</a></li>
+        <li><a href="{{ site.baseurl }}/media.html">Media</a></li>
         <li><a href="{{ site.baseurl }}/blog.html">News</a></li>
-        <li><a href="{{ site.baseurl }}/about.html">About</a></li>
         <li class="icon fa-language"><a href="/">ITA</a></li>
     </ul>
 </nav>
-</header>

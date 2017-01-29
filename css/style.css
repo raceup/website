@@ -375,6 +375,15 @@
 				width: 100%;
 			}
 
+		.image.little {
+			display: block;
+		}
+
+			.image.little img {
+				height: 6em;
+				width: 6em;
+			}
+
 /* Icon */
 
 	.icon {
@@ -938,6 +947,32 @@
 					border: solid 1px;
 				}
 
+/* Logos header */
+	#logo-header {
+		background: var(--color-light-background);
+		cursor: default;
+		font-size: 0.8em;
+		padding: 5em;
+		height: 12em;
+	}
+		#logo-header nav {
+			position: relative;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+			#logo-header nav ul {
+				list-style-type: none;
+			    margin: 0px;
+			    padding: 0px;
+			    text-align: center;
+			}
+
+			#logo-header nav ul li {
+				margin-left: 1em;
+				display: inline-block;
+			}
+
 /* Blog */
 
 /* Posts */
@@ -1020,7 +1055,7 @@
 		background-size: 25em, 25em, auto, cover;
 		color: white;
 		cursor: default;
-		padding: 3em 0;
+		padding: 5em;
 		text-align: center;
 	}
 		#banner .inner {

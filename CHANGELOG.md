@@ -29,6 +29,13 @@ All notable changes to this project will be documented in this file.
 - colors in timeline.css
 - url/baseurl in _config.yml
 
+### Added
+- bootstrap.min style to try to fix compatibility across devices
+- team description, timeline, achievements layout
+
+### Changed
+- team members page <-> team page
+
 ## 0.2.8 - 2017-02-02
 
 ### Changed

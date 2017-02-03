@@ -29,4 +29,4 @@ echo "Pushing online"
 echo "------------------------"
 git add --all
 git commit -m "built sources, see CHANGELOG here https://github.com/sirfoga/raceup.github.io/blob/master/CHANGELOG.md for more info"
-git push origin master
+git push --force origin master

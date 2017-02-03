@@ -15,4 +15,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-jekyll serve --port 1729  --watch  --trace
+jekyll clean  # clean pre-existent website
+jekyll serve --watch  --trace  # run server

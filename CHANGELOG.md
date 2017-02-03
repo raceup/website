@@ -1,7 +1,6 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-
 ## TODOs
 
 ### Fix
@@ -24,6 +23,11 @@ All notable changes to this project will be documented in this file.
 - origin-e description
 - CD sponsors
 
+## 0.2.9 - 2017-02-03
+
+### Fixed
+- colors in timeline.css
+- url/baseurl in _config.yml
 
 ## 0.2.8 - 2017-02-02
 
@@ -36,19 +40,16 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - sponsors logo from main page
 
-
 ## 0.2.7 - 2017-01-30
 
 ### Fixed
 - banner image centering
-
 
 ## 0.2.6 - 2017-01-29
 
 ### Added
 - new header sections
 - logos in before banner and after header
-
 
 ## 0.2.5 - 2017-01-28
 
@@ -58,7 +59,6 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Home button -> nav not h1
-
 
 ## 0.2.4 - 2017-01-26
 
@@ -85,7 +85,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - {surname} {name} -> {name} {surname} in team members
 
-
 ## 0.2.3 - 2017-01-25
 
 ### Changed
@@ -98,7 +97,6 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - "la home è sballata" by tav
 - lines between team divisions in team page
-
 
 ## 0.2.2 - 2017-01-25
 
@@ -114,7 +112,6 @@ All notable changes to this project will be documented in this file.
 - hover color in header
 - en changing color header
 
-
 ## 0.2.1 - 2017-01-25
 
 ### Fixed
@@ -124,14 +121,12 @@ All notable changes to this project will be documented in this file.
 ### Added
 - script to optimize images for web
 
-
 ## 0.2 - 2017-01-24
 
 ### Added
 - cars ed/cd
 - team members page layout
 - team members names, emails, socials
-
 
 ## 0.1.9 - 2017-01-24
 
@@ -152,7 +147,6 @@ All notable changes to this project will be documented in this file.
 - it/en header
 - hover colors
 
-
 ## 0.1.8 - 2017-01-23
 
 ### Added
@@ -161,24 +155,20 @@ All notable changes to this project will be documented in this file.
 ### Checkout
 - new branch to deliver already built website with Github pages
 
-
 ## 0.1.7 - 2017-01-23
 
 ### Added
 - language support
-
 
 ## 0.1.6 - 2017-01-23
 
 ### Fixed
 - missing FA icons
 
-
 ## 0.1.5 - 2017-01-23
 
 ### Added
 - contact, sponsors pages
-
 
 ## 0.1.4 - 2017-01-23
 
@@ -188,7 +178,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - sponsors page layout
 
-
 ## 0.1.3 - 2017-01-23
 
 ### Removed
@@ -196,12 +185,10 @@ All notable changes to this project will be documented in this file.
 - diagonal lines in headers
 - orbitron git repo
 
-
 ## 0.1.2 - 2017-01-23
 
 ### Added
 - Orbitron font
-
 
 ## 0.1.1 - 2017-01-23
 
@@ -211,7 +198,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - banner image
 
-
 ## 0.1 - 2017-01-23
 
 ### Refactored
@@ -220,7 +206,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - homepage, cars, sponsors and team pages
 - landing page layout
-
 
 ## 0.0 - 2017-01-23
 

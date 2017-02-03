@@ -1,9 +1,12 @@
-# site settings
+# url
+url: "raceup.github.io"  # the base hostname & protocol for your site
+baseurl: ""  # the subpath of your site, e.g. /blog/
+
+# site
 title: Race UP Team
 email: info@raceup.it
 description: Race UP is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "raceup.github.io" # the base hostname & protocol for your site
+keywords: "raceup, unipd, fsae"
 
 # allow posts with date in the future
 future: true

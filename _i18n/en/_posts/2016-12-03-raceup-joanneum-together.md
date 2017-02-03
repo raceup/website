@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Race UP Team and Joanneum"
+title: posts.joanneum_raceup
 date: 2016-12-03 17:35:15
 description: Race UP Team and Joanneum Racing Graz together again
 ---

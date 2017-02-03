@@ -15,7 +15,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 OUTPUT_FOLDER="/home/stefano/Projects/Raceup/webpage/raceup.github.io/"
 
 echo "------------------------"

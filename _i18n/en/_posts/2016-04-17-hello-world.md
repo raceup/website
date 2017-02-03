@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome"
+title: posts.welcome
 date: 2016-04-17 17:35:15
 description: Introduction to this website
 ---
@@ -14,10 +14,8 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 ## How to follow us in other social networks
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
-
 ## Finally ..
 Maecenas mi justo, placerat nec mattis eu, accumsan eu urna. In a lectus nunc. Integer nulla risus, convallis gravida magna bibendum, aliquam viverra lectus. Suspendisse rutrum ut lorem ut iaculis. Sed mattis feugiat commodo. Vestibulum dolor ante, fermentum id justo quis, cursus imperdiet felis. In vel cursus mi. Curabitur ac ligula tellus. Donec tincidunt tortor quis convallis tincidunt. Vivamus suscipit lectus sed urna vulputate, a ultrices ex elementum. Vivamus scelerisque erat quis pretium lobortis.
-
 
 ### Bye from **Race UP Team**
 <a class="image featured"><img src="/images/posts/2016/04/17/image.png" /></a>

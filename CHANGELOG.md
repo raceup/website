@@ -33,6 +33,7 @@ All notable changes to this project will be documented in this file.
 - bootstrap.min style to try to fix compatibility across devices
 - team description, timeline, achievements layout
 - "why support us" sponsors section
+- "why join us" section
 
 ### Changed
 - team members page <-> team page

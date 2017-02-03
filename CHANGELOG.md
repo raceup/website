@@ -35,6 +35,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - team members page <-> team page
+- banner
+- car presentation images
 
 ## 0.2.8 - 2017-02-02
 

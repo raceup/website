@@ -23,6 +23,35 @@ All notable changes to this project will be documented in this file.
 - origin-e description
 - CD sponsors
 
+## TODO
+- logos intro larger
+- compositex logos
+- banner logo little
+- jusitfy all text index.html
+- still banner
+- myryad font
+- intro normal case
+- no logos index.html
+- logos: sx SAE INTERNATIONAL, dx text
+- "International design competition. " -> italic
+- cit fsae under fsae index.html
+- unipd no icons
+- unipd logo
+- index.html footer only "contact" button
+- no achievements in team.html
+- competition with pie chart (js hide/unhide)
+- team description + big
+- mg-16 datasheet like other
+- no logo car fa-icon
+- footer fb > ed/cd
+- ed data sheet
+- join.html remove fa-icon title
+
+## 0.3 - 2017-02-04
+
+### Fixed
+- header.special line vertical centering
+
 ## 0.2.9 - 2017-02-03
 
 ### Fixed

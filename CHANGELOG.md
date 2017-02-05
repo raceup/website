@@ -24,32 +24,21 @@ All notable changes to this project will be documented in this file.
 - CD sponsors
 
 ## TODO
-- compositex logos
-- banner logo little
-- jusitfy all text index.html
-- still banner
-- myryad font
-- intro normal case
-- no logos index.html
-- logos: sx SAE INTERNATIONAL, dx text
-- "International design competition. " -> italic
-- cit fsae under fsae index.html
-- unipd no icons
-- unipd logo
-- index.html footer only "contact" button
-- no achievements in team.html
-- competition with pie chart (js hide/unhide)
+- banner logo little (...)
+- jusitfy all text (...)
+- still banner (...)
+- competition with pie chart (js hide/unhide) (...)
 - team description + big
-- mg-16 datasheet like other
-- no logo car fa-icon
-- footer fb > ed/cd
-- ed data sheet
-- join.html remove fa-icon title
+- mg-16 datasheet like other (ask CD)
+- no logo car fa-icon (ask tav)
+- footer fb > ed/cd (...)
+- ed data sheet (ask ED)
 
 ## 0.3.1 - 2017-02-05
 
 ### Fixed
 - bootstrap.min.css style
+- justified text in index.html
 
 ## 0.3 - 2017-02-04
 

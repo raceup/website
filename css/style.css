@@ -109,6 +109,10 @@
 		font-weight: 400;
 	}
 
+	i {
+		font-style: italic;
+	}
+
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
@@ -216,7 +220,7 @@
 			height: 7px;
 			opacity: 0.1;
 			position: absolute;
-			top: 3em;
+			top: 2em;
 			width: 43%;
 		}
 
@@ -396,6 +400,7 @@
 	.img-circle {
 	    border-radius: 50%
 	}
+
 /* Icon */
 
 	.icon {

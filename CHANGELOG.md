@@ -24,7 +24,6 @@ All notable changes to this project will be documented in this file.
 - CD sponsors
 
 ## TODO
-- logos intro larger
 - compositex logos
 - banner logo little
 - jusitfy all text index.html
@@ -46,6 +45,11 @@ All notable changes to this project will be documented in this file.
 - footer fb > ed/cd
 - ed data sheet
 - join.html remove fa-icon title
+
+## 0.3.1 - 2017-02-05
+
+### Fixed
+- bootstrap.min.css style
 
 ## 0.3 - 2017-02-04
 

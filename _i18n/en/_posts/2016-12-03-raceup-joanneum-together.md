@@ -14,6 +14,6 @@ The technical nature of the track coupled with low temperatures experienced duri
 The 3 test days have been extremely important as they enabled the two teams to acquire valuable information to be used in the next season. Just as important was the possibility to consolidate the already excellent relationship between the two teams through a mutual exchange of competencies and know-how.
 
 ## Always learning
-Race UP Team’s fundamental objectives are growth and innovation, being able to cooperate with a Top Team such as Joanneum Racing Graz has been a precious and constructive opportunity!
+Race UP Team's fundamental objectives are growth and innovation, being able to cooperate with a Top Team such as Joanneum Racing Graz has been a precious and constructive opportunity!
 
 <a class="image featured"><img src="/images/posts/2016/12/03/image.png" /></a>

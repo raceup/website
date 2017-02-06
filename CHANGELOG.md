@@ -34,6 +34,12 @@ All notable changes to this project will be documented in this file.
 - footer fb > ed/cd (...)
 - ed data sheet (ask ED)
 
+## 0.3.2 - 2017-02-06
+
+### Added
+- why sponsor us
+
+
 ## 0.3.1 - 2017-02-05
 
 ### Fixed

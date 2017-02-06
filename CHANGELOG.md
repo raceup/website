@@ -38,6 +38,10 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - why sponsor us
+- cd sponsors
+
+### Fixed
+- cd/ed sponsors image size
 
 
 ## 0.3.1 - 2017-02-05

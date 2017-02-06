@@ -39,6 +39,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - why sponsor us
 - cd sponsors
+- "join us" section content
 
 ### Fixed
 - cd/ed sponsors image size

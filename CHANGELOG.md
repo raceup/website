@@ -22,11 +22,17 @@ All notable changes to this project will be documented in this file.
 - competition with pie chart (js hide/unhide) (...)
 - ed data sheet (ask ED)
 - team members images
-- timeline events (from brochure)
-- remove tisato
-- double column in team members
+- timeline images
 - change name to mg 11.X
 - remind eleonora of gform to join us
+
+## 0.3.5 - 2017-02-12
+
+### Added
+- timeline events
+
+### Fixed
+- extra line margin of timeline on last child
 
 ## 0.3.4 - 2017-02-11
 
@@ -34,6 +40,9 @@ All notable changes to this project will be documented in this file.
 - post.title rendering in blog
 - mobile logos header rendering
 - team-members.html layout
+
+### Removed
+- Tisato
 
 ## 0.3.3 - 2017-02-11
 

@@ -30,79 +30,86 @@
     min-height: 50px;
 }
 
-.timeline>li:before, .timeline>li:after {
-    content: " ";
-    display: table;
-}
+    .timeline>li:before, .timeline>li:after {
+        content: " ";
+        display: table;
+    }
 
-.timeline>li:after {
-    clear: both;
-}
+    .timeline>li:after {
+        clear: both;
+    }
 
-.timeline>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
+    .timeline>li .timeline-panel {
+        float: right;
+        position: relative;
+        width: 100%;
+        padding: 0 20px 0 100px;
+        text-align: left;
+    }
 
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
+        .timeline>li .timeline-panel:before {
+            right: auto;
+            left: -15px;
+            border-right-width: 15px;
+            border-left-width: 0;
+        }
 
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
+        .timeline>li .timeline-panel:after {
+            right: auto;
+            left: -14px;
+            border-right-width: 14px;
+            border-left-width: 0;
+        }
 
-.timeline>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 7px solid var(--color-timeline-img-border);
-    border-radius: 100%;
-    text-align: center;
-    background-color: var(--color-timeline-img-background);
-}
+        .timeline li .timeline-panel p {
+            text-align: right;
+        }
 
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
-}
+    .timeline>li .timeline-image {
+        z-index: 100;
+        position: absolute;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        margin-left: 0;
+        border: 7px solid var(--color-timeline-img-border);
+        border-radius: 100%;
+        text-align: center;
+        background-color: var(--color-timeline-img-background);
+    }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
+        .timeline>li .timeline-image h4 {
+            margin-top: 12px;
+            font-size: 10px;
+            line-height: 14px;
+        }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
+    .timeline>li.timeline-inverted>.timeline-panel {
+        float: right;
+        padding: 0 20px 0 100px;
+    }
 
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
+        .timeline>li.timeline-inverted>.timeline-panel:before {
+            right: auto;
+            left: -15px;
+            border-right-width: 15px;
+            border-left-width: 0;
+        }
 
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
+        .timeline>li.timeline-inverted>.timeline-panel:after {
+            right: auto;
+            left: -14px;
+            border-right-width: 14px;
+            border-left-width: 0;
+        }
+
+        .timeline>li.timeline-inverted>.timeline-panel p {
+            text-align: justify;
+        }
+
+    .timeline>li:last-child {
+        margin-bottom: 0;
+    }
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
@@ -113,8 +120,7 @@
     text-transform: none;
 }
 
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
+.timeline .timeline-body>p, .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
 
@@ -124,8 +130,7 @@
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        min-height: 80px;
     }
 
     .timeline>li .timeline-panel {
@@ -157,7 +162,7 @@
 
 @media(min-width:992px) {
     .timeline>li {
-        min-height: 150px;
+        min-height: 120px;
     }
 
     .timeline>li .timeline-panel {
@@ -183,7 +188,7 @@
 
 @media(min-width:1200px) {
     .timeline>li {
-        min-height: 170px;
+        min-height: 150px;
     }
 
     .timeline>li .timeline-panel {

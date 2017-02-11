@@ -21,18 +21,23 @@ All notable changes to this project will be documented in this file.
 ### Add
 - team members images
 - origin-e description
-- CD sponsors
+- timeline events
 
 ## TODO
 - banner logo little (...)
 - jusitfy all text (...)
 - still banner (...)
 - competition with pie chart (js hide/unhide) (...)
-- team description + big
-- mg-16 datasheet like other (ask CD)
-- no logo car fa-icon (ask tav)
 - footer fb > ed/cd (...)
 - ed data sheet (ask ED)
+
+## 0.3.3 - 2017-02-11
+
+### Changed
+- layout in team-members.html
+
+### Added
+- description of team units in team-members.html
 
 ## 0.3.2 - 2017-02-06
 
@@ -43,7 +48,6 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - cd/ed sponsors image size
-
 
 ## 0.3.1 - 2017-02-05
 

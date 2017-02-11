@@ -192,8 +192,8 @@
 	}
 
 		header.special-title:before, header.special-title:after {
-			border-bottom: solid 2px;
-			border-top: solid 2px;
+			border-bottom: solid 1.5px;
+			border-top: solid 1.5px;
 			content: '';
 			height: 7px;
 			opacity: 0.1;

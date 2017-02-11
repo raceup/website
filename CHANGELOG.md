@@ -33,6 +33,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - post.title rendering in blog
 - mobile logos header rendering
+- team-members.html layout
 
 ## 0.3.3 - 2017-02-11
 

@@ -8,11 +8,9 @@ All notable changes to this project will be documented in this file.
 
 #### Internet Explorer/Microsoft
 - header collision
-- no red area in home
 
 #### Mobiles
 - header collision
-- no red area in home
 - missing flavicon
 - transparent menu
 - missing send button in contact form
@@ -30,6 +28,11 @@ All notable changes to this project will be documented in this file.
 - competition with pie chart (js hide/unhide) (...)
 - footer fb > ed/cd (...)
 - ed data sheet (ask ED)
+
+## 0.3.4 - 2017-02-11
+
+### Fixed
+- post.title rendering in blog
 
 ## 0.3.3 - 2017-02-11
 

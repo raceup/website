@@ -16,23 +16,23 @@ All notable changes to this project will be documented in this file.
 - missing send button in contact form
 - add send message function
 
-### Add
-- team members images
-- origin-e description
-- timeline events
-
 ## TODO
+- english version
 - banner logo little (...)
-- jusitfy all text (...)
-- still banner (...)
 - competition with pie chart (js hide/unhide) (...)
-- footer fb > ed/cd (...)
 - ed data sheet (ask ED)
+- team members images
+- timeline events (from brochure)
+- remove tisato
+- double column in team members
+- change name to mg 11.X
+- remind eleonora of gform to join us
 
 ## 0.3.4 - 2017-02-11
 
 ### Fixed
 - post.title rendering in blog
+- mobile logos header rendering
 
 ## 0.3.3 - 2017-02-11
 

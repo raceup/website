@@ -1,5 +1,3 @@
-
-
 /* Basic */
 
 	body, input, select, textarea {
@@ -7,6 +5,17 @@
 		letter-spacing: 0.025em;
 		line-height: 1.5em;
 	}
+
+/* Image */
+
+	.image.little {
+			display: block;
+		}
+
+			.image.little img {
+				height: 8em;
+				width: 8em;
+			}		
 
 /* Section/Article */
 
@@ -55,6 +64,20 @@
 	#banner {
 		background-size: 15em, 15em, auto, cover;
 	}
+
+/* Logos header */
+	#logo-header {
+		background: var(--color-light-background);
+		cursor: default;
+		font-size: 0.8em;
+		padding: 5em;
+		height: 10em;
+	}
+
+		#logo-header nav ul li {
+			margin-left: 4em;
+			display: inline-block;
+		}
 
 /* Main */
 

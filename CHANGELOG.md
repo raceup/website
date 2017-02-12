@@ -20,11 +20,15 @@ All notable changes to this project will be documented in this file.
 - english version
 - banner logo little (...)
 - competition with pie chart (js hide/unhide) (...)
-- ed data sheet (ask ED)
 - team members images
 - timeline images
 - change name to mg 11.X
 - remind eleonora of gform to join us
+
+## 0.3.5 - 2017-02-12
+
+### Added
+- ed car datasheet
 
 ## 0.3.5 - 2017-02-12
 

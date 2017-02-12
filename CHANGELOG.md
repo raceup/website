@@ -22,6 +22,12 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.3.7 - 2017-02-12
+
+### Fixed
+- pie chart positioning
+- competition description
+
 ## 0.3.6 - 2017-02-12
 
 ### Added
@@ -30,6 +36,9 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - layout in team-members.html
+
+### Removed
+- useless 'Lato' family font import in style.css
 
 ### Fixed
 - pie chart font, position and description

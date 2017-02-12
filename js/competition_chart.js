@@ -68,9 +68,10 @@ $(function() {
 			fontsize:20,
 			sign_size:20,
 			line_height:28,
+			offsetx:20,
 			sign_space:10,
 			border:false,
-			align:"left",
+			align:"center",
 			background_color : null
 		},
 		shadow : true,
@@ -79,11 +80,10 @@ $(function() {
 		shadow_offsetx : 0,
 		shadow_offsety : 0,
 		background_color: null,
-		align:"right",
-		offsetx:-50,
+		align:"center",
 		offset_angle:-90,
-		width: 800,
-		height: 400,
+		width: 300,
+		height: 800,
 		radius: 150
 	});
 

@@ -28,6 +28,9 @@ All notable changes to this project will be documented in this file.
 - raw pie chart in team page
 - pie chart good version
 
+### Fixed
+- pie chart font, position and description
+
 ## 0.3.5 - 2017-02-12
 
 ### Added

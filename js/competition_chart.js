@@ -29,6 +29,7 @@ $(function() {
 		sub_option : {
 			mini_label_threshold_angle : 40,
 			mini_label:{
+				font: "Lato",
 				fontsize:20,
 				fontweight:600,
 				color : "#ffffff"
@@ -40,6 +41,7 @@ $(function() {
 					enable:false,
 					color:"#666666"
 				},
+				font: "Lato",
 				fontsize:11,
 				fontweight:600,
 				color : "#4572a7"
@@ -59,7 +61,8 @@ $(function() {
 			} 
 		},
 		legend:{
-			enable:true,
+			font: "Lato",
+			enable: true,
 			padding:0,
 			color:"#3e576f",
 			fontsize:20,
@@ -79,10 +82,18 @@ $(function() {
 		align:"right",
 		offsetx:-50,
 		offset_angle:-90,
-		width : 800,
-		height : 400,
-		radius:150
+		width: 800,
+		height: 400,
+		radius: 150
 	});
+
+	chart.plugin(new iChart.Custom({
+		drawFn:function(){
+			chart.target.textAlign('start')
+			.textBaseline('top')
+			.textFont('600 20px Arial')
+		}
+	}));
 	
 	chart.draw();
 });

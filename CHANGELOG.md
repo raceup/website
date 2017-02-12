@@ -18,11 +18,14 @@ All notable changes to this project will be documented in this file.
 
 ## TODO
 - english version
-- banner logo little (...)
-- competition with pie chart (js hide/unhide) (...)
 - team members images
 - timeline images
 - remind eleonora of gform to join us
+
+## 0.3.6 - 2017-02-12
+
+### Added
+- raw pie chart in team page
 
 ## 0.3.5 - 2017-02-12
 

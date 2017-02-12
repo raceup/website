@@ -32,6 +32,9 @@ All notable changes to this project will be documented in this file.
 - timeline events
 
 ### Fixed
+- timeline events centering
+
+### Fixed
 - extra line margin of timeline on last child
 
 ## 0.3.4 - 2017-02-11

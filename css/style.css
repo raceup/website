@@ -189,6 +189,7 @@
 		padding-top: 1.2em;
 		position: relative;
 		text-align: center;
+		font-weight: bold;
 	}
 
 		header.special-title:before, header.special-title:after {
@@ -199,7 +200,7 @@
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 10%;
+			width: 25%;
 		}
 
 		header.special-title:before {

@@ -28,6 +28,9 @@ All notable changes to this project will be documented in this file.
 - raw pie chart in team page
 - pie chart good version
 
+### Changed
+- layout in team-members.html
+
 ### Fixed
 - pie chart font, position and description
 

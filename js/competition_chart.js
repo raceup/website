@@ -1,25 +1,25 @@
 $(function() {
 	var data = [
 		{
-			name: "Design", value: 15, color: "#DF7134"
+			name: "Design", value: 15, description: "Valutazione dell’efficienza, dell’efficacia e del grado di innovazione del progetto ", color: "#DF7134"
 		},
 		{
-			name: "Acceleration", value: 10, color: "#EFB800"
+			name: "Acceleration", value: 10, description: "Accelerazione su rettilineo di 75 m", color: "#EFB800"
 		},
 		{
-			name: "Endurance", value: 27.5, color: "#68AB40"
+			name: "Endurance", value: 27.5, description: "Prova di durata in cui la monoposto dovrà percorrere 22 km in maniera efficiente, affidabile e nel minor tempo possibile", color: "#68AB40"
 		},
 		{
-			name: "Skid Pad", value: 7.5, color: "#5E90CA"
+			name: "Skid pad", value: 7.5, description: "Due piloti e due prove di giri a otto ciascuno", color: "#5E90CA"
 		},
 		{
-			name: "Cost", value: 10, color: "#4B65BB"
+			name: "Cost", value: 10, description: "Valutazione del trade off tra costi e performance", color: "#4B65BB"
 		},
 		{
-			name: "Autocross", value: 22.5, color: "#2E3E73"
+			name: "Autocross", value: 22.5, description: "Un giro di pista alla massima velocità, per testare appieno le prestazioni della macchina", color: "#2E3E73"
 		},
 		{
-			name: "Business Plan Presentation", value: 7.5, color: "#9C9C9C"
+			name: "Business plan presentation", value: 7.5, description: "Business case per la promozione della propria azienda a potenziali investitori", color: "#9C9C9C"
 		}
 	];
 
@@ -49,8 +49,12 @@ $(function() {
 				color : "#ffffff"
 			},
 			listeners:{
-				parseText:function(d, t){
+				parseText: function(d, t) {
 					return d.get("value")+"%";
+				},
+				click: function(d, t) {
+					var text = "<strong>" + d.get("name") + "</strong>: " + d.get("description");
+					document.getElementById("chartDescription").innerHTML = text;
 				}
 			} 
 		},
@@ -65,7 +69,7 @@ $(function() {
 			border:false,
 			align:"left",
 			background_color : null
-		}, 
+		},
 		shadow : true,
 		shadow_blur : 6,
 		shadow_color : "#aaaaaa",

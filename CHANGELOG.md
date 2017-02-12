@@ -22,13 +22,17 @@ All notable changes to this project will be documented in this file.
 - competition with pie chart (js hide/unhide) (...)
 - team members images
 - timeline images
-- change name to mg 11.X
 - remind eleonora of gform to join us
 
 ## 0.3.5 - 2017-02-12
 
 ### Added
 - ed car datasheet
+- ed car 2017 data
+- cd car 2017 data
+
+### Fixed
+- cd cars name
 
 ## 0.3.5 - 2017-02-12
 

@@ -22,6 +22,15 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.3.9 - 2017-02-16
+
+### Fixed
+- team.html description
+- logo centered in landing page
+
+### Changed
+- anonymous icon in team members page
+
 ## 0.3.8 - 2017-02-13
 
 ### Added

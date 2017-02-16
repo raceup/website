@@ -26,6 +26,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - hiding pie chart numbers
+- images centering
 
 ### Changed
 - now using 'Arial' font for pie chart

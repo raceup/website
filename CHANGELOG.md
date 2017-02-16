@@ -27,6 +27,9 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - en language
 
+### Changed
+- overall website contents
+
 ## 0.3.9 - 2017-02-16
 
 ### Fixed

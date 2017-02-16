@@ -18,6 +18,11 @@
 OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.github.io/"
 
 echo "------------------------"
+echo "Cleaning"
+echo "------------------------"
+jekyll clean  # clean pre-existent website
+
+echo "------------------------"
 echo "Building"
 echo "------------------------"
 jekyll build

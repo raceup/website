@@ -30,6 +30,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - overall website contents
 
+### Fixed
+- exclude patterns in ```config.yml```
+
 ## 0.3.9 - 2017-02-16
 
 ### Fixed

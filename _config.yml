@@ -22,6 +22,9 @@ languages: ["it", "en"]
 # to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
 exclude_from_localizations: ["javascript", "images", "css"]
 
+# exclude from webpage
+exclude: ["tmp/", "CHANGELOG.md", "README.md", "run_site.sh", "upload_site.sh", "must_exist_on_all_websites_roots.txt"]
+
 # build settings
 markdown: kramdown
 kramdown:

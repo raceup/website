@@ -139,7 +139,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - why sponsor us
 - cd sponsors
-- "join us" section content
+- 'join us' section content
 
 ### Fixed
 - cd/ed sponsors image size
@@ -164,8 +164,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - bootstrap.min style to try to fix compatibility across devices
 - team description, timeline, achievements layout
-- "why support us" sponsors section
-- "why join us" section
+- 'why support us' sponsors section
+- 'why join us' section
 
 ### Changed
 - team members page <-> team page
@@ -211,7 +211,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - header logo too big in home
 - missing icon in sponsors page
-- "Pagina non trovata" even if language is "en"
+- 'Pagina non trovata' even if language is 'en'
 
 ### Added
 - cars technical data
@@ -220,7 +220,7 @@ All notable changes to this project will be documented in this file.
 - 2 introductory posts
 - css class icon.square
 - post footer with share buttons
-- background color in "contact us" button in footer
+- background color in 'contact us' button in footer
 
 ### Removed
 - duplicate link to homepage in header
@@ -238,7 +238,7 @@ All notable changes to this project will be documented in this file.
 - car datasheets
 
 ### Fixed
-- "la home è sballata" by tav
+- 'la home è sballata' by tav
 - lines between team divisions in team page
 
 ## 0.2.2 - 2017-01-25

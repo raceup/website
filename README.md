@@ -1,5 +1,5 @@
 # Race UP Webpage
-*You can find the web page [here](raceup.github.io)*
+*You can find the web page [here](https://raceup.github.io/)*
 
 ## Install
 Just clone this repository, run ```jekyll serve``` and open a browser [here](http://127.0.0.1:4000/)

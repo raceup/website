@@ -27,6 +27,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - hiding pie chart numbers
 
+### Removed
+- `tmp` folder
+
 ## 0.4.1 - 2017-02-16
 
 ### Fixed

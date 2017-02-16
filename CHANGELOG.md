@@ -22,6 +22,17 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.4.1 - 2017-02-16
+
+### Fixed
+- team member 'Natalia'
+
+### Added
+- main sponsors 'compositex'
+
+### Removed
+- 'media' page
+
 ## 0.4 - 2017-02-16
 
 ### Removed

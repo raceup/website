@@ -27,6 +27,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - hiding pie chart numbers
 
+### Changed
+- now using 'Arial' font for pie chart
+
 ### Removed
 - `tmp` folder
 

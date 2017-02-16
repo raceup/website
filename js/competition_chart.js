@@ -29,7 +29,7 @@ $(function() {
 		sub_option : {
 			mini_label_threshold_angle : 40,
 			mini_label:{
-				font: "Lato",
+				font: "Arial",
 				fontsize:20,
 				fontweight:600,
 				color : "#ffffff"
@@ -41,7 +41,7 @@ $(function() {
 					enable:false,
 					color:"#666666"
 				},
-				font: "Lato",
+				font: "Arial",
 				fontsize:11,
 				fontweight:600,
 				color : "#4572a7"
@@ -61,7 +61,7 @@ $(function() {
 			} 
 		},
 		legend:{
-			font: "Lato",
+			font: "Arial",
 			enable: true,
 			padding:0,
 			color:"#3e576f",

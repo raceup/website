@@ -30,6 +30,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - anonymous icon in team members page
+- post date now in blog.html
 
 ## 0.3.8 - 2017-02-13
 

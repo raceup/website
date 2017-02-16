@@ -79,12 +79,13 @@ $(function() {
 		shadow_color : "#aaaaaa",
 		shadow_offsetx : 0,
 		shadow_offsety : 0,
+		offsetx:0,
 		background_color: null,
 		align:"center",
 		offset_angle:-90,
-		width: 300,
+		width: 400,
 		height: 800,
-		radius: 150
+		radius: 130
 	});
 
 	chart.plugin(new iChart.Custom({

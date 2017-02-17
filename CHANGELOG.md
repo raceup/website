@@ -28,6 +28,7 @@ All notable changes to this project will be documented in this file.
 - hiding pie chart numbers
 - images centering
 - grammar errors in team.htmlit
+- 'frame' description
 
 ### Removed
 - 2017 cars

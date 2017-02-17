@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
 - images centering
 - grammar errors in team.htmlit
 - 'frame' description
+- cd cars names
 
 ### Removed
 - 2017 cars

@@ -27,6 +27,10 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - hiding pie chart numbers
 - images centering
+- grammar errors in team.htmlit
+
+### Removed
+- 2017 cars
 
 ### Changed
 - now using 'Arial' font for pie chart

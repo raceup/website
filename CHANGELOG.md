@@ -22,6 +22,11 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.4.3 - 2017-02-18
+
+### Added
+- team members first images
+
 ## 0.4.2 - 2017-02-16
 
 ### Fixed

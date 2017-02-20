@@ -58,6 +58,9 @@
 
 		--color-icon-google-plus: #dd4b39;
 		--color-icon-google-plus-hover: #fd4b39;
+
+		--color-icon-fa-rss: #ff6600;
+		--color-icon-fa-rss-hover: #d2b600;
 	}
 
 /* Basic */
@@ -550,7 +553,16 @@
 
 				.icon.circle.fa-google-plus:hover, .icon.circle.fa-google-plus:hover {
 					background: var(--color-icon-google-plus-hover);
-				}	
+				}
+
+			.icon.circle.fa-rss, .icon.square.fa-rss {
+				background: var(--color-icon-fa-rss);
+				color: white;
+			}
+
+				.icon.circle.fa-rss:hover, .icon.circle.fa-rss:hover {
+					background: var(--color-icon-fa-rss-hover);
+				}
 
 		.icon.featured {
 			cursor: default;

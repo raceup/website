@@ -26,6 +26,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - blog news url
 
+### Added
+- colored rss icon
+
 ## 0.4.4 - 2017-02-20
 
 ### Fixed

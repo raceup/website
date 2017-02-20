@@ -28,6 +28,13 @@ All notable changes to this project will be documented in this file.
 - base-URL
 - centered logo
 
+### Added
+- sitemaps
+- robots.txt
+
+### Removed
+- tmp folder
+
 ## 0.4.3 - 2017-02-18
 
 ### Added

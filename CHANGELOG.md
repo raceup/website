@@ -18,15 +18,18 @@ All notable changes to this project will be documented in this file.
 
 ## TODO
 - english version
-- team members images
 - timeline images
 - remind eleonora of gform to join us
+
+## 0.4.5 - 2017-02-20
+
+### Fixed
+- blog news url
 
 ## 0.4.4 - 2017-02-20
 
 ### Fixed
 - base-URL
-- centered logo
 - feed multi-language url
 
 ### Added

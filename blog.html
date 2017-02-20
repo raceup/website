@@ -23,20 +23,20 @@ title: titles.blog
         <ul class="posts">
           {% for post in site.posts %}
             <li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
-              <h2><a href="{{ post.url }}">{% t post.title %}</a></h2>
+              <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
               <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
                 {{ post.excerpt }}
 
                 {% if site.lang == "it" %}
                 <section class="special">
                     <ul class="buttons">
-                        <li><a href="{{ post.url }}" class="button">Leggi tutto</a></li>
+                        <li><a href="{{ post.url }}.html" class="button">Leggi tutto</a></li>
                     </ul>
                 </section>
                 {% elsif site.lang == "en" %}
                 <section class="special">
                     <ul class="buttons">
-                        <li><a href="{{ post.url }}" class="button">Read more</a></li>
+                        <li><a href="{{ post.url }}.html" class="button">Read more</a></li>
                     </ul>
                 </section>
                 {% endif %}

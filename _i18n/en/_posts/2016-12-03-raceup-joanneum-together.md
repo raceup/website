@@ -16,4 +16,4 @@ The 3 test days have been extremely important as they enabled the two teams to a
 ## Always learning
 Race UP Team's fundamental objectives are growth and innovation, being able to cooperate with a Top Team such as Joanneum Racing Graz has been a precious and constructive opportunity!
 
-<a class="image featured"><img src="/images/posts/2016/12/03/image.png" /></a>
+<a class="image featured"><img src="{{ site.baseurl }}/images/posts/2016/12/03/image.png" /></a>

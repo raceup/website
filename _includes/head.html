@@ -1,5 +1,5 @@
 <head>
-    <link rel="icon" type="image/png" href="/logo.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/logo.png">
 
     {% if page.url == "/en/404.html" %}
         <title>Page not found</title>
@@ -31,21 +31,21 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- jQuery -->
-    <script src="/js/jquery.js"></script>
-    <script src="/js/jquery.dropotron.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/jquery.scrollgress.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.dropotron.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.scrolly.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.scrollgress.min.js"></script>
     
     <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="/js/bootstrap.min.js"></script> -->
+    <!-- <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script> -->
 
     <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.easing.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/skel-layers.min.js"></script>
-    <script src="/js/init.js"></script>
+    <script src="{{ site.baseurl }}/js/skel.min.js"></script>
+    <script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
+    <script src="{{ site.baseurl }}/js/init.js"></script>
     
     <noscript>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
@@ -55,8 +55,8 @@
     </noscript>
 
     <!-- Bootstrap Core CSS -->
-    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" /> -->
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/timeline.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/timeline.css" />
 </head>

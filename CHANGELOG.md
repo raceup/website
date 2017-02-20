@@ -22,6 +22,12 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.4.4 - 2017-02-20
+
+### Fixed
+- base-URL
+- centered logo
+
 ## 0.4.3 - 2017-02-18
 
 ### Added

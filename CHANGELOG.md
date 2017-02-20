@@ -27,10 +27,12 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - base-URL
 - centered logo
+- feed multi-language url
 
 ### Added
 - sitemaps
 - robots.txt
+- rss feeds
 
 ### Removed
 - tmp folder

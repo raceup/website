@@ -14,7 +14,6 @@ All notable changes to this project will be documented in this file.
 - missing flavicon
 - transparent menu
 - missing send button in contact form
-- add send message function (https://formspree.io/)
 
 ## TODO
 - english version
@@ -26,6 +25,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - media section
 - raw old team members pages
+- formspree form to contact us
 
 ### Changed
 - sub-inner header for old team members pages

@@ -16,4 +16,4 @@ La tre giorni di test ha rivestito grande importanza, in quanto ha permesso a en
 ## Innovazione e crescita
 Per Race UP Team, l'innovazione e la crescita sono gli obiettivi fondamentali. Cooperare insieme a un Top Team come gli amici di Joanneum Racing Graz è stata un'occasione preziosa e costruttiva!
 
-<a class="image featured"><img src="{{ site.baseurl }}/images/posts/2016/12/03/image.png" /></a>
+<a class="image featured"><img src="/images/posts/2016/12/03/image.png" /></a>

@@ -32,4 +32,5 @@ kramdown:
   hard_wrap: true
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+# guide here: https://desiredpersona.com/google-analytics-jekyll/
+# google_analytics:

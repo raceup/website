@@ -14,20 +14,33 @@ All notable changes to this project will be documented in this file.
 - missing flavicon
 - transparent menu
 - missing send button in contact form
-- add send message function
+- add send message function (https://formspree.io/)
 
 ## TODO
 - english version
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.4.6 - 2017-02-21
+
+### Added
+- media section
+- raw old team members pages
+
+### Changed
+- sub-inner header for old team members pages
+
 ## 0.4.5 - 2017-02-20
 
 ### Fixed
 - blog news url
 
+### Changed
+- homepage title
+
 ### Added
 - colored rss icon
+- timeline images
 
 ## 0.4.4 - 2017-02-20
 

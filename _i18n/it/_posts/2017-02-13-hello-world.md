@@ -19,4 +19,4 @@ Al momento gli interessati in elettronica troveranno del materiale sample sulla 
 Condividete, mandateci email, consigli!
 
 ### Un saluto da **Race UP Team**
-<a class="image featured"><img src="{{ site.baseurl }}/images/posts/2016/04/17/image.png" /></a>
+<a class="image featured"><img src="/images/posts/2016/04/17/image.png" /></a>

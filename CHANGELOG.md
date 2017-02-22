@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 
 ### Fix
 - team page: when minimized some names cover others nearby
+- logo in landing page
+
+#### Chrome
+- remove initial code when loading page
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -24,6 +28,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - old teams members
+- 2016 ed team members
 
 ## 0.4.7 - 2017-02-21
 

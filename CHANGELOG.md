@@ -20,6 +20,16 @@ All notable changes to this project will be documented in this file.
 - timeline images
 - remind eleonora of gform to join us
 
+## 0.4.8 - 2017-02-22
+
+### Added
+- old teams members
+
+## 0.4.7 - 2017-02-21
+
+### Changed
+- join us post
+
 ## 0.4.6 - 2017-02-21
 
 ### Added

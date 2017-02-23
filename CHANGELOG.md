@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 2016 members images
+- 2015 members images
 - 2014 members images
 - 2013 members images
 

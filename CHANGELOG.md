@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - fouc
+- logo centering in landing page
 
 ## 0.4.9 - 2017-02-23
 

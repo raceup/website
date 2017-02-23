@@ -137,9 +137,13 @@
 			padding: 0 1.5em;
 		}
 
-			#banner .inner header h2 {
-				font-size: 1.5em;
+			#banner .inner header {
+				padding-right: 10%;
 			}
+
+				#banner .inner header h2 {
+					font-size: 1.5em;
+				}
 
 			#banner .inner p {
 				text-align: center;
@@ -157,11 +161,14 @@
 		padding: 3em;
 		height: 8em;
 	}
-
-		#logo-header nav ul li {
-			margin-left: 1em;
-			display: inline-block;
+		#logo-header nav {
+			padding-right: 9%;
 		}
+
+			#logo-header nav ul li {
+				margin-left: 10%;
+				display: inline-block;
+			}
 
 /* Main */
 

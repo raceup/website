@@ -15,5 +15,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-jekyll clean  # clean pre-existent website
-jekyll serve --watch --profile --trace  # run server and profiler
+
+find -type f -name "*.jpg" -exec jpegoptim -f --overwrite --max=90 --strip-all {} \;

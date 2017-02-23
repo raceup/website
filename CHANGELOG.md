@@ -1,30 +1,6 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## TODOs
-
-### Fix
-- team page: when minimized some names cover others nearby
-- logo in landing page
-
-#### Chrome
-- remove initial code flash when loading page
-
-#### Internet Explorer/Microsoft
-- header collision
-
-#### Mobiles
-- header collision
-- missing flavicon
-- transparent menu
-- missing send button in contact form
-
-## TODO
-- english version
-- timeline images
-- remind eleonora of gform to join us
-- team images account.png > nome-cognome.png
-
 ## 0.5 - 2017-02-23
 
 ### Added
@@ -32,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - 2015 members images
 - 2014 members images
 - 2013 members images
+- TODO separated file
 
 ## 0.4.9 - 2017-02-23
 

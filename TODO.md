@@ -4,7 +4,6 @@ All notable fixes and tips to this project will be added to this file.
 ### Fix
 - team page: when minimized some names cover others nearby
 - logo in landing page
-- remove initial code flash when loading page
 - english version
 - timeline images
 - remind eleonora of gform to join us

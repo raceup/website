@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html>
+    {% include head.html %}
+    <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc');">
 
-  {% include head.html %}
+        {% include header.html %}
+        <div id="logo-header">
+        	<nav>
+    		    <ul>
+                    <li class="image little" ><img src="/images/logos/dii.png" ></li>
+                    <li class="image little"><img src="/images/logos/unipd.png"></li>
+                    <li class="image little"><img src="/images/logos/oz.png"></li> 
+    		    </ul>
+      		</nav>
+        </div>
 
-  <body class="index">
-
-    {% include header.html %}
-
-    <div id="logo-header">
-    	<nav>
-		    <ul>
-          <li class="image little" ><img src="/images/logos/dii.png" ></li>
-          <li class="image little"><img src="/images/logos/unipd.png"></li>
-          <li class="image little"><img src="/images/logos/oz.png"></li> 
-		    </ul>
-  		</nav>
-    </div>
-
-    {% include banner.html %}
-
-    <div class="page-content">
-        {{ content }}
-    </div>
-
-    {% include footer.html %}
-
-  </body>
+        {% include banner.html %}
+        <div class="page-content">
+            {{ content }}
+        </div>
+        {% include footer.html %}
+    </body>
 </html>

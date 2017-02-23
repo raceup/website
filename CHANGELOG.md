@@ -10,6 +10,9 @@ All notable changes to this project will be documented in this file.
 - 2013 members images
 - TODO separated file
 
+### Fixed
+- fouc
+
 ## 0.4.9 - 2017-02-23
 
 ### Refactored

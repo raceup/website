@@ -25,6 +25,11 @@ All notable changes to this project will be documented in this file.
 - remind eleonora of gform to join us
 - team images account.png > nome-cognome.png
 
+## 0.5 - 2017-02-23
+
+### Added
+- 2016 members images
+
 ## 0.4.9 - 2017-02-23
 
 ### Refactored

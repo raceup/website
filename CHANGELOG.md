@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 - logo in landing page
 
 #### Chrome
-- remove initial code when loading page
+- remove initial code flash when loading page
 
 #### Internet Explorer/Microsoft
 - header collision
@@ -23,6 +23,16 @@ All notable changes to this project will be documented in this file.
 - english version
 - timeline images
 - remind eleonora of gform to join us
+- team images account.png > nome-cognome.png
+
+## 0.4.9 - 2017-02-23
+
+### Refactored
+- now redirecting to account.png if member image does not exists
+- team members images names
+
+### Added
+- some old team members images
 
 ## 0.4.8 - 2017-02-22
 

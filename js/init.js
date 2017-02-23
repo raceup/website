@@ -120,5 +120,11 @@
 			}
 
 	});
-
 })(jQuery);
+
+function imgAccountError(image) {
+    image.onerror = "";
+    image.src = "/images/team/account.png";
+    image.parentElement.className = "image featured";
+    return true;
+}

@@ -10,6 +10,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - ed 2015 team members
 
+### Fixed
+- wtf happened to ed 2017
+
 ## 0.5 - 2017-02-23
 
 ### Added

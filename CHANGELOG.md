@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.1 - 2017-02-24
+
+### Removed
+- alberto 'davide' zapolla
+- linkedin andrighetto
+
+### Added
+- ed 2015 team members
+
 ## 0.5 - 2017-02-23
 
 ### Added

@@ -6,7 +6,6 @@ All notable fixes and tips to this project will be added to this file.
 - news on main page
 - team separation 2017
 - team/us -> fa-icon
-- too much blank space
 - videos
 
 ### Tips

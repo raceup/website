@@ -6,9 +6,13 @@ All notable changes to this project will be documented in this file.
 ### Added
 - small footnote on fb icons in footer
 - fb timelines
+- complete team images
 
 ### Removed
 - useless footer icons
+
+### Fixed
+- too much blank space in competition section
 
 ## 0.5.1 - 2017-02-24
 

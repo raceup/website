@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc');">
+    <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc'); window.dispatchEvent(new Event('resize'));">
 
         {% include header.html %}
         <div id="logo-header">
@@ -15,20 +15,41 @@
         </div>
 
         {% include banner.html %}
-        <div class="page-content">
 
-            <!-- social -->
+        <!-- news gallery & social views -->
         <section class="wrapper style3 container">
             <div class="row">
-                <div class="6u" align="center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Electric-802147286569414%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <div class="4u">
+                    <div class="gallery js-flickity">
+                        {% for post in site.posts limit:5 %}
+                        <div class="gallery-cell">
+                            <div class="wrapper style3">
+                                <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                                <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+                                {% if site.lang == "it" %}
+                                <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
+                                {% elsif site.lang == "en" %}
+                                <a href="{{ post.url }}.html" class="button special">Read more</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
                 </div>
-                <div class="6u" align="center">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Combustion-440618820789%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+                <div class="3u" style="width: 350px;">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Combustion-440618820789%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+
+                <div class="3u" style="width: 350px;">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Electric-802147286569414%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                 </div>
             </div>
-        </section>   
+        </section>
+            
 
+        <div class="page-content">
+            <!-- page content -->
             {{ content }}
         </div>    
 

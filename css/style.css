@@ -36,7 +36,8 @@
 		--color-icon-linkedin-hover: #000000;
 
 		--color-icon-facebook: #3b5998;
-		--color-icon-facebook-hover: #829bc9;
+		--color-icon-facebook-hover-ed: #0023ff;
+		--color-icon-facebook-hover-cd: #fb2323;
 
 		--color-icon-instagram: #cd486b;
 		--color-icon-instagram-hover: #4c68d7;
@@ -488,8 +489,12 @@
 				color: white;
 			}
 
-				.icon.circle.fa-facebook:hover, .icon.circle.fa-facebook:hover {
-					background: var(--color-icon-facebook-hover);
+				.icon.circle.fa-facebook-cd:hover, .icon.circle.fa-facebook-cd:hover {
+					background: var(--color-icon-facebook-hover-cd);
+				}
+
+				.icon.circle.fa-facebook-ed:hover, .icon.circle.fa-facebook-ed:hover {
+					background: var(--color-icon-facebook-hover-ed);
 				}
 
 			.icon.circle.fa-instagram, .icon.square.fa-instagram {

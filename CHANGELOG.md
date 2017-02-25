@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.2 - 2017-02-25
+
+### Added
+- small footnote on fb icons in footer
+- fb timelines
+
+### Removed
+- useless footer icons
+
 ## 0.5.1 - 2017-02-24
 
 ### Removed

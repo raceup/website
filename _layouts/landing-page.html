@@ -17,32 +17,41 @@
         {% include banner.html %}
 
         <!-- news gallery & social views -->
-        <section class="wrapper style3 container">
+        <section class="wrapper style3 container" style="margin-bottom: 0.5em;">
             <div class="row">
-                <div class="4u">
+                <div id="newsGallery" class="4u" align="center">
+                    <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
                     <div class="gallery js-flickity">
                         {% for post in site.posts limit:5 %}
                         <div class="gallery-cell">
-                            <div class="wrapper style3">
-                                <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
-                                <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-                                {% if site.lang == "it" %}
-                                <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
-                                {% elsif site.lang == "en" %}
-                                <a href="{{ post.url }}.html" class="button special">Read more</a>
-                                {% endif %}
+                            <div class="style3">
+                                <h2 align="center"><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                                <h4 align="center">{{ post.date | date: '%B %d, %Y' }}</h4>
+                                <div align="center">
+                                    {% if site.lang == "it" %}
+                                    <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
+                                    {% elsif site.lang == "en" %}
+                                    <a href="{{ post.url }}.html" class="button special">Read more</a>
+                                    {% endif %}
+                                </div>
                             </div>
                         </div>
                         {% endfor %}
                     </div>
                 </div>
-
-                <div class="3u" style="width: 350px;">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Combustion-440618820789%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <div class="4u" align="center">
+                    <div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" >
+                        <blockquote cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/">Race UP Team Combustion</a>
+                        </blockquote>
+                    </div>
                 </div>
-
-                <div class="3u" style="width: 350px;">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FRace-UP-Team-Electric-802147286569414%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <div class="4u" align="center">
+                    <div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race UP Team Electric</a>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </section>
@@ -55,4 +64,23 @@
 
         {% include footer.html %}
     </body>
+
+    <!-- flickity -->
+    <script src="{{ site.baseurl }}/js/flickity.pkgd.js"></script>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/flickity.css">
+
+    <!-- facebook sdk -->
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </html>

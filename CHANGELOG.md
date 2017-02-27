@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.4 - 2017-02-27
+
+### Changed
+- tav profile image
+
+### Added
+- menu to get to dpt easily
+
 ## 0.5.3 - 2017-02-26
 
 ### Changed

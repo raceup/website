@@ -3,7 +3,6 @@ All notable fixes and tips to this project will be added to this file.
 
 ### Add
 - English version
-- news on main page
 - team separation 2017
 - videos
 

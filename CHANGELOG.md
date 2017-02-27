@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.5 - 2017-02-27
+
+### Changed
+- fancy menu to get to dpt easily
+
+### Added
+- teams unit first renderings
+
 ## 0.5.4 - 2017-02-27
 
 ### Changed

@@ -91,3 +91,9 @@
 		background-size: 15em, 15em, auto, cover;
 		padding: 3em;
 	}
+
+/* team units navigation */
+	
+	#unitsNav {
+		margin-left: 35%;
+	}

@@ -1,5 +1,4 @@
 (function($) {
-
 	skel.init({
 		reset: 'full',
 		breakpoints: {
@@ -122,6 +121,7 @@
 	});
 })(jQuery);
 
+/* Redirect in case of missing team member image */
 function imgAccountError(image) {
     image.onerror = "";
     image.src = "/images/team/account.png";

@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.6 - 2017-02-28
+
+### Changed
+- centered team units navigation
+
 ## 0.5.5 - 2017-02-27
 
 ### Changed

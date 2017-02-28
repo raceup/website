@@ -1375,3 +1375,9 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+/* team units navigation */
+	
+	#unitsNav {
+		margin-left: 45%;
+	}

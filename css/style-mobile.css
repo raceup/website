@@ -204,3 +204,17 @@
 			padding: 0;
 			border: 0;
 		}
+
+/* team units navigation */
+
+@media(max-width:312px) {
+    #unitsNav {
+		margin-left: 100%;
+	}
+}
+
+@media(min-width:312px) {
+    #unitsNav {
+		margin-left: 32%;
+	}
+}

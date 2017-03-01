@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .flickity-enabled {
   position: relative;
 }
@@ -103,7 +107,7 @@
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: 100px;
+  bottom: -20px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -126,10 +130,6 @@
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .gallery {
@@ -159,20 +159,24 @@
   background: transparent;
   opacity: 0.6;
 }
+
 .flickity-prev-next-button:hover {
   background: transparent;
   opacity: 1;
 }
+
 /* arrow color */
 .flickity-prev-next-button .arrow {
   fill: black;
 }
+
 .flickity-prev-next-button.no-svg {
   color: black;
 }
 
 /* closer to edge */
 .flickity-prev-next-button.previous { left: 0; }
+
 .flickity-prev-next-button.next { right: 0; }
 
 /* hide disabled button */
@@ -285,4 +289,16 @@
 
 #quotesGallery .gallery-cell {
     width: 95%;
+}
+
+.carousel img {
+    display: block;
+    height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+      height: 400px;
+      margin-right: 100px;
+  }
 }

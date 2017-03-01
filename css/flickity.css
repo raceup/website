@@ -181,68 +181,108 @@
 }
 
 @media screen and ( min-width: 256px ) {
-    .gallery-cell {
+    #newsGallery .gallery-cell {
         width: 110%;
         height: 200px;
     }
 
-    .flickity-page-dots {
+    #newsGallery .flickity-page-dots {
         bottom: -25px;
     }
 
-    .flickity-prev-next-button {
+    #newsGallery .flickity-prev-next-button {
         top: 120%;
     }
 
     #newsGallery {
         margin-bottom: 5em;
     }
+
+    #quotesGallery .gallery-cell {
+        height: 700px;
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 80%;
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: 55px;
+    }
 }
 
 @media screen and ( min-width: 384px ) {
-    .gallery-cell {
+    #newsGallery .gallery-cell {
         width: 100%;
     }
 
-    .flickity-page-dots {
+    #newsGallery .flickity-page-dots {
         bottom: -15px;
     }
 
-    .flickity-prev-next-button {
+    #newsGallery .flickity-prev-next-button {
         top: 90%;
+    }
+
+    #quotesGallery .gallery-cell {
+        height: 500px;
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 70%;
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: 2%;
     }
 }
 
 @media screen and ( min-width: 512px ) {
-    .gallery-cell {
+    #newsGallery .gallery-cell {
         width: 100%;
         height: 300px;
     }
 
-    .flickity-page-dots {
+    #newsGallery .flickity-page-dots {
         bottom: 25px;
     }
 
-    .flickity-prev-next-button {
+    #newsGallery .flickity-prev-next-button {
         top: 80%;
     }
 
     #newsGallery {
         margin-bottom: 4em;
     }
+
+    #quotesGallery .gallery-cell {
+        height: 300px;
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 60%;
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: -10px;
+    }
 }
 
 @media screen and ( min-width: 768px ) {
-    .gallery-cell {
+    #newsGallery .gallery-cell {
         width: 150%;
         height: 400px;
     }
 
-    .flickity-page-dots {
+    #newsGallery .flickity-page-dots {
         bottom: 50px;
     }
 
     #newsGallery {
         margin-bottom: 1.5em;
     }
+}
+
+#quotesGallery .gallery-cell {
+    width: 95%;
 }

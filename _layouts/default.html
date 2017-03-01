@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body class="no-sidebar no-fouc" onload="$('.no-fouc').removeClass('no-fouc');">
+    <body class="no-sidebar no-fouc" onload="$('.no-fouc').removeClass('no-fouc'); window.dispatchEvent(new Event('resize'));">
 
         {% include header.html %}
         <div class="page-content">

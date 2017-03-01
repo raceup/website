@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 - team units images
 - media section with old images
 
+### Fixed
+- media page title
+
 ## 0.5.6 - 2017-02-28
 
 ### Changed

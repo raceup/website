@@ -9,6 +9,9 @@ All notable changes to this project will be documented in this file.
 - media section with old images
 
 ### Fixed
+- pie chart in competition page
+
+### Fixed
 - media page title
 
 ## 0.5.6 - 2017-02-28

@@ -1,98 +1,104 @@
-$(function() {
-	var data = [
+var data = {
+	labels: [
+		"Design", "Acceleration", "Endurance", "Skid pad", "Cost", "Autocross", "Business plan presentation"
+	],
+	series: [
 		{
-			name: "Design", value: 15, description: "Valutazione dell’efficienza, dell’efficacia e del grado di innovazione del progetto ", color: "#DF7134"
+			value: 15,
+			meta: "Design"
 		},
 		{
-			name: "Acceleration", value: 10, description: "Accelerazione su rettilineo di 75 m", color: "#EFB800"
+			value: 10,
+			meta: "Acceleration"
 		},
 		{
-			name: "Endurance", value: 27.5, description: "Prova di durata in cui la monoposto dovrà percorrere 22 km in maniera efficiente, affidabile e nel minor tempo possibile", color: "#68AB40"
+			value: 27.5,
+			meta: "Endurance"
 		},
 		{
-			name: "Skid pad", value: 7.5, description: "Due piloti e due prove di giri a otto ciascuno", color: "#5E90CA"
+			value: 7.5,
+			meta: "Skid pad"
 		},
 		{
-			name: "Cost", value: 10, description: "Valutazione del trade off tra costi e performance", color: "#4B65BB"
+			value: 10,
+			meta: "Cost"
 		},
 		{
-			name: "Autocross", value: 22.5, description: "Un giro di pista alla massima velocità, per testare appieno le prestazioni della macchina", color: "#2E3E73"
+			value: 22.5,
+			meta: "Autocross"
 		},
 		{
-			name: "Business plan presentation", value: 7.5, description: "Business case per la promozione della propria azienda a potenziali investitori", color: "#9C9C9C"
+			value: 7.5,
+			meta: "Business plan presentation"
 		}
-	];
+	]
+};
 
-	var chart = new iChart.Pie3D({
-		render : "canvasDiv",
-		data: data,
-		sub_option : {
-			mini_label_threshold_angle : 40,
-			mini_label:{
-				font: "Arial",
-				fontsize:20,
-				fontweight:600,
-				color : "#ffffff"
-			},
-			label : {
-				background_color:null,
-				sign:false,
-				border:{
-					enable:false,
-					color:"#666666"
-				},
-				font: "Arial",
-				fontsize:11,
-				fontweight:600,
-				color : "#4572a7"
-			},
-			border : {
-				width : 2,
-				color : "#ffffff"
-			},
-			listeners:{
-				parseText: function(d, t) {
-					return d.get("value")+"%";
-				},
-				click: function(d, t) {
-					var text = "<strong>" + d.get("name") + "</strong>: " + d.get("description");
-					document.getElementById("chartDescription").innerHTML = text;
-				}
-			} 
-		},
-		legend:{
-			font: "Arial",
-			enable: true,
-			padding:0,
-			color:"#3e576f",
-			fontsize:20,
-			sign_size:20,
-			line_height:28,
-			sign_space:10,
-			border:false,
-			align:"center",
-			background_color : null
-		},
-		shadow : true,
-		shadow_blur : 6,
-		shadow_color : "#aaaaaa",
-		shadow_offsetx : 0,
-		shadow_offsety : 0,
-		background_color: null,
-		align:"center",
-		offset_angle:-90,
-		width: 350,
-		height: 800,
-		radius: 100
-	});
+var dataDescription = {
+	"Design": "Valutazione dell’efficienza, dell’efficacia e del grado di innovazione del progetto",
+	"Acceleration": "Accelerazione su rettilineo di 75 m",
+	"Endurance": "Prova di durata in cui la monoposto dovrà percorrere 22 km in maniera efficiente, affidabile e nel minor tempo possibile",
+	"Skid pad": "Due piloti e due prove di giri a otto ciascuno",
+	"Cost": "Valutazione del trade off tra costi e performance",
+	"Autocross": "Un giro di pista alla massima velocità, per testare appieno le prestazioni della macchina",
+	"Business plan presentation": "Business case per la promozione della propria azienda a potenziali investitori"
+}
 
-	chart.plugin(new iChart.Custom({
-		drawFn:function(){
-			chart.target.textAlign('start')
-			.textBaseline('top')
-			.textFont('600 20px Arial')
-		}
-	}));
-	
-	chart.draw();
+var options = {
+	labelInterpolationFnc: Chartist.noop
+}
+
+var responsiveOptions = [
+        [
+        	'screen and (min-width: 300px)',
+        	{
+                labelOffset: 20
+	        }
+	    ],[
+        	'screen and (min-width: 400px)',
+        	{
+                labelOffset: 32,
+	        }
+	    ],[
+        	'screen and (min-width: 500px)',
+        	{
+                labelOffset: 40,
+	        }
+	    ],[
+        	'screen and (min-width: 600px)',
+        	{
+                chartPadding: 30,
+                labelOffset: 110,
+                labelDirection: 'explode',
+	        }
+	    ],[
+        	'screen and (min-width: 700px)',
+        	{
+                labelOffset: 140,
+	        }
+	    ],[
+        	'screen and (min-width: 900px)',
+        	{
+                labelOffset: 170,
+	        }
+	    ],[
+        	'screen and (min-width: 1024px)',
+        	{
+                labelOffset: 80,
+                chartPadding: 20
+	        }
+        ]
+];
+
+var chart = new Chartist.Pie('.ct-chart', data, options, responsiveOptions);
+chart.on('draw', function() {
+    $('.ct-chart').on('mouseover', function(event) {
+    	var $point = event.target;
+    	var seriesName = $point.getAttribute('ct:meta');
+    	var seriesDescription = dataDescription[seriesName];
+    	
+    	if (seriesName != null) {
+    		$('#chartTooltip').html('<strong>' + seriesName + '</strong>: ' + seriesDescription);
+    	}
+    });
 });

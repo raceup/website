@@ -1,10 +1,6 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ site.baseurl }}/css/timeline.css" />
 
-<!-- chart library and data -->
-<script src="{{ site.baseurl }}/js/ichart.1.2.1.min.js"></script>
-<script src="{{ site.baseurl }}/js/competition_chart.js"></script>
-
 <article id="main">
     <!-- description -->
     <section class="wrapper style2 container special">
@@ -41,16 +37,12 @@
                     </li>
                 </ul>
             </p>
-        </div>
-
-        <div id="canvasDiv">
-        </div>
+        </div>        
     </section>
 
-    <section class="wrapper style3 container special" style="margin-top:-300px">
-        <p id="chartDescription">
-            Fai click su una sezione per scoprire maggiori dettagli.
-        </p>
+    <section class="wrapper style1 container special">
+        <div class="ct-chart ct-perfect-fourth"></div>
+        <p id="chartTooltip">Passa sopra al grafico per scoprire maggiori dettagli</p>
     </section>
 
     <!-- timeline -->

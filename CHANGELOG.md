@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - quotes carousel on landing page, why support us page
+- team units images
 
 ## 0.5.6 - 2017-02-28
 

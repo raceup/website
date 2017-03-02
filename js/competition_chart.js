@@ -45,6 +45,8 @@ var dataDescription = {
 }
 
 var options = {
+	width: '100%',
+  	height: '100%',
 	labelInterpolationFnc: Chartist.noop
 }
 
@@ -52,45 +54,51 @@ var responsiveOptions = [
         [
         	'screen and (min-width: 0px)',
         	{
-                labelOffset: 30
+                labelOffset: 30,
+                chartPadding: 10,
 	        }
 	    ],[
         	'screen and (min-width: 300px)',
         	{
-                labelOffset: 40
+                labelOffset: 40,
+                chartPadding: 20,
 	        }
 	    ],[
         	'screen and (min-width: 400px)',
         	{
                 labelOffset: 50,
+                chartPadding: 30,
 	        }
 	    ],[
         	'screen and (min-width: 500px)',
         	{
                 labelOffset: 110,
+                chartPadding: 40,
 	        }
 	    ],[
         	'screen and (min-width: 600px)',
         	{
-                chartPadding: 30,
-                labelOffset: 110,
+                labelOffset: 90,
+                chartPadding: 50,
                 labelDirection: 'explode',
 	        }
 	    ],[
         	'screen and (min-width: 700px)',
         	{
                 labelOffset: 60,
+                chartPadding: 80,
 	        }
 	    ],[
         	'screen and (min-width: 900px)',
         	{
                 labelOffset: 70,
+                chartPadding: 100,
 	        }
 	    ],[
         	'screen and (min-width: 1024px)',
         	{
                 labelOffset: 80,
-                chartPadding: 20
+                chartPadding: 150,
 	        }
         ]
 ];

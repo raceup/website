@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - too small chart labels
+- too big chart pie
 
 ## 0.5.7 - 2017-03-01
 

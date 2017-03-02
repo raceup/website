@@ -1,6 +1,6 @@
 var data = {
 	labels: [
-		"Design", "Acceleration", "Endurance", "Skid pad", "Cost", "Autocross", "Business plan presentation"
+		"Design", "Acceleration", "Endurance", "Skid pad", "Cost", "Autocross", "Bpp"
 	],
 	series: [
 		{
@@ -50,19 +50,24 @@ var options = {
 
 var responsiveOptions = [
         [
+        	'screen and (min-width: 0px)',
+        	{
+                labelOffset: 30
+	        }
+	    ],[
         	'screen and (min-width: 300px)',
         	{
-                labelOffset: 20
+                labelOffset: 40
 	        }
 	    ],[
         	'screen and (min-width: 400px)',
         	{
-                labelOffset: 32,
+                labelOffset: 50,
 	        }
 	    ],[
         	'screen and (min-width: 500px)',
         	{
-                labelOffset: 40,
+                labelOffset: 110,
 	        }
 	    ],[
         	'screen and (min-width: 600px)',
@@ -74,12 +79,12 @@ var responsiveOptions = [
 	    ],[
         	'screen and (min-width: 700px)',
         	{
-                labelOffset: 140,
+                labelOffset: 60,
 	        }
 	    ],[
         	'screen and (min-width: 900px)',
         	{
-                labelOffset: 170,
+                labelOffset: 70,
 	        }
 	    ],[
         	'screen and (min-width: 1024px)',
@@ -92,7 +97,7 @@ var responsiveOptions = [
 
 var chart = new Chartist.Pie('.ct-chart', data, options, responsiveOptions);
 chart.on('draw', function() {
-    $('.ct-chart').on('mouseover', function(event) {
+    $('.ct-chart').on('click', function(event) {
     	var $point = event.target;
     	var seriesName = $point.getAttribute('ct:meta');
     	var seriesDescription = dataDescription[seriesName];

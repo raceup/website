@@ -1,17 +1,17 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## 0.5.9 - 2017-03-05
+## 0.6 - 2017-03-05
 
 ### Fixed
 - url redirect when 404
-- redirection to old urls
+- redirection to old urls thanks to mori
 - optimized (~5%) images
 
 ### Added
 - global informatica sponsor
 - mecspe 2017 post
-- links to logo images
+- links to logo images (both ed and cd)
 - mecspe video in mecspe post
 - old videos in media section
 

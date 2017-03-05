@@ -12,6 +12,21 @@ All notable fixes and tips to this project will be added to this file.
 - costantini
 - microlease
 
+### Cd
+- stip
+- alth
+- ptc
+- brunello
+- cemes
+- plan
+- art fer
+- bassano corse
+- cima
+- dynamec
+- festo
+- wow solutions
+- mattarollo
+- olmas frascara
 
 ### Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)

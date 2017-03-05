@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - contact us in menu
+- links to fsae page on fsae image in landing page
 
 ### Fixed
 - 'la squadra' not centered (/team/us.html)

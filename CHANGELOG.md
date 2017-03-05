@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - 'la squadra' not centered (/team/us.html)
 - 'competizione' title
+- double line with 'contact us' menu
 
 ### Changed
 - back to original 3D pie style (now using highcharts library)

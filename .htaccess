@@ -5,3 +5,27 @@
 
 # If this file is not on the root or is in the root of translated websites, this
 # means that there is an error.
+
+# Manual redirects
+# old wordpress
+Redirect 301 /blog http://www.raceup.it/blog.html
+Redirect 301 /team-2016-combustion http://www.raceup.it/team/members.html
+Redirect 301 /team-2016-electric http://www.raceup.it/team/members.html
+Redirect 301 /partners-combustion http://www.raceup.it/sponsors/cd.html
+Redirect 301 /partners-electric http://www.raceup.it/sponsors/ed.html
+Redirect 301 /combustion http://www.raceup.it/cars/cd.html
+Redirect 301 /electric http://www.raceup.it/cars/ed.html
+
+# Fallback
+RewriteCond %{REQUEST_URI} !=/blog
+RewriteCond %{REQUEST_URI} !=/team-2016-combustion
+RewriteCond %{REQUEST_URI} !=/team-2016-electric
+RewriteCond %{REQUEST_URI} !=/partners-combustion
+RewriteCond %{REQUEST_URI} !=/partners-electric
+RewriteCond %{REQUEST_URI} !=/combustion
+RewriteCond %{REQUEST_URI} !=/electric
+# RewriteCond %{HTTP_HOST} ^example.com [NC]
+# RewriteRule ^(.*)$ http://www.example2.com/$1 [L,R=301]
+
+# In case of 404 page
+ErrorDocument 404 /404.html

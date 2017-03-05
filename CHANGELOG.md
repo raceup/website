@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 ## 0.5.9 - 2017-03-05
 
+### Fixed
+- url redirect when 404
+- redirection to old urls
+
+## 0.5.9 - 2017-03-05
+
 ### Added
 - contact us in menu
 - links to fsae page on fsae image in landing page

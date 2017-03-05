@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.5.9 - 2017-03-05
+
+### Added
+- contact us in menu
+
 ## 0.5.8 - 2017-03-02
 
 ### Fixed

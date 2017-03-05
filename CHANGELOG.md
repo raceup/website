@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 - url redirect when 404
 - redirection to old urls
 
+### Added
+- global informatica sponsor
+
 ## 0.5.9 - 2017-03-05
 
 ### Added

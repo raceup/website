@@ -17,3 +17,4 @@
 
 
 find -type f -name "*.jpg" -exec jpegoptim -f --max=80 --strip-all {} \;
+# for f in *.jpg; do convert "$f" -resize '512x>' "$f"; done  # resize image to 512 pixels wide

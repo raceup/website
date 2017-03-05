@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - global informatica sponsor
 - mecspe 2017 post
 - links to logo images
+- mecspe video in mecspe post
 
 ## 0.5.9 - 2017-03-05
 

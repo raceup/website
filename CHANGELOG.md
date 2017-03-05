@@ -6,9 +6,11 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - url redirect when 404
 - redirection to old urls
+- optimized (~5%) images
 
 ### Added
 - global informatica sponsor
+- mecspe 2017 post
 
 ## 0.5.9 - 2017-03-05
 

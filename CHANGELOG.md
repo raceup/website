@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - url redirect when 404
 - redirection to old urls thanks to mori
 - optimized (~5%) images
+- too large video in mecspe post
 
 ### Added
 - global informatica sponsor

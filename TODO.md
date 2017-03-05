@@ -8,7 +8,6 @@ All notable fixes and tips to this project will be added to this file.
 
 ### Edit
 - link to fsae page on fsae image in landing page
-- la squadra decentrato (/team/us.html)
 - back to original pie (3d)
 - redirect ed -> car ed
 

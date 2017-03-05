@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - contact us in menu
 
+### Fixed
+- 'la squadra' not centered (/team/us.html)
+
 ## 0.5.8 - 2017-03-02
 
 ### Fixed

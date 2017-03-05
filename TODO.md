@@ -28,7 +28,9 @@ All notable fixes and tips to this project will be added to this file.
 - mattarollo
 - olmas frascara
 
-### Tips
+## Sponsors description
+
+## Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
 - optimize images (bash `imgopt.sh`)
 - use cdr https://www.cloudflare.com/a/sign-up

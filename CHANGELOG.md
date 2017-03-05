@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - links to logo images (both ed and cd)
 - mecspe video in mecspe post
 - old videos in media section
+- css `caption` class
 
 ## 0.5.9 - 2017-03-05
 

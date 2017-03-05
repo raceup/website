@@ -1381,3 +1381,34 @@
 	#unitsNav {
 		margin-left: 45%;
 	}
+
+/* Captions on images */
+a {
+    display: inline-block;
+    position: relative;
+}
+
+.caption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-light-background); /* for browsers that don't understand rgba() notation */
+    color: #000000;
+    line-height: 1.1em;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+a:hover .caption {
+    opacity: 1;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    transition: all 1s linear;
+}​

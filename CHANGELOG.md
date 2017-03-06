@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.1 - 2017-03-06
+
+### Changed
+- 'global informatica' sponsor row
+
 ## 0.6 - 2017-03-05
 
 ### Fixed

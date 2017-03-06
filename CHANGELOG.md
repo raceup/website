@@ -6,6 +6,13 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - 'global informatica' sponsor row
 
+### Added
+- sponsors description
+- 'stip', 'alth', 'ptc', 'cemes', 'dynamec', 'festo', 'mattarollo' sponsor link
+
+### Fixed
+- 'omega', 'cometec', 'tecnocurve', 'protomaker' sponsor link
+
 ## 0.6 - 2017-03-05
 
 ### Fixed

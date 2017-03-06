@@ -13,20 +13,86 @@ All notable fixes and tips to this project will be added to this file.
 - microlease
 
 ### Cd
-- stip
-- alth
-- ptc
 - brunello
-- cemes
 - plan
 - art fer
 - bassano corse
-- cima
-- dynamec
-- festo
 - wow solutions
-- mattarollo
 - olmas frascara
+
+## Missing logos descriptions
+### Ed
+- ht
+- cps
+- euromeccanica
+- simpa
+- mbi
+- brusegan
+- rs
+- andreoli
+- apex
+- bender
+- bercella
+- corplast
+- costantini
+- coveme
+- benelli
+- endrich
+- felmac
+- garnet
+- gigavac
+- helukabel
+- mathworks
+- microlease
+- pozzan modelleria
+- roehmitalia
+- textreme
+- global informatica
+
+
+### Cd
+- mp torneria
+- eulithe
+- loctite
+- masolini
+- ptc
+- zamperla
+- aviorace
+- brunello
+- cognolato
+- plan
+- art-fer
+- bassano corse
+- breda racing
+- cima ingranaggi
+- daviescraig
+- dissegna
+- dynamec
+- elle-emme
+- festo
+- forest team
+- fami spa
+- farnell
+- getecno
+- heller
+- isrbrake
+- metalba
+- pakelo
+- protomaker
+- ricardo
+- tecno2
+- allegricesar
+- camatrox
+- gieffe racing
+- mattarollo
+- metalplasma
+- ninja
+- olmas
+- schaeffler
+- stal-plast
+- tecnogisrl
+- texense
+- zracing
 
 ## Sponsors description
 

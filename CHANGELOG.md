@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.2 - 2017-03-07
+
+### Fixed
+- previous/next post link in blog
+
 ## 0.6.1 - 2017-03-06
 
 ### Changed

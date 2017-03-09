@@ -1,6 +1,17 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.3 - 2017-03-09
+
+### Fixed
+- redirection from raceup.it/electricdivision
+
+### Removed
+- 'pastò' from 2017 members
+
+### Added
+- 'sorma' to sponsors ed
+
 ## 0.6.2 - 2017-03-07
 
 ### Fixed

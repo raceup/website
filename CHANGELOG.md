@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 'sorma' to sponsors ed
+- mini-gallery with cars images on cars pages
 
 ## 0.6.2 - 2017-03-07
 

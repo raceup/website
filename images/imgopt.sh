@@ -24,3 +24,6 @@ find -type f -name "*.jpeg" -exec jpegoptim -f --max=80 --strip-all {} \;  # opt
 # png
 find -type f -name "*.png" -exec optipng {} \;  # optimize png images recursively
 # for f in *.png; do optipng "$f"; done  # optimize png image
+
+# convert .png to .jpg
+for f in *.png; do convert "$f" -quality 90 "$f.jpg"; done  # quality 90

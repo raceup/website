@@ -293,11 +293,21 @@
 
 .carousel img {
     display: block;
-    height: 200px;
+    height: 300px;
+}
+
+.carousel iframe {
+    display: block;
+    height: 300px;
 }
 
 @media screen and ( min-width: 768px ) {
   .carousel img {
+      height: 400px;
+      margin-right: 100px;
+  }
+
+  .carousel iframe {
       height: 400px;
       margin-right: 100px;
   }

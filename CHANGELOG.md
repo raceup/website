@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - redirection from raceup.it/electricdivision
+- mobile videos in media section too little
 
 ### Removed
 - 'pastò' from 2017 members

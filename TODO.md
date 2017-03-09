@@ -94,9 +94,9 @@ All notable fixes and tips to this project will be added to this file.
 - texense
 - zracing
 
+
 ## Fix
 - mobile videos in media section too little
-
 ## Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
 - optimize images (bash `imgopt.sh`)

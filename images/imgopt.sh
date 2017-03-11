@@ -19,11 +19,11 @@
 # jpg/jpeg
 find -type f -name "*.jpg" -exec jpegoptim -f --max=80 --strip-all {} \;  # optimize jpg images recursively
 find -type f -name "*.jpeg" -exec jpegoptim -f --max=80 --strip-all {} \;  # optimize jpg images recursively
-# for f in *.jpg; do convert "$f" -resize '512x>' "$f"; done  # resize jpg images to 512 pixels wide
+for f in *.jpg; do convert "$f" -resize '512x>' "$f"; done  # resize jpg images to 512 pixels wide
 
 # png
 find -type f -name "*.png" -exec optipng {} \;  # optimize png images recursively
-# for f in *.png; do optipng "$f"; done  # optimize png image
+for f in *.png; do optipng "$f"; done  # optimize png image
 
 # convert .png to .jpg
 for f in *.png; do convert "$f" -quality 90 "$f.jpg"; done  # quality 90

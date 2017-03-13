@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.4 - 2017-03-13
+
+### Added
+- mecspe2 post
+- ballotta video in 'media' section
+
 ## 0.6.3 - 2017-03-09
 
 ### Fixed

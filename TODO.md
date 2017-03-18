@@ -6,9 +6,6 @@ All notable fixes and tips to this project will be added to this file.
 - email form not working (ask tav)
 - add prev emails from .vcf
 
-## Add
-- brochure in media, contact, home
-
 ## Enhance
 - span caption text vertical center
 

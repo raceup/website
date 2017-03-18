@@ -1394,7 +1394,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--color-light-background); /* for browsers that don't understand rgba() notation */
+    background-color: #fff;  /*var(--color-light-background);*/ /* for browsers that don't understand rgba() notation */
     color: #000000;
     line-height: 1.1em;
     -webkit-transition: all 1s linear;
@@ -1402,6 +1402,8 @@ a {
     -ms-transition: all 1s linear;
     -moz-transition: all 1s linear;
     transition: all 1s linear;
+    height: 100%;
+	text-align: center;
 }
 
 a:hover .caption {

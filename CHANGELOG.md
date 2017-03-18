@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - cd/ed renderings in team unit
+- new logo
 
 ## 0.6.5 - 2017-03-18
 

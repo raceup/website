@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - 'join us' section with luca
-- part of missing cd logos descriptions
+- part of missing cd, ed logos descriptions
 - brochure links in home, media and contact us sections
 
 ## 0.6.4 - 2017-03-13

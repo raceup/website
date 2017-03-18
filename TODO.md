@@ -16,15 +16,6 @@ All notable fixes and tips to this project will be added to this file.
 - test https://developers.google.com/speed/pagespeed/insights/?url=raceup.it
 
 ## Missing logos link
-### Ed
-- cps
-- simpa
-- brusegan legnami
-- rs
-- sonic
-- gloabl informatica
-- costantini
-- microlease
 
 ### Cd
 - brunello
@@ -34,15 +25,17 @@ All notable fixes and tips to this project will be added to this file.
 - wow solutions
 - olmas frascara
 
-## Missing logos descriptions
 ### Ed
-- ht
-- cps
-- euromeccanica
-- simpa
+- brusegan legnami
+- sonic
+- costantini
+
+
+## Missing logos descriptions
+
+### Ed
 - mbi
 - brusegan
-- rs
 - andreoli
 - apex
 - bender
@@ -57,12 +50,11 @@ All notable fixes and tips to this project will be added to this file.
 - gigavac
 - helukabel
 - mathworks
-- microlease
 - pozzan modelleria
 - roehmitalia
 - textreme
 - global informatica
-
+- microlease
 
 ### Cd
 - daviescraig

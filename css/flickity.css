@@ -184,109 +184,6 @@
   display: none;
 }
 
-@media screen and ( min-width: 256px ) {
-    #newsGallery .gallery-cell {
-        width: 110%;
-        height: 200px;
-    }
-
-    #newsGallery .flickity-page-dots {
-        bottom: -25px;
-    }
-
-    #newsGallery .flickity-prev-next-button {
-        top: 120%;
-    }
-
-    #newsGallery {
-        margin-bottom: 5em;
-    }
-
-    #quotesGallery .gallery-cell {
-        height: 700px;
-    }
-
-    #quotesGallery .flickity-prev-next-button {
-        top: 80%;
-    }
-
-    #quotesGallery .flickity-page-dots {
-        bottom: 55px;
-    }
-}
-
-@media screen and ( min-width: 384px ) {
-    #newsGallery .gallery-cell {
-        width: 100%;
-    }
-
-    #newsGallery .flickity-page-dots {
-        bottom: -15px;
-    }
-
-    #newsGallery .flickity-prev-next-button {
-        top: 90%;
-    }
-
-    #quotesGallery .gallery-cell {
-        height: 500px;
-    }
-
-    #quotesGallery .flickity-prev-next-button {
-        top: 70%;
-    }
-
-    #quotesGallery .flickity-page-dots {
-        bottom: 2%;
-    }
-}
-
-@media screen and ( min-width: 512px ) {
-    #newsGallery .gallery-cell {
-        width: 100%;
-        height: 300px;
-    }
-
-    #newsGallery .flickity-page-dots {
-        bottom: 25px;
-    }
-
-    #newsGallery .flickity-prev-next-button {
-        top: 80%;
-    }
-
-    #newsGallery {
-        margin-bottom: 4em;
-    }
-
-    #quotesGallery .gallery-cell {
-        height: 300px;
-    }
-
-    #quotesGallery .flickity-prev-next-button {
-        top: 60%;
-    }
-
-    #quotesGallery .flickity-page-dots {
-        bottom: -10px;
-    }
-}
-
-@media screen and ( min-width: 768px ) {
-    #newsGallery .gallery-cell {
-        width: 150%;
-        height: 400px;
-    }
-
-    #newsGallery .flickity-page-dots {
-        bottom: 50px;
-    }
-
-    #newsGallery {
-        margin-bottom: 1.5em;
-    }
-}
-
 #quotesGallery .gallery-cell {
     width: 95%;
 }
@@ -301,10 +198,135 @@
     height: 300px;
 }
 
+#awesomePeopleRaceUP {
+  width: 90%;
+  height: 1000px;
+  margin-right: 8%;
+}
+
+@media screen and ( min-width: 256px ) {
+  #newsGallery .gallery-cell {
+      width: 110%;
+      height: 200px;
+  }
+
+  #newsGallery .flickity-page-dots {
+      bottom: -25px;
+  }
+
+  #newsGallery .flickity-prev-next-button {
+      top: 120%;
+  }
+
+  #newsGallery {
+      margin-bottom: 5em;
+  }
+
+  #quotesGallery .gallery-cell {
+      height: 700px;
+  }
+
+  #quotesGallery .flickity-prev-next-button {
+      top: 80%;
+  }
+
+  #quotesGallery .flickity-page-dots {
+      bottom: 55px;
+  }
+
+  #awesomePeopleRaceUP {
+    width: 90%;
+    height: 800px;
+    margin-right: 8%;
+  }
+}
+
+@media screen and ( min-width: 384px ) {
+  #newsGallery .gallery-cell {
+      width: 100%;
+  }
+
+  #newsGallery .flickity-page-dots {
+      bottom: -15px;
+  }
+
+  #newsGallery .flickity-prev-next-button {
+      top: 90%;
+  }
+
+  #quotesGallery .gallery-cell {
+      height: 500px;
+  }
+
+  #quotesGallery .flickity-prev-next-button {
+      top: 70%;
+  }
+
+  #quotesGallery .flickity-page-dots {
+      bottom: 2%;
+  }
+
+  #awesomePeopleRaceUP {
+    width: 90%;
+    height: 650px;
+    margin-right: 8%;
+  }
+}
+
+@media screen and ( min-width: 512px ) {
+  #newsGallery .gallery-cell {
+      width: 100%;
+      height: 300px;
+  }
+
+  #newsGallery .flickity-page-dots {
+      bottom: 25px;
+  }
+
+  #newsGallery .flickity-prev-next-button {
+      top: 80%;
+  }
+
+  #newsGallery {
+      margin-bottom: 4em;
+  }
+
+  #quotesGallery .gallery-cell {
+      height: 300px;
+  }
+
+  #quotesGallery .flickity-prev-next-button {
+      top: 60%;
+  }
+
+  #quotesGallery .flickity-page-dots {
+      bottom: -10px;
+  }
+
+  #awesomePeopleRaceUP {
+    width: 90%;
+    height: 600px;
+    margin-right: 8%;
+  }
+}
+
 @media screen and ( min-width: 768px ) {
-  .carousel img {
+  #newsGallery .gallery-cell {
+      width: 150%;
       height: 400px;
-      margin-right: 100px;
+  }
+
+  #newsGallery .flickity-page-dots {
+      bottom: 50px;
+  }
+
+  #newsGallery {
+      margin-bottom: 1.5em;
+  }
+
+  .carousel img {
+    height: 400px;
+    margin-right: 100px;
   }
 
   .carousel iframe {

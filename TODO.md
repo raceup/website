@@ -1,6 +1,17 @@
 # Stuff to do
 All notable fixes and tips to this project will be added to this file.
 
+## Fix
+- mobile videos in media section too little
+- email form not working (ask tav)
+- add prev emails from .vcf
+
+## Tips
+- minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
+- optimize images (bash `imgopt.sh`)
+- use cdr https://www.cloudflare.com/a/sign-up
+- test https://developers.google.com/speed/pagespeed/insights/?url=raceup.it
+
 ## Missing logos link
 ### Ed
 - cps
@@ -93,14 +104,3 @@ All notable fixes and tips to this project will be added to this file.
 - tecnogisrl
 - texense
 - zracing
-
-
-## Fix
-- mobile videos in media section too little
-- email form not working
-
-## Tips
-- minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
-- optimize images (bash `imgopt.sh`)
-- use cdr https://www.cloudflare.com/a/sign-up
-- test https://developers.google.com/speed/pagespeed/insights/?url=raceup.it

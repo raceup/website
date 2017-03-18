@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.5 - 2017-03-18
+
+### Fixed
+- 'bleron' school thanks to @Michele
+
+### Added
+- 'join us' section with luca
+
 ## 0.6.4 - 2017-03-13
 
 ### Added

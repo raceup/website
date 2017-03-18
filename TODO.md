@@ -5,6 +5,10 @@ All notable fixes and tips to this project will be added to this file.
 - mobile videos in media section too little
 - email form not working (ask tav)
 - add prev emails from .vcf
+- efesto lab in big sponsors
+
+## Add
+- brochure in media, contact, home
 
 ## Enhance
 - span caption text vertical center

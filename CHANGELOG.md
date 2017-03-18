@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - 'bleron' school thanks to @Michele
+- 'join us' section picture on the left, description on the right
 
 ### Added
 - 'join us' section with luca

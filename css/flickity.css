@@ -198,10 +198,16 @@
     height: 300px;
 }
 
-#awesomePeopleRaceUP {
+.awesomePeopleRaceUP {
   width: 90%;
   height: 1000px;
   margin-right: 8%;
+}
+
+.awesomePeopleRaceUPImg {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
 }
 
 @media screen and ( min-width: 256px ) {
@@ -234,7 +240,7 @@
       bottom: 55px;
   }
 
-  #awesomePeopleRaceUP {
+  .awesomePeopleRaceUP {
     width: 90%;
     height: 800px;
     margin-right: 8%;
@@ -266,7 +272,7 @@
       bottom: 2%;
   }
 
-  #awesomePeopleRaceUP {
+  .awesomePeopleRaceUP {
     width: 90%;
     height: 650px;
     margin-right: 8%;
@@ -303,10 +309,14 @@
       bottom: -10px;
   }
 
-  #awesomePeopleRaceUP {
+  .awesomePeopleRaceUP {
     width: 90%;
-    height: 600px;
+    height: 500px;
     margin-right: 8%;
+  }
+
+  .awesomePeopleRaceUPImg {
+    float: left;
   }
 }
 

@@ -6,8 +6,8 @@ All notable fixes and tips to this project will be added to this file.
 - email form not working (ask tav)
 - add prev emails from .vcf
 
-## Enhance
-- span caption text vertical center
+## Add
+- new logo
 
 ## Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)

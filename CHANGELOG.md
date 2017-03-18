@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 ## 0.6.5 - 2017-03-18
 
 ### Fixed
+- 'fea' english name in brochure
+
+### Added
+- cd/ed renderings in team unit
+
+## 0.6.5 - 2017-03-18
+
+### Fixed
 - 'bleron' school thanks to @Michele
 - 'join us' section picture on the left, description on the right
 - 'efesto lab' in big sponsors

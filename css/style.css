@@ -1404,6 +1404,9 @@ a {
     transition: all 1s linear;
     height: 100%;
 	text-align: center;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
 }
 
 a:hover .caption {

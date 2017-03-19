@@ -6,9 +6,6 @@ All notable fixes and tips to this project will be added to this file.
 - email form not working (ask tav)
 - add prev emails from .vcf
 
-## Add
-- new logo
-
 ## Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
 - optimize images (bash `imgopt.sh`)

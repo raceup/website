@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.6 - 2017-03-19
+
+### Added
+- 'mecspe pt3' post
+
 ## 0.6.5 - 2017-03-18
 
 ### Fixed

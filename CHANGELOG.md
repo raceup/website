@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 - 'mecspe pt3' video in 'media' section
 - 'patrick' as 'RESPONSABILE PRODUZIONE DIVISIONE ELETTRICA'
 
+### Fixed
+- page format in 'mecspe3' post
+
 ## 0.6.5 - 2017-03-18
 
 ### Fixed

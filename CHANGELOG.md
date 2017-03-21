@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - calogero, cipriani, berton, zingale from team members
 
+### Changed
+- padoan is cd-suspensions manager
+
 ## 0.6.6 - 2017-03-19
 
 ### Added

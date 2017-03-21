@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.7 - 2017-03-21
+
+### Removed
+- calogero, cipriani, berton, zingale from team members
+
 ## 0.6.6 - 2017-03-19
 
 ### Added

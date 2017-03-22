@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.6.8 - 2017-03-22
+
+### Added
+- tecnolaser sponsor in cd-2
+
 ## 0.6.7 - 2017-03-21
 
 ### Removed

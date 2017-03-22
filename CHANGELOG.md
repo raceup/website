@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - tecnolaser sponsor in cd-2
+- post mecspe 4
+- media > video mecspe 4
 
 ## 0.6.7 - 2017-03-21
 

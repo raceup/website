@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 - post mecspe 4
 - media > video mecspe 4
 
+### Fixed
+- post mecspe 4
+
 ## 0.6.7 - 2017-03-21
 
 ### Removed

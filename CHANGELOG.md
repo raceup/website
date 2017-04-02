@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7 - 2017-04-02
+
+### Added
+- paypal 'donate' button in home and support page
+- made with love in footer
+
 ## 0.6.9 - 2017-03-30
 
 ### Added

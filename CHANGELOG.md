@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.1 - 2017-04-11
+
+### Added
+- 'rossi' logo in cd
+
+### Fixed
+- cd logos centering
+
 ## 0.7 - 2017-04-02
 
 ### Added

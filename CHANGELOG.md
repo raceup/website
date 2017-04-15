@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - social icons in footer
+- paypal link-on-page
+- post about paypal
 
 ### Refactored
 - module for paypal button

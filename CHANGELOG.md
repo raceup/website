@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file.
 - paypal link-on-page
 - post about paypal
 
+### Changed
+- title in paypal post
+
 ### Refactored
 - module for paypal button
 

@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.3 - 2017-04-27
+
+### Added
+- post about 2017 cars launch
+- fixed twitter post share link
+
 ## 0.7.2 - 2017-04-15
 
 ### Added

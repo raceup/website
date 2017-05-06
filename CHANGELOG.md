@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - post about galileo fesitval 2017
+- image in galileo2017 post
 
 ### Removed
 - tm cd sponsor

@@ -1,12 +1,17 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## 0.7.3 - 2017-05-07
+## 0.7.6 - 2017-05-15
+
+### Added
+- 2017 media images
+
+## 0.7.5 - 2017-05-07
 
 ### Added
 - noaloil cd logo
 
-## 0.7.3 - 2017-05-06
+## 0.7.4 - 2017-05-06
 
 ### Added
 - post about galileo fesitval 2017

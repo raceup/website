@@ -6,6 +6,7 @@ All notable fixes and tips to this project will be added to this file.
 - email form not working (ask tav)
 - add prev emails from .vcf
 - fix home banner style
+- horizontal align home logos
 
 
 ## Tips
@@ -88,11 +89,6 @@ All notable fixes and tips to this project will be added to this file.
 
 
 ## Missing logos https://drive.google.com/drive/u/0/folders/0BxdYGZmsZOTxa2RWUk10QjhtYjA (Marketing – 2017 – sponsor – banner sponsor)
-
-### Ed
-- Coadapco
-- Confertigianato
-
 
 ## To be removed logos
 

@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.9 - 2017-05-27
+
+### Added
+- new banner
+
 ## 0.7.8 - 2017-05-27
 
 ### Added

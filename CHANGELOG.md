@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 - academy page
 - academy submenu in header
 
+### Fixed
+- header nav width
+
 ## 0.7.7 - 2017-05-27
 
 ### Fixed

@@ -7,6 +7,9 @@ All notable changes to this project will be documented in this file.
 - number of students in project description
 - removed Thomas from team
 
+### Removed
+- Sonic, Bercella, Endrich components sponsor logos
+
 ## 0.7.6 - 2017-05-15
 
 ### Added

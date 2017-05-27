@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - header nav width
+- out of focus oz logo
 
 ## 0.7.7 - 2017-05-27
 

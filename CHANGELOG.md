@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.8 - 2017-05-27
+
+### Added
+- academy page
+- academy submenu in header
+
 ## 0.7.7 - 2017-05-27
 
 ### Fixed

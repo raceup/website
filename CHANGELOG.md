@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## 0.7.8 - 2017-05-27
 
 ### Added
-- academy page
+- academy page and content
 - academy submenu in header
 
 ### Fixed

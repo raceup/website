@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - new banner
 - new units images
+- new sponsor logos
 
 ## 0.7.8 - 2017-05-27
 

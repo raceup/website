@@ -1,16 +1,19 @@
 # Stuff to do
 All notable fixes and tips to this project will be added to this file.
 
+
 ## Fix
-- mobile videos in media section too little
 - email form not working (ask tav)
 - add prev emails from .vcf
+- fix home banner style
+
 
 ## Tips
 - minify html/css/js (https://developers.google.com/speed/docs/insights/MinifyResources)
 - optimize images (bash `imgopt.sh`)
 - use cdr https://www.cloudflare.com/a/sign-up
 - test https://developers.google.com/speed/pagespeed/insights/?url=raceup.it
+
 
 ## Missing logos link
 
@@ -82,3 +85,29 @@ All notable fixes and tips to this project will be added to this file.
 - tecnogisrl
 - texense
 - zracing
+
+
+## Missing logos https://drive.google.com/drive/u/0/folders/0BxdYGZmsZOTxa2RWUk10QjhtYjA (Marketing – 2017 – sponsor – banner sponsor)
+
+### Ed
+- Coadapco
+- Confertigianato
+
+
+## To be removed logos
+
+### Cd
+- Fram corse
+- Ptc
+- Roby moto
+- Meccanica putti
+- Plan
+- Bcomp
+- Bassano corse
+- David craig
+- Festo
+- Wow solutions
+- Camatrox
+- Gieffe
+- Olmas
+- Noal oil

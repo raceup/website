@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.7 - 2017-05-27
+
+### Fixed
+- number of students in project description
+- removed Thomas from team
+
 ## 0.7.6 - 2017-05-15
 
 ### Added

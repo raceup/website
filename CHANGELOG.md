@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - academy page and content
 - academy submenu in header
 - biz team image
+- new ED logo in timeline
 
 ### Fixed
 - header nav width

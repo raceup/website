@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - academy page and content
 - academy submenu in header
+- biz team image
 
 ### Fixed
 - header nav width

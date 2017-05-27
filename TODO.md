@@ -6,7 +6,7 @@ All notable fixes and tips to this project will be added to this file.
 - email form not working (ask tav)
 - add prev emails from .vcf
 - fix home banner style
-- horizontal align home logos
+- add ed logos shaffler, stile
 
 
 ## Tips

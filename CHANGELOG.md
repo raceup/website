@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## 0.7.9.1 - 2017-05-28
 
 ### Removed
-- twitter, bitbucket, linkedin footer icons
+- twitter, bitbucket, linkedin, rss, github footer icons
 
 ## 0.7.9 - 2017-05-27
 

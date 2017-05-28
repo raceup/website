@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - twitter, bitbucket, linkedin, rss, github footer icons
 
+### Added
+- background image with opacity
+
 ## 0.7.9 - 2017-05-27
 
 ### Added

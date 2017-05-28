@@ -1095,7 +1095,11 @@
 		padding: 5em;
 		text-align: center;
 		margin-top: 3.5em;
+		background-color: hsla(0,0%,100%,0.30);
+	    background-blend-mode: overlay;
+	    background-repeat: no-repeat;
 	}
+
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;

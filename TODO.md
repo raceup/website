@@ -7,6 +7,7 @@ All notable fixes and tips to this project will be added to this file.
 - add prev emails from .vcf
 - fix home banner style
 - add ed logos shaffler, stile
+- cd logos last row
 
 
 ## Tips

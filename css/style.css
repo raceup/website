@@ -1086,13 +1086,12 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: scroll;
 		background-image: url("images/ll.svg"), url("images/ll.svg"), url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: white;
-		padding: 5em;
 		text-align: center;
 		margin-top: 3.5em;
 		background-color: hsla(0,0%,100%,0.30);
@@ -1152,7 +1151,6 @@
 		background-image: url("images/ll.svg"), url("images/ll.svg"), url("images/ll.svg"), url("images/ll.svg");
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
-		background-size: 25em;
 		padding: 7em 0;
 	}
 

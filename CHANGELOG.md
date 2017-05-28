@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.9.2 - 2017-05-28
+
+### Fixed
+- background image width
+- header with logos on single line
+
+### Added
+- ganalytics script
+
 ## 0.7.9.1 - 2017-05-28
 
 ### Removed
@@ -8,10 +17,6 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - background image with opacity
-
-### Fixed
-- background image width
-- header with logos on single line
 
 ## 0.7.9 - 2017-05-27
 

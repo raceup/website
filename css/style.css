@@ -1385,37 +1385,66 @@
 	}
 
 /* Captions on images */
-a {
+	a {
+	    display: inline-block;
+	    position: relative;
+	}
+
+	.caption {
+	    opacity: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    background-color: #fff;  /*var(--color-light-background);*/ /* for browsers that don't understand rgba() notation */
+	    color: #000000;
+	    line-height: 1.1em;
+	    -webkit-transition: all 1s linear;
+	    -o-transition: all 1s linear;
+	    -ms-transition: all 1s linear;
+	    -moz-transition: all 1s linear;
+	    transition: all 1s linear;
+	    height: 100%;
+		text-align: center;
+		display: flex;
+		justify-content: center; /* align horizontal */
+		align-items: center;
+	}
+
+	a:hover .caption {
+	    opacity: 1;
+	    -webkit-transition: all 1s linear;
+	    -o-transition: all 1s linear;
+	    -ms-transition: all 1s linear;
+	    -moz-transition: all 1s linear;
+	    transition: all 1s linear;
+	}​
+
+/* Gallery */
+  .gallery-wrapper {
+      width: 35em;
+      text-align: center;
+      padding: 1em 0 4em 0;
+  }
+    
+  .gallery-best-image {
+  	max-height: 20em;
+  	max-width: 20em;
+  }
+
+  .gallery-image-wrapper {
+    height: 300px;
+    width: 300px;
     display: inline-block;
+    margin: 1em;
     position: relative;
-}
+  }
 
-.caption {
-    opacity: 0;
+  .gallery-image {
+    margin: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;  /*var(--color-light-background);*/ /* for browsers that don't understand rgba() notation */
-    color: #000000;
-    line-height: 1.1em;
-    -webkit-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -moz-transition: all 1s linear;
-    transition: all 1s linear;
-    height: 100%;
-	text-align: center;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center;
-}
-
-a:hover .caption {
-    opacity: 1;
-    -webkit-transition: all 1s linear;
-    -o-transition: all 1s linear;
-    -ms-transition: all 1s linear;
-    -moz-transition: all 1s linear;
-    transition: all 1s linear;
-}​
+    top: 0px;
+    bottom: 0px;
+    max-height: 100%;
+    max-width: 100%;
+  }

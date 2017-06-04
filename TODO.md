@@ -8,6 +8,7 @@ All notable fixes and tips to this project will be added to this file.
 - fix home banner style
 - add ed logos shaffler, stile
 - cd logos last row
+- homepage image to be raised
 
 
 ## Tips

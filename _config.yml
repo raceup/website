@@ -15,7 +15,6 @@ permalink: /:year/:month/:day/:title
 # plugins
 gems: 
   - jekyll-multiple-languages-plugin
-  # - jekyll-gallery-generator
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["it", "en"]
@@ -31,33 +30,3 @@ markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# guide here: https://desiredpersona.com/google-analytics-jekyll/
-# google_analytics:
-
-# gallery settings
-# gallery:
-#   dir: photos               # Path to the gallery
-#   symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
-#   title: "gallery-title"           # Title for gallery index page
-#   title_prefix: "gallery-prefix"  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
-#   sort_field: "date_time"   # How to sort galleries on the index page.
-#                             # Possible values are: title, date_time, best_image
-#   thumbnail_size:
-#     x: 400                  # max width of thumbnails (in pixels)
-#     y: 400                  # max height of thumbnails (in pixels)
-#   
-#   # The following options are for individual galleries.
-#   galleries:
-#     fsc2015:
-#       name: "2015 - FSC"
-#     misc2016:
-#       name: "2016 - misc"
-#     launch2017:
-#       best_image: CRW_0173.jpg  # The image to show on the gallery index page. Defaults to the last image.
-#       name: "2017 - car launch"       # Defaults to directory name, replacing _ with spaces & capitalizing words.
-#     with_info:
-#       info:
-#         desc: "Gallery Description" # Info fields can be used in custom templates.
-# 

@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - new raw zf images
+- zf media section with link to full-size images
 
 ### Removed
 - academy page

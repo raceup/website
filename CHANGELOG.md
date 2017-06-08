@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.9.4 - 2017-06-08
+
+### Added
+- schroth cd logo
+
 ## 0.7.9.3 - 2017-06-06
 
 ### Added

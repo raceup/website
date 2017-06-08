@@ -27,6 +27,7 @@ All notable fixes and tips to this project will be added to this file.
 - bassano corse
 - wow solutions
 - olmas frascara
+- schroth
 
 ### Ed
 - brusegan legnami
@@ -88,6 +89,7 @@ All notable fixes and tips to this project will be added to this file.
 - tecnogisrl
 - texense
 - zracing
+- schroth
 
 
 ## Missing logos https://drive.google.com/drive/u/0/folders/0BxdYGZmsZOTxa2RWUk10QjhtYjA (Marketing – 2017 – sponsor – banner sponsor)

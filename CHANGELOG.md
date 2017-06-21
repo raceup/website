@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.7.9.5 - 2017-06-21
+
+### Added
+- meder schroth ed logo
+
 ## 0.7.9.4 - 2017-06-08
 
 ### Added

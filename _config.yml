@@ -20,7 +20,7 @@ gems:
 languages: ["it", "en"]
 
 # to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ["javascript", "images", "css", "tmp"]
 
 # exclude from webpage
 exclude: ["run_site.sh", "upload_site.sh", "imgopt.sh"]

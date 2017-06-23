@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - meder schroth ed logo
 
+### Fixed
+- missing biz image
+
 ## 0.7.9.4 - 2017-06-08
 
 ### Added

@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8 - 2017-06-24
+
+### Added
+- zf race camp recap post
+
 ## 0.7.9.5 - 2017-06-21
 
 ### Added

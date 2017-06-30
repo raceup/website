@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.1 - 2017-06-30
+
+### Added
+- nuova tempra cd logo
+
+### Fixed
+- duplicate row in cd sponsors
+
 ## 0.8 - 2017-06-24
 
 ### Added

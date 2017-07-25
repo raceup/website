@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - malformed email link in post sharing
 - malformed post permalink when sharing
 - duplicate .html ending in post permalinks
+- missing http:// in post sharing urls
 
 ## 0.8.1 - 2017-07-04
 

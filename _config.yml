@@ -8,6 +8,9 @@ email: info@raceup.it
 description: Race UP is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
 keywords: "raceup unipd fsae"
 
+# social
+twitter_username: RaceUpTeam
+
 # allow posts with date in the future
 future: true
 permalink: /:year/:month/:day/:title

@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 ### Added
 - varano victory post
 
+### Fixed
+- malformed email link in post sharing
+- malformed post permalink when sharing
+
 ## 0.8.1 - 2017-07-04
 
 ### Added

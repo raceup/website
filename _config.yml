@@ -13,7 +13,7 @@ twitter_username: RaceUpTeam
 
 # allow posts with date in the future
 future: true
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title
 
 # plugins
 gems: 

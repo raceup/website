@@ -6,6 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Added
 - varano press review post
 
+### Fixed
+- feed items link
+
 ## 0.8.2 - 2017-07-25
 
 ### Added

@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - varano press review post
+- meccanicampz url link in sponsors page
 
 ### Fixed
 - feed items link

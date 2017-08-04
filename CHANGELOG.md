@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.3 - 2017-08-04
+
+### Added
+- varano press review post
+
 ## 0.8.2 - 2017-07-25
 
 ### Added

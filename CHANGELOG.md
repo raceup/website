@@ -1,6 +1,14 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.4 - 2017-08-15
+
+### Added
+- bitbucket ed sponsor in 3rd class
+
+### Fixed
+- meder sponsor image
+
 ## 0.8.3 - 2017-08-04
 
 ### Added

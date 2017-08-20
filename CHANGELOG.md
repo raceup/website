@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - knipex logo with description in ed 2nd class
-- 'name' attr in ed sponsors
+- 'name' attr in sponsors
 
 ### Removed
 - duplicate 'mattarollo' sponsor in cd page

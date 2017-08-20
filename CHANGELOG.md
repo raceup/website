@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - bitbucket ed sponsor in 3rd class
+- knipex logo in ed 2nd class
 
 ### Fixed
 - meder sponsor image

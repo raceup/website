@@ -1,12 +1,19 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.5 - 2017-08-20
+
+### Added
+- knipex logo with description in ed 2nd class
+- 'name' attr in ed sponsors
+
+### Removed
+- duplicate 'mattarollo' sponsor in cd page
+
 ## 0.8.4 - 2017-08-15
 
 ### Added
 - bitbucket ed sponsor in 3rd class
-- knipex logo with description in ed 2nd class
-- 'name' attr in ed sponsors
 
 ### Fixed
 - meder sponsor image

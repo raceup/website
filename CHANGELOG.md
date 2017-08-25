@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - varano 2017 media gallery
 - script to add images in 'media' section
 - script to edit images
+- uploader/syncer via ftp
 
 ### Refactored
 - mkdir 'scripts' with tools to automate site creation

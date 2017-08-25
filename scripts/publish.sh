@@ -24,10 +24,11 @@ read PASS
 
 TRG_FOLDER="/raceup.it"
 SRC_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.github.io/"
+excludes="--exclude-glob .* --exclude-glob .*/"  # exclude hidden files/directories
 
 lftp -f "
 open $HOST
 user $USER $PASS
 lcd $SRC_FOLDER
-mirror --reverse --delete --verbose $SRC_FOLDER $TRG_FOLDER
+mirror --reverse --only-newer $excludes --parallel 16 --verbose $SRC_FOLDER $TRG_FOLDER
 "

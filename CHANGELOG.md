@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 - fsg 2017 media gallery
 - varano 2017 media gallery
 - script to add images in 'media' section
+- script to edit images
+
+### Refactored
+- mkdir 'scripts' with tools to automate site creation
 
 ## 0.8.5 - 2017-08-20
 

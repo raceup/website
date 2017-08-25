@@ -1,7 +1,7 @@
 # !/usr/bin/bash
-# coding: utf_8
+# coding: utf-8
 
-# Copyright 2017 Race UP Team
+# Copyright 2017 Stefano Fogarollo
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,6 +15,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-cd ..
+
+COMMIT_MSG=$(git log -1 --pretty=%B)
+OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.github.io/"
+
+echo "Cleaning"
+cd ..  # go to root folder
 jekyll clean  # clean pre-existent website
-jekyll serve --watch --profile --trace  # run server and profiler
+
+echo "Building"
+jekyll build
+yes | rsync -av --exclude=".*" _site/* $OUTPUT_FOLDER
+cd $OUTPUT_FOLDER
+
+echo "Pushing online"
+git add --all
+git commit -m "$COMMIT_MSG | see https://github.com/sirfoga/raceup.github.io/blob/master/CHANGELOG.md for more info"
+git push origin master

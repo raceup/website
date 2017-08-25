@@ -15,5 +15,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+cd ..
+OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.github.io/"
+
+echo "------------------------"
+echo "Cleaning"
+echo "------------------------"
 jekyll clean  # clean pre-existent website
-jekyll serve --watch --profile --trace  # run server and profiler
+
+echo "------------------------"
+echo "Building"
+echo "------------------------"
+jekyll build
+yes | cp -rf _site/* $OUTPUT_FOLDER
+cd $OUTPUT_FOLDER
+
+echo "------------------------"
+echo "Pushing online"
+echo "------------------------"
+git add --all
+git commit -m "built sources, see CHANGELOG here https://github.com/sirfoga/raceup.github.io/blob/master/CHANGELOG.md for more info"
+git push --force origin master

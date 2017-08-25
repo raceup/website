@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 
 ### Refactored
 - mkdir 'scripts' with tools to automate site creation
+- run/upload scripts to 'scripts' folder
 
 ## 0.8.5 - 2017-08-20
 

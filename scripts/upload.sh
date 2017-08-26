@@ -30,5 +30,5 @@ cd $OUTPUT_FOLDER
 
 echo "Pushing online"
 git add --all
-git commit -m "$COMMIT_MSG | see https://github.com/sirfoga/raceup.github.io/blob/master/CHANGELOG.md for more info"
+git commit -m "$COMMIT_MSG | see https://github.com/raceup/website/blob/master/CHANGELOG.md for more info"
 git push origin master

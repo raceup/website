@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - script to add images in 'media' section
 - script to edit images
 - uploader/syncer via ftp
+- olds scripts to parse website
 
 ### Refactored
 - mkdir 'scripts' with tools to automate site creation

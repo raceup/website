@@ -17,7 +17,7 @@
 
 
 COMMIT_MSG=$(git log -1 --pretty=%B)
-OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.github.io/"
+OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.it/"
 
 echo "Cleaning"
 cd ..  # go to root folder

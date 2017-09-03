@@ -1,4 +1,4 @@
-# !/usr/bin/bash
+#!/usr/bin/env python
 # coding: utf-8
 
 # Copyright 2017 Stefano Fogarollo
@@ -16,20 +16,18 @@
 # limitations under the License.
 
 
-HOST="ftp://195.167.144.90"
-USER="raceup"
+""" Creates html-formatted list (<ul>) of team members """
 
-echo "Password for user '$USER' in $HOST:"
-read PASS
+import os
 
-TRG_FOLDER="/raceup.it"
-SRC_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.it/"
-excludes="--exclude-glob .* --exclude-glob .*/"  # exclude hidden files/directories
-OPTIONS="--reverse --only-newer --verbose $excludes"
 
-lftp -f "
-open $HOST
-user $USER $PASS
-lcd $SRC_FOLDER
-mirror $OPTIONS $SRC_FOLDER $TRG_FOLDER
-"
+def main():
+    """
+    :return: void
+        Prints to stdout html list of members
+    """
+
+    members_db = ""
+
+if __name__ == '__main__':
+    main()

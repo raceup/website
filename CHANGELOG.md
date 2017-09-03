@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.7 - 2017-09-03
+
+### Added
+- members db
+- members page creator script
+
+### Fixed
+- uploader/syncer script
+
 ## 0.8.6 - 2017-08-25
 
 ### Added

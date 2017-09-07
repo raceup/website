@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - members db
 - members page creator script
+- comments section in blog page
 
 ### Fixed
 - uploader/syncer script

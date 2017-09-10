@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.8.8 - 2017-09-10
+
+### Added
+- bitcoin button donations
+
 ## 0.8.7 - 2017-09-03
 
 ### Added

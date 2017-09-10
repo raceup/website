@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - bitcoin button donations
+- press staments
+
+### Removed
+- varano post
 
 ## 0.8.7 - 2017-09-03
 

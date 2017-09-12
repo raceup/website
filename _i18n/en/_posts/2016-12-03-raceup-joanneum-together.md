@@ -2,18 +2,18 @@
 layout: post
 title: posts.joanneum_raceup
 date: 2016-12-03 17:35:15
-description: Race UP Team and Joanneum Racing Graz together again
+description: Race UP Team e Joanneum Racing Graz ancora insieme
 ---
 
-The Joint test session held in Pista Azzurra (Jesolo VE) from 28/11 to 30/11 between the Race UP Team and Joanneum Racing Graz finished 2 days ago.
+Si è conclusa da due giorni la sessione di test sul circuito Pista Azzurra di Jesolo, che ha visto impegnato il nostro Race UP Team in collaborazione con il Team austriaco Joanneum Racing Graz, nelle giornate dal 28 al 30 novembre scorso.
 
-## The meeting
-The technical nature of the track coupled with low temperatures experienced during the test days put under great pressure both the handling and the reliability of the two cars involved: the MG 11.16 from Padua and the JR16 from Graz.
+## L'incontro
+La pista ha visto protagoniste le vetture che hanno preso parte al Campionato Formula SAE della stagione 2015/2016: la nostra MG 11.16 di Race UP Team Combustion Division e la JR16 di Joanneum Racing Graz. La conformazione del circuito e la bassa temperatura dell'asfalto hanno messo a dura prova l'assetto e l'affidabilità delle due auto.
 
-## Three days of test, test, test
-The 3 test days have been extremely important as they enabled the two teams to acquire valuable information to be used in the next season. Just as important was the possibility to consolidate the already excellent relationship between the two teams through a mutual exchange of competencies and know-how.
+## Tre giorni di test
+La tre giorni di test ha rivestito grande importanza, in quanto ha permesso a entrambi i Team di entrare nell'ottica della competizione che avrà luogo durante il Campionato 2016/2017. Un aspetto ancora più rilevante è stato quello di interfacciarsi a vicenda per consolidare i già ottimi rapporti di stima e amicizia, attraverso lo scambio reciproco di informazioni tecniche e organizzative e dei know – how utili per affrontare al meglio la stagione alle porte.
 
-## Always learning
-Race UP Team's fundamental objectives are growth and innovation, being able to cooperate with a Top Team such as Joanneum Racing Graz has been a precious and constructive opportunity!
+## Innovazione e crescita
+Per Race UP Team, l'innovazione e la crescita sono gli obiettivi fondamentali. Cooperare insieme a un Top Team come gli amici di Joanneum Racing Graz è stata un'occasione preziosa e costruttiva!
 
 <a class="image featured"><img src="/images/posts/2016/12/03/image.png" /></a>

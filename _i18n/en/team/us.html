@@ -1,13 +1,17 @@
-<!-- chart library and data -->
-<script src="{{ site.baseurl }}/js/ichart.1.2.1.min.js"></script>
-<script src="{{ site.baseurl }}/js/competition_chart.js"></script>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/css/timeline.css" />
 
 <article id="main">
+
+    <header class="special container">
+        <span class="icon fa-steam"></span>
+        <h2>La squadra</h2>
+    </header>
+
     <!-- description -->
     <section class="wrapper style2 container special">
-        <h2>La squadra</h2>
         <p>
-            Siamo 64 studenti dell’Università di Padova, scelti attraverso un recruiting attento e mirato. Il nostro team è fondato su valori quali collaborazione, coinvolgimento, voglia di condividere ed imparare. I membri Race UP, nel corso del progetto, sviluppano competenze trasversali come il lavoro in team, project planning e problem solving; abilità che si riveleranno fondamentali nel mercato del lavoro. Crediamo che solo con un ambiente di questo tipo si possano raggiungere gli obiettivi che ci prefiggiamo ogni stagione. Il nostro impegno continua oltre le competizioni attraverso una costante ricerca che porta a un’innovazione nei materiali e nelle tecniche di lavorazione. Aiutati, sia dai macchinari moderni e dalle risorse fornite dagli sponsor, sia dalle tesi universitarie degli studenti di Ingegneria Industriale, frutto di analisi e di sperimentazioni. La voglia di innovare ha spinto poi il team a introdurre, oltre alla vettura a combustione interna, una seconda totalmente elettrica, categoria da poco introdotta nella Formula SAE, risultando il primo team italiano a lanciarsi in questo ambizioso progetto.
+            Siamo 59 studenti dell’Università di Padova, scelti attraverso un recruiting attento e mirato. Il nostro team è fondato su valori quali collaborazione, coinvolgimento, voglia di condividere ed imparare. I membri Race UP, nel corso del progetto, sviluppano competenze trasversali come il lavoro in team, project planning e problem solving; abilità che si riveleranno fondamentali nel mercato del lavoro. Crediamo che solo con un ambiente di questo tipo si possano raggiungere gli obiettivi che ci prefiggiamo ogni stagione. Il nostro impegno continua oltre le competizioni attraverso una costante ricerca che porta a un’innovazione nei materiali e nelle tecniche di lavorazione. Aiutati, sia dai macchinari moderni e dalle risorse fornite dagli sponsor, sia dalle tesi universitarie degli studenti di Ingegneria Industriale, frutto di analisi e di sperimentazioni. La voglia di innovare ha spinto poi il team a introdurre, oltre alla vettura a combustione interna, una seconda totalmente elettrica, categoria da poco introdotta nella Formula SAE, risultando il primo team italiano a lanciarsi in questo ambizioso progetto.
         </p>
     </section>
 
@@ -17,32 +21,30 @@
         <h2>Competizione</h2>
     </header>
 
-    <section class="wrapper container">
-        <p>
-            <ul>
-                <li>
-                    <p>
-                        <strong>Progettazione</strong>: durante la fase iniziale del progetto i membri dei reparti tecnici progettano utilizzando avanzati software professionali, come strumenti di sviluppo di disegno tecnico CAD 3D, di analisi agli elementi finiti (FEA) e di analisi CFD.
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <strong>Realizzazione</strong>: Ultimata la prima fase si entra in officina e si dà vita alle due vetture, mediante utensileria sia di base sia più specifica, come: torni e frese, ma anche saldatrici (MIG, TIG) e smerigliatrici angolari.
-                        <br>
-                        Il reparto Business & Marketing invece dà il proprio contributo attraverso l’elaborazione di relazioni commerciali, la comunicazione e la pianificazione economico- finanziaria per ciascuna delle due macchine.
-                    </p>
-                </li>
-            </ul>
-        </p>
-
-        <div id="canvasDiv">
-        </div>
+    <section class="wrapper style1 container">
+        <div align="center">
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            <strong>Progettazione</strong>: durante la fase iniziale del progetto i membri dei reparti tecnici progettano utilizzando avanzati software professionali, come strumenti di sviluppo di disegno tecnico CAD 3D, di analisi agli elementi finiti (FEA) e di analisi CFD.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Realizzazione</strong>: Ultimata la prima fase si entra in officina e si dà vita alle due vetture, mediante utensileria sia di base sia più specifica, come: torni e frese, ma anche saldatrici (MIG, TIG) e smerigliatrici angolari.
+                            <br>
+                            Il reparto Business & Marketing invece dà il proprio contributo attraverso l’elaborazione di relazioni commerciali, la comunicazione e la pianificazione economico- finanziaria per ciascuna delle due macchine.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </div>        
     </section>
 
-    <section class="wrapper style3 container special" style="margin-top:-300px">
-        <p id="chartDescription">
-            Fai click su una sezione per scoprire maggiori dettagli.
-        </p>
+    <section class="wrapper style1 container special">
+        <div id="competitionChart"></div>
+        <p id="chartTooltip">Clicca su una sezione per scoprire maggiori dettagli</p>
     </section>
 
     <!-- timeline -->

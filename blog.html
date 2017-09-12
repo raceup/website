@@ -36,7 +36,7 @@ title: titles.blog
                 {% elsif site.lang == "en" %}
                 <section class="special">
                     <ul class="buttons">
-                        <li><a href="{{ post.url }}.html" class="button">Read more</a></li>
+                        <li><a href="{{ post.url | prepend: site.baseurl }}.html" class="button">Read more</a></li>
                     </ul>
                 </section>
                 {% endif %}

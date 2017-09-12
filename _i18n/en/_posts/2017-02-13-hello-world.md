@@ -18,5 +18,5 @@ Abbiamo rinnovato questa pagina per essere più vicini a voi, agli sponsors e a 
 Al momento gli interessati in elettronica troveranno del materiale sample sulla nostra pagina Github e bitbucket.
 Condividete, mandateci email, consigli!
 
-### Un saluto da **Race UP Team**
+### Un saluto da **Race Up Team**
 <a class="image featured"><img src="/images/posts/2016/04/17/image.png" /></a>

@@ -21,7 +21,7 @@ import codecs
 from bs4 import BeautifulSoup
 from hal.wrappers.methods import handle_exceptions
 
-PATH_TO_PAGE = "/home/stefano/Downloads/chrome/Electric Partners - Race UP Team - Università degli Studi di Padova.html"
+PATH_TO_PAGE = "/home/stefano/Downloads/chrome/Electric Partners - Race Up Team - Università degli Studi di Padova.html"
 OUTPUT_FILE = "/home/stefano/examples/out.txt"
 
 

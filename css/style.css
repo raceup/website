@@ -771,6 +771,13 @@
 			padding: 0.5em 0;
 		}
 
+		.button.extrasmall {
+			font-size: 0.5em;
+			min-width: 10em;
+			padding: 0.2em 0;
+			float: right;
+		}
+
 /* Wrapper */
 
 	.wrapper {

@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 - post url for eng version
+- recruiting end date
 
 ### Added
 - eng version

@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.9 - 2017-09-29
+
+### Fixed
+- header logos
+
 ## 0.8.9 - 2017-09-12
 
 ### Removed

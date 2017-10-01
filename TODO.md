@@ -5,10 +5,8 @@ All notable fixes and tips to this project will be added to this file.
 ## Fix
 - email form not working (ask tav)
 - add prev emails from .vcf
-- fix home banner style
 - add ed logos shaffler, stile
 - cd logos last row
-- homepage image to be raised
 
 
 ## Tips

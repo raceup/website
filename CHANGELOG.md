@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.9.1 - 2017-10-04
+
+### Added
+- post with image
+
 ## 0.9 - 2017-09-29
 
 ### Fixed

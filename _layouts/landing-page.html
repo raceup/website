@@ -2,20 +2,17 @@
 <html>
     {% include head.html %}
     <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc'); window.dispatchEvent(new Event('resize'));">
-
         {% include header.html %}
         <div id="logo-header">
-        	<nav>
-    		    <ul>
+            <nav>
+                <ul>
                     <li class="image little"><img src="/images/logos/unipd.png" alt="Unipd"></li>
                     <li class="image little" ><img src="/images/logos/dii.png" alt="DII"></li>
-                    <li class="image little"><img src="/images/logos/oz.png" alt="OZ"></li> 
-    		    </ul>
-      		</nav>
+                    <li class="image little"><img src="/images/logos/oz.png" alt="OZ"></li>
+                </ul>
+            </nav>
         </div>
-
         {% include banner.html %}
-
         <!-- news gallery & social views -->
         <section class="wrapper style3 container" style="margin-bottom: 0.5em;">
             <div class="row">
@@ -23,19 +20,19 @@
                     <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
                     <div class="gallery js-flickity">
                         {% for post in site.posts limit:5 %}
-                        <div class="gallery-cell">
-                            <div class="style3">
-                                <h2 align="center"><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
-                                <h4 align="center">{{ post.date | date: '%B %d, %Y' }}</h4>
-                                <div align="center">
-                                    {% if site.lang == "it" %}
-                                    <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
-                                    {% elsif site.lang == "en" %}
-                                    <a href="{{ post.url }}.html" class="button special">Read more</a>
-                                    {% endif %}
+                            <div class="gallery-cell">
+                                <div class="style3">
+                                    <h2 align="center"><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                                    <h4 align="center">{{ post.date | date: '%B %d, %Y' }}</h4>
+                                    <div align="center">
+                                        {% if site.lang == "it" %}
+                                            <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
+                                            {% elsif site.lang == "en" %}
+                                            <a href="{{ post.url }}.html" class="button special">Read more</a>
+                                        {% endif %}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         {% endfor %}
                     </div>
                 </div>
@@ -55,32 +52,16 @@
                 </div>
             </div>
         </section>
-            
-
+        
         <div class="page-content">
             <!-- page content -->
             {{ content }}
-        </div>    
-
+        </div>
         {% include footer.html %}
     </body>
-
     <!-- flickity -->
     <script src="/js/flickity.pkgd.js"></script>
     <link rel="stylesheet" href="/css/flickity.css">
-
     <!-- facebook sdk -->
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script src="/js/facebook.js"></script>
 </html>

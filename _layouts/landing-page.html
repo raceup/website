@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+{% include lang.html %}
     {% include head.html %}
     <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc'); window.dispatchEvent(new Event('resize'));">
         {% include header.html %}
@@ -58,10 +57,11 @@
             {{ content }}
         </div>
         {% include footer.html %}
+
+        <!-- flickity -->
+        <script type="text/javascript" src="/js/flickity.pkgd.js"></script>
+        <link rel="stylesheet" href="/css/flickity.css">
+        <!-- facebook sdk -->
+        <script src="/js/facebook.js"></script>
     </body>
-    <!-- flickity -->
-    <script src="/js/flickity.pkgd.js"></script>
-    <link rel="stylesheet" href="/css/flickity.css">
-    <!-- facebook sdk -->
-    <script src="/js/facebook.js"></script>
 </html>

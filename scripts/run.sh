@@ -15,6 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+BUILD_FOLDER="~/.jekyll_build/"
 cd ..
 jekyll clean  # clean pre-existent website
-jekyll serve --watch --profile --trace  # run server and profiler
+jekyll serve --watch --profile --trace -d "$BUILD_FOLDER" # run server and profiler

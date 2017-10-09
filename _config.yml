@@ -26,7 +26,7 @@ languages: ["it", "en"]
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "tmp"]
 
 # exclude from webpage
-exclude: ["run_site.sh", "upload_site.sh", "imgopt.sh", "scripts", "tmp"]
+exclude: ["run_site.sh", "upload_site.sh", "imgopt.sh", "scripts", "tmp", "CHANGELOG.md", "README.md", "LICENSE", "TODO.md"]
 
 # build settings
 markdown: kramdown

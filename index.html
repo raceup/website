@@ -3,7 +3,7 @@ layout: landing-page
 title: titles.home
 ---
 
-<article id="main">
+<div id="main">
     <!-- Intro -->
     <section class="wrapper style3 container">
         <h2>Race Up team</h2>
@@ -31,14 +31,14 @@ title: titles.home
                         <strong>Formula SAE</strong>
                         <br>
                         <i>International design competition.</i>
-                        </br>
+                        <br>
                         {% if site.lang == "it" %}
                         Istituita nel 1981, questa competizione prevede la concezione, progettazione e produzione di un’Auto, realizzata in stile formula, che andrà a misurarsi in una serie di prove statiche e dinamiche e sarà valutata da un team di ingegneri ed esperti. La Multidisciplinarietà di questo progetto è assicurata dalla natura stesse di queste prove, che comprendono, tra l’altro, lo sviluppo di un business plan per il modello realizzato. L’obiettivo della Formula SAE è di favorire lo sviluppo professionale degli studenti negli ambiti di: design, project planning, team building, comunicazione e project management. La Formula SAE è oggi diffusa in tutti i continenti e si tiene in circuiti del calibro di Hockenheim ring, Silverstone, Montmelò e Autodromo Paletti.
-                        </br>
+                        <br>
                         L'idea di base della Formula SAE è che un'azienda fittizia commissioni al team la realizzazione di un prototipo di un'auto da corsa rivolta a piloti non professionisti e che rispetti ben definite caratteristiche tecniche.
                         {% elsif site.lang == "en" %}
                         Established in 1981, this competition envisions the design and the production of a car made in a formula style, which will be measured in a series of static and dynamic tests and will be evaluated by a team of engineers and experts. The multidisciplinary side of this project is ensured by the very nature of these trials, which include, among others, the development of a business plan for the implemented model. The objective of SAE Formula is to foster the professional development of students in the fields of: design, project planning, team building, communication and project management. The Formula SAE is today spread all over the continents and is held in circuits such as Hockenheim ring, Silverstone, Montmelò and Autodromo Paletti.
-                        </br>
+                        <br>
                         The basic idea of the Formula SAE is that a dummy company commits to the team the realization of a prototype of a racing car for non-professional pilots and which respects well-defined technical features. {% endif %}
                     </p>
                 </div>
@@ -79,15 +79,15 @@ title: titles.home
             </div>
         </div>
     </section>
-</article>
+</div>
 <!-- CTA -->
-<section id="cta">
+<div id="cta">
     <footer>
         <ul class="buttons">
             {% include download_brochure.html %}
             <li><a href="{{ site.baseurl }}/contact.html" class="button special">{% t global.contact %} !</a></li>
         </ul>
     </footer>
-</section>
+</div>
 <!-- donations -->
 {% include donate.html %}

@@ -84,11 +84,7 @@ title: titles.home
 <section id="cta">
     <footer>
         <ul class="buttons">
-            {% if site.lang == "it" %}
-            <li><a href="/data/brochure_ITA.pdf" class="button special">Scarica la nostra brochure!</a></li>
-            {% elsif site.lang == "en" %}
-            <li><a href="/data/brochure_ENG.pdf" class="button special">Download our brochure!</a></li>
-            {% endif %}
+            {% include download_brochure.html %}
             <li><a href="{{ site.baseurl }}/contact.html" class="button special">{% t global.contact %} !</a></li>
         </ul>
     </footer>

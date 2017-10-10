@@ -1,6 +1,8 @@
 global:
   tagline: "English"
   contact: "Contact us"
+  slot: "slot"
+  slots: "slots"
 langs:
   it: "Italiano"
   en: "English"

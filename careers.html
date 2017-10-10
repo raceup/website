@@ -15,7 +15,13 @@ title: titles.careers
         </h2>
     </header>
     <section class="wrapper style3 container">
-        <h2 id="countdown" style="text-align: center;"></h2>
+        <h2 id="countdown">
+            {% if site.lang == "it" %}
+            Puoi iscriverti fino al Oct 14, 2017 12:00:00
+            {% elsif site.lang == "en" %}
+            Recruitment ends Oct 14, 2017 12:00:00
+            {% endif %}
+        </h2>
         <p>
         {% if site.lang == "it" %}
         Trova la tua prossima opportunità di carriera in Race Up. Unisciti a noi nella nostra missione di creare macchine da corsa. Se sei interessato al mondo racing e automotive, Race Up offre un'ampia offerta con la sola posizione per te.

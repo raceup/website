@@ -16,6 +16,7 @@
 # limitations under the License.
 
 
+git push
 COMMIT_MSG=$(git log -1 --pretty=%B)
 OUTPUT_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
 BUILD_FOLDER="$HOME/.jekyll_build/"

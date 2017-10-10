@@ -20,9 +20,10 @@ COMMIT_MSG=$(git log -1 --pretty=%B)
 OUTPUT_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
 BUILD_FOLDER="$HOME/.jekyll_build/"
 
+cd ..
 yes | rm -R "$BUILD_FOLDER"  # clean builds
 jekyll build -d "$BUILD_FOLDER"  # build
-yes | rsync -av --exclude=".*" "$BUILD_FOLDER"/* $OUTPUT_FOLDER  # copy
+yes | rsync -av --delete --exclude=".*" "$BUILD_FOLDER"/* $OUTPUT_FOLDER  # copy
 
 cd $OUTPUT_FOLDER
 git add --all  # git

@@ -2,74 +2,62 @@
 layout: default
 title: titles.contact
 ---
-
 <article id="main">
-	<header class="special container">
-		<span class="icon fa-map-marker"></span>
-		<h2>
-		{% if site.lang == "it" %}
-		Dove siamo
-		{% elsif site.lang == "en" %}
-		Where you can find us
-		{% endif %}
-		</h2>
-	</header>
-	
-	<!-- One -->
-	<div class="wrapper style4 special container small">
-		<!-- Content -->
-		<div id="contact-info">
-			<ul>
-				<li><span class="icon fa-map-marker"></span>Via Venezia 1, 35131, Padova</li>
-				<li><span class="icon fa-phone"></span>+39 049 8277475</li>
-				<li><span class="icon fa-envelope"></span>info@raceup.it</li>
-				<li><span class="icon fa-globe"></span>raceup.it</li>
-			</ul>
-		</div>
-
-		<ul class="buttons">
-			{% include download_brochure.html %}
-		</ul>
-	</div>
-
-	<header class="special container">
-		<span class="icon fa-envelope"></span>
-		{% if site.lang == "it" %}
-		<h2>Chiedici informazioni!</h2>
-		<p>Usa il form qui sotto per chiederci qualsiasi informazione e domanda.</p>
-		{% elsif site.lang == "en" %}
-		<h2>Ask us anything!</h2>
-		<p>Use the form below to ask us anything.</p>
-		{% endif %}
-	</header>	<!-- Two -->
-	<div class="wrapper style4 special container small">
-		<!-- Content -->
-		<div class="content">
-			<!-- TODO: add email send action -->
-			<form method="POST" action="http://formspree.io/info@raceup.it">
-				<div class="row half collapse-at-2">
-					<div class="12u">
-						<input type="text" name="email" placeholder="Email" />
-					</div>
-				</div>
-				<div class="row half">
-					<div class="12u">
-						<input type="text" name="_subject" placeholder="Subject" />
-					</div>
-				</div>
-				<div class="row half">
-					<div class="12u">
-						<textarea name="message" placeholder="Message" rows="7"></textarea>
-					</div>
-				</div>
-				<div class="row">
-					<div class="12u">
-						<ul class="buttons">
-							<li><input type="submit" class="special" value="Send Message" /></li>
-						</ul>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
+<header class="special container">
+<span class="icon fa-map-marker"></span>
+<h2>
+{% if site.lang == "it" %} Dove siamo {% elsif site.lang == "en" %} Where you can find us {% endif %}
+</h2>
+</header>
+<div class="wrapper style4 special container small">
+<div id="contact-info">
+<ul>
+<li><span class="icon fa-map-marker"></span>Via Venezia 1, 35131, Padova</li>
+<li><span class="icon fa-phone"></span>+39 049 8277475</li>
+<li><span class="icon fa-envelope"></span>info@raceup.it</li>
+<li><span class="icon fa-globe"></span>raceup.it</li>
+</ul>
+</div>
+<ul class="buttons">
+{% include download_brochure.html %}
+</ul>
+</div>
+<header class="special container">
+<span class="icon fa-envelope"></span>
+{% if site.lang == "it" %}
+<h2>Chiedici informazioni!</h2>
+<p>Usa il form qui sotto per chiederci qualsiasi informazione e domanda.</p>
+{% elsif site.lang == "en" %}
+<h2>Ask us anything!</h2>
+<p>Use the form below to ask us anything.</p>
+{% endif %}
+</header>
+<div class="wrapper style4 special container small">
+<div class="content">
+<form method="POST" action="http://formspree.io/info@raceup.it">
+<div class="row half collapse-at-2">
+<div class="12u">
+<input name="email" placeholder="Email">
+</div>
+</div>
+<div class="row half">
+<div class="12u">
+<input name="_subject" placeholder="Subject">
+</div>
+</div>
+<div class="row half">
+<div class="12u">
+<textarea name="message" placeholder="Message" rows="7"></textarea>
+</div>
+</div>
+<div class="row">
+<div class="12u">
+<ul class="buttons">
+<li><input type="submit" class="special" value="Send Message"></li>
+</ul>
+</div>
+</div>
+</form>
+</div>
+</div>
 </article>

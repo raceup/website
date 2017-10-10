@@ -2,92 +2,72 @@
 layout: landing-page
 title: titles.home
 ---
-
 <div id="main">
-    <!-- Intro -->
-    <section class="wrapper style3 container">
-        <h2>Race Up team</h2>
-        <p>
-        	{% if site.lang == "it" %}
-        	Race Up è il team di Formula SAE dell’Università di Padova. Ogni anno ci poniamo l’ambizioso obiettivo di concepire e produrre da zero una vettura che possa competere con quelle provenienti dalle migliori Università di tutto il mondo in questo contest automobilistico di livello internazionale. Grazie alla natura di questo progetto e al nostro approccio al lavoro, ridefiniamo il concetto stesso di formazione universitaria. Nella nostra storia abbiamo ottenuto numerosi e importanti riconoscimenti, riuscendo a garantire eccellente visibilità ai nostri sponsor e bilanciando le loro esigenze con professionalità.
-        	{% elsif site.lang == "en" %}
-        	Race Up is the Formula SAE Team of the University of Padova. Every year we set the ambitious goal of conceiving and producing from scratch a car that can compete against those from the best Universities around the world in this international competitive automotive contest. Thanks to the nature of this project and our approach to work, we redefine the very concept of university education. In our history, we have gained many important awards, guaranteeing excellent visibility to our sponsors and balancing their needs with professionalism.
-        	{% endif %}     
-        </p>
-    </section>
-    <!-- FSAE -->
-    <section class="wrapper style3 container">
-        <h2>Le competizioni</h2>
-        <!-- logos -->
-        <div class="row">
-            <div class="6u">
-                <a class="image featured" href="http://www.sae.org/"><img src="/images/sae.jpg" alt="SAE"/></a>
-                <a class="image featured" href="https://www.fsaeonline.com/"><img src="/images/fsae.jpg" alt="FSAE"/></a>
-            </div>
-            <!-- fsae intro -->
-            <div class="6u">
-                <div class="row">
-                    <p>
-                        <strong>Formula SAE</strong>
-                        <br>
-                        <i>International design competition.</i>
-                        <br>
-                        {% if site.lang == "it" %}
-                        Istituita nel 1981, questa competizione prevede la concezione, progettazione e produzione di un’Auto, realizzata in stile formula, che andrà a misurarsi in una serie di prove statiche e dinamiche e sarà valutata da un team di ingegneri ed esperti. La Multidisciplinarietà di questo progetto è assicurata dalla natura stesse di queste prove, che comprendono, tra l’altro, lo sviluppo di un business plan per il modello realizzato. L’obiettivo della Formula SAE è di favorire lo sviluppo professionale degli studenti negli ambiti di: design, project planning, team building, comunicazione e project management. La Formula SAE è oggi diffusa in tutti i continenti e si tiene in circuiti del calibro di Hockenheim ring, Silverstone, Montmelò e Autodromo Paletti.
-                        <br>
-                        L'idea di base della Formula SAE è che un'azienda fittizia commissioni al team la realizzazione di un prototipo di un'auto da corsa rivolta a piloti non professionisti e che rispetti ben definite caratteristiche tecniche.
-                        {% elsif site.lang == "en" %}
-                        Established in 1981, this competition envisions the design and the production of a car made in a formula style, which will be measured in a series of static and dynamic tests and will be evaluated by a team of engineers and experts. The multidisciplinary side of this project is ensured by the very nature of these trials, which include, among others, the development of a business plan for the implemented model. The objective of SAE Formula is to foster the professional development of students in the fields of: design, project planning, team building, communication and project management. The Formula SAE is today spread all over the continents and is held in circuits such as Hockenheim ring, Silverstone, Montmelò and Autodromo Paletti.
-                        <br>
-                        The basic idea of the Formula SAE is that a dummy company commits to the team the realization of a prototype of a racing car for non-professional pilots and which respects well-defined technical features. {% endif %}
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- quotes -->
-        <div>
-            <div id="quotesGallery" class="gallery js-flickity">
-                <div class="gallery-cell wrapper">
-                    <p>
-                        <i>I feel very privileged to become an ambassador for Formula Student, given its outstanding success in promoting competitive engineering at an international level. Few other forms of professional engineering offer such an opportunity to young engineers, and its educational benefits are of significance over a very wide engineering domain.</i>
-                    </p>
-                    <strong>Bob Bell, Chief Technical Officer, Renault Formula One</strong>
-                </div>
-                <div class="gallery-cell wrapper">
-                    <p>
-                        <i>Formula Student encourages very diverse innovation. In many ways Formula Student has the potential to be more innovative than F1.</i>
-                    </p>
-                    <strong>Ross Brawn, Formula Student Patron</strong>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Unipd -->
-    <section class="wrapper style2 container special-alt">
-        <div class="row half">
-            <div>
-                <header>
-                    <h2><strong>University of Padova</strong></h2>
-                </header>
-                <p>
-                    {% if site.lang == "it" %}
-                    "Universa universis patavina libertas", questo il motto che caratterizza da sempre l'Università di Padova, riconosciuta per l'apertura culturale e la libertà di espressione che spinse secoli fa un gruppo di studenti e docenti a lasciare l'Università di Bologna per Padova, e che accomuna gli studenti patavini anche oggi; tali fattori convergono anche in Race Up, che contribuisce a rendere l'Università di Padova un punto di riferimento per l'eccellenza nella formazione e negli studi di ricerca a livello internazionale.
-                    {% elsif site.lang == "en" %}
-                    "Universa universis patavina libertas", this is the motto that has always characterized the University of Padova, recognized for the cultural opening and the freedom of expression that pushed for centuries a group of students and teachers to leave the University of Bologna for Padova. These factors converge in Race Up, which contributes to making the University of Padova a benchmark for excellence in international training and research studies.
-                    {% endif %}
-                </p>
-            </div>
-        </div>
-    </section>
+<section class="wrapper style3 container">
+<h2>Race Up team</h2>
+<p>
+{% if site.lang == "it" %} Race Up è il team di Formula SAE dell’Università di Padova. Ogni anno ci poniamo l’ambizioso obiettivo di concepire e produrre da zero una vettura che possa competere con quelle provenienti dalle migliori Università di tutto il mondo in questo contest automobilistico di livello internazionale. Grazie alla natura di questo progetto e al nostro approccio al lavoro, ridefiniamo il concetto stesso di formazione universitaria. Nella nostra storia abbiamo ottenuto numerosi e importanti riconoscimenti, riuscendo a garantire eccellente visibilità ai nostri sponsor e bilanciando le loro esigenze con professionalità. {% elsif site.lang == "en" %} Race Up is the Formula SAE Team of the University of Padova. Every year we set the ambitious goal of conceiving and producing from scratch a car that can compete against those from the best Universities around the world in this international competitive automotive contest. Thanks to the nature of this project and our approach to work, we redefine the very concept of university education. In our history, we have gained many important awards, guaranteeing excellent visibility to our sponsors and balancing their needs with professionalism. {% endif %}
+</p>
+</section>
+<section class="wrapper style3 container">
+<h2>Le competizioni</h2>
+<div class="row">
+<div class="6u">
+<a class="image featured" href="http://www.sae.org/"><img src="/images/sae.jpg" alt="SAE"></a>
+<a class="image featured" href="https://www.fsaeonline.com/"><img src="/images/fsae.jpg" alt="FSAE"></a>
 </div>
-<!-- CTA -->
+<div class="6u">
+<div class="row">
+<p>
+<strong>Formula SAE</strong>
+<br>
+<i>International design competition.</i>
+<br>
+{% if site.lang == "it" %} Istituita nel 1981, questa competizione prevede la concezione, progettazione e produzione di un’Auto, realizzata in stile formula, che andrà a misurarsi in una serie di prove statiche e dinamiche e sarà valutata da un team di ingegneri ed esperti. La Multidisciplinarietà di questo progetto è assicurata dalla natura stesse di queste prove, che comprendono, tra l’altro, lo sviluppo di un business plan per il modello realizzato. L’obiettivo della Formula SAE è di favorire lo sviluppo professionale degli studenti negli ambiti di: design, project planning, team building, comunicazione e project management. La Formula SAE è oggi diffusa in tutti i continenti e si tiene in circuiti del calibro di Hockenheim ring, Silverstone, Montmelò e Autodromo Paletti.
+<br>
+L'idea di base della Formula SAE è che un'azienda fittizia commissioni al team la realizzazione di un prototipo di un'auto da corsa rivolta a piloti non professionisti e che rispetti ben definite caratteristiche tecniche. {% elsif site.lang == "en" %} Established in 1981, this competition envisions the design and the production of a car made in a formula style, which will be measured in a series of static and dynamic tests and will be evaluated by a team of engineers and experts. The multidisciplinary side of this project is ensured by the very nature of these trials, which include, among others, the development of a business plan for the implemented model. The objective of SAE Formula is to foster the professional development of students in the fields of: design, project planning, team building, communication and project management. The Formula SAE is today spread all over the continents and is held in circuits such as Hockenheim ring, Silverstone, Montmelò and Autodromo Paletti.
+<br>
+The basic idea of the Formula SAE is that a dummy company commits to the team the realization of a prototype of a racing car for non-professional pilots and which respects well-defined technical features. {% endif %}
+</p>
+</div>
+</div>
+</div>
+<div>
+<div id="quotesGallery" class="gallery js-flickity">
+<div class="gallery-cell wrapper">
+<p>
+<i>I feel very privileged to become an ambassador for Formula Student, given its outstanding success in promoting competitive engineering at an international level. Few other forms of professional engineering offer such an opportunity to young engineers, and its educational benefits are of significance over a very wide engineering domain.</i>
+</p>
+<strong>Bob Bell, Chief Technical Officer, Renault Formula One</strong>
+</div>
+<div class="gallery-cell wrapper">
+<p>
+<i>Formula Student encourages very diverse innovation. In many ways Formula Student has the potential to be more innovative than F1.</i>
+</p>
+<strong>Ross Brawn, Formula Student Patron</strong>
+</div>
+</div>
+</div>
+</section>
+<section class="wrapper style2 container special-alt">
+<div class="row half">
+<div>
+<header>
+<h2><strong>University of Padova</strong></h2>
+</header>
+<p>
+{% if site.lang == "it" %} "Universa universis patavina libertas", questo il motto che caratterizza da sempre l'Università di Padova, riconosciuta per l'apertura culturale e la libertà di espressione che spinse secoli fa un gruppo di studenti e docenti a lasciare l'Università di Bologna per Padova, e che accomuna gli studenti patavini anche oggi; tali fattori convergono anche in Race Up, che contribuisce a rendere l'Università di Padova un punto di riferimento per l'eccellenza nella formazione e negli studi di ricerca a livello internazionale. {% elsif site.lang == "en" %} "Universa universis patavina libertas", this is the motto that has always characterized the University of Padova, recognized for the cultural opening and the freedom of expression that pushed for centuries a group of students and teachers to leave the University of Bologna for Padova. These factors converge in Race Up, which contributes to making the University of Padova a benchmark for excellence in international training and research studies. {% endif %}
+</p>
+</div>
+</div>
+</section>
+</div>
 <div id="cta">
-    <footer>
-        <ul class="buttons">
-            {% include download_brochure.html %}
-            <li><a href="{{ site.baseurl }}/contact.html" class="button special">{% t global.contact %} !</a></li>
-        </ul>
-    </footer>
+<footer>
+<ul class="buttons">
+{% include download_brochure.html %}
+<li><a href="{{ site.baseurl }}/contact.html" class="button special">{% t global.contact %} !</a></li>
+</ul>
+</footer>
 </div>
-<!-- donations -->
 {% include donate.html %}

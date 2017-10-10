@@ -4,4 +4,4 @@ Disallow: /
 User-Agent: Googlebot
 Allow: /
 
-Sitemap: http://raceup.it/sitemap.xml
+Sitemap: /sitemap.xml

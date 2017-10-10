@@ -16,6 +16,7 @@
 # limitations under the License.
 
 BUILD_FOLDER="$HOME/.jekyll_build/"
+yes | rm -R "$BUILD_FOLDER"  # clean builds
+
 cd ..
-jekyll clean  # clean pre-existent website
 jekyll serve --watch --profile --trace -d "$BUILD_FOLDER" # run server and profiler

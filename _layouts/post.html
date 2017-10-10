@@ -1,31 +1,26 @@
 ---
 layout: default
 ---
-
 <article id="main">
-  <header class="special container">
-    <span class="icon fa-envelope-o"></span>
-    <h2 class="post-title">{% t page.title %}</h2>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <section class="style4 wrapper container">
-    {{ content }}
-
-    <div class="share-page">
-        <ul class="icons">
-            <li><a href="https://twitter.com/intent/tweet?text={% t page.title %}&url=http://{{ site.url }}{{ page.url }}.html&via={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"" class="icon square fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://{{ site.url }}{{ page.url }}.html" rel="nofollow" target="_blank" title="Share on Facebook" class="icon square fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="https://plus.google.com/share?url=http://{{ site.url }}{{ page.url }}.html" rel="nofollow" target="_blank" title="Share on Google+" class="icon square fa-google-plus"><span class="label">Google +</span></a></li>
-            <li><a href="mailto:?subject=Race%20UP%20Team&body=Hey,%20checkout%20this%20great%20article! http://{{ site.url }}{{ page.url }}.html" class="icon square fa-envelope"><span class="label">Email</span></a></li>
-      </ul>
-    </div>
-  </section>
-  
-  <footer>
-      {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
-      {% if page.next %}
-      <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
-  </footer>
+<header class="special container">
+<span class="icon fa-envelope-o"></span>
+<h2 class="post-title">{% t page.title %}</h2>
+<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+</header>
+<section class="style4 wrapper container">
+{{ content }}
+<div class="share-page">
+<ul class="icons">
+<li><a href="https://twitter.com/intent/tweet?text={% t page.title %}&url=http://{{ site.url }}{{ page.url }}.html&via={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter" class="icon square fa-twitter"><span class="label">Twitter</span></a></li>
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://{{ site.url }}{{ page.url }}.html" rel="nofollow" target="_blank" title="Share on Facebook" class="icon square fa-facebook"><span class="label">Facebook</span></a></li>
+<li><a href="https://plus.google.com/share?url=http://{{ site.url }}{{ page.url }}.html" rel="nofollow" target="_blank" title="Share on Google+" class="icon square fa-google-plus"><span class="label">Google +</span></a></li>
+<li><a href="mailto:?subject=Race%20UP%20Team&body=Hey,%20checkout%20this%20great%20article! http://{{ site.url }}{{ page.url }}.html" class="icon square fa-envelope"><span class="label">Email</span></a></li>
+</ul>
+</div>
+</section>
+<footer>
+{% if page.previous %}
+<a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %} {% if page.next %}
+<a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
+</footer>
 </article>

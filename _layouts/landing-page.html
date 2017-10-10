@@ -1,67 +1,60 @@
 {% include lang.html %}
-    {% include head.html %}
-    <body class="index no-fouc" onload="$('.no-fouc').removeClass('no-fouc'); window.dispatchEvent(new Event('resize'));">
-        {% include header.html %}
-        <div id="logo-header">
-            <nav>
-                <ul>
-                    <li class="image little"><img src="/images/logos/unipd.png" alt="Unipd"></li>
-                    <li class="image little" ><img src="/images/logos/dii.png" alt="DII"></li>
-                    <li class="image little"><img src="/images/logos/oz.png" alt="OZ"></li>
-                </ul>
-            </nav>
-        </div>
-        {% include banner.html %}
-        <!-- news gallery & social views -->
-        <section class="wrapper style3 container" style="margin-bottom: 0.5em;">
-            <div class="row">
-                <div id="newsGallery" class="4u">
-                    <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
-                    <div class="gallery js-flickity">
-                        {% for post in site.posts limit:5 %}
-                            <div class="gallery-cell">
-                                <div class="style3">
-                                    <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
-                                    <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-                                    <div>
-                                        {% if site.lang == "it" %}
-                                            <a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
-                                            {% elsif site.lang == "en" %}
-                                            <a href="{{ post.url }}.html" class="button special">Read more</a>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="4u">
-                    <div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true" >
-                        <blockquote cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/">Race Up Team Combustion</a>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="4u">
-                    <div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" class="fb-xfbml-parse-ignore">
-                            <a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race Up Team Electric</a>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <div class="page-content">
-            <!-- page content -->
-            {{ content }}
-        </div>
-        {% include footer.html %}
-
-        <!-- flickity -->
-        <script type="text/javascript" src="/js/flickity.pkgd.js"></script>
-        <link rel="stylesheet" href="/css/flickity.min.css">
-        <!-- facebook sdk -->
-        <script src="/js/facebook.min.js"></script>
-    </body>
-</html>
+{% include head.html %}
+<body class="index no-fouc" onload='$(".no-fouc").removeClass("no-fouc"),window.dispatchEvent(new Event("resize"))'>
+{% include header.html %}
+<div id="logo-header">
+<nav>
+<ul>
+<li class="image little"><img src="/images/logos/unipd.png" alt="Unipd"></li>
+<li class="image little"><img src="/images/logos/dii.png" alt="DII"></li>
+<li class="image little"><img src="/images/logos/oz.png" alt="OZ"></li>
+</ul>
+</nav>
+</div>
+{% include banner.html %}
+<section class="wrapper style3 container" style="margin-bottom:.5em">
+<div class="row">
+<div id="newsGallery" class="4u">
+<h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
+<div class="gallery js-flickity">
+{% for post in site.posts limit:5 %}
+<div class="gallery-cell">
+<div class="style3">
+<h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+<h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+<div>
+{% if site.lang == "it" %}
+<a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
+{% elsif site.lang == "en" %}
+<a href="{{ post.url }}.html" class="button special">Read more</a>
+{% endif %}
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+</div>
+<div class="4u">
+<div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+<blockquote cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" class="fb-xfbml-parse-ignore">
+<a href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/">Race Up Team Combustion</a>
+</blockquote>
+</div>
+</div>
+<div class="4u">
+<div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+<blockquote cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" class="fb-xfbml-parse-ignore">
+<a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race Up Team Electric</a>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+<div class="page-content">
+{{ content }}
+</div>
+{% include footer.html %}
+<script src="/js/flickity.pkgd.js"></script>
+<link rel="stylesheet" href="/css/flickity.min.css">
+<script src="/js/facebook.min.js"></script>
+</body>

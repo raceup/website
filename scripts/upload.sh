@@ -17,7 +17,8 @@
 
 
 COMMIT_MSG=$(git log -1 --pretty=%B)
-OUTPUT_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.it/"
+OUTPUT_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
+BUILD_FOLDER="_site"
 
 echo "Cleaning"
 cd ..  # go to root folder
@@ -32,3 +33,5 @@ echo "Pushing online"
 git add --all
 git commit -m "$COMMIT_MSG | see https://github.com/raceup/website/blob/master/CHANGELOG.md for more info"
 git push origin master
+
+yes | rm -R "$BUILD_FOLDER"

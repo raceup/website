@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## 0.9.3 - 2017-10-10
 
 ### Refactor
-- minified css/js
+- minified css/js/html
 
 ## 0.9.2 - 2017-10-09
 

@@ -1,117 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://raceup.it/</loc>
-  <lastmod>2017-02-20T12:19:32+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://raceup.it/team.html</loc>
-  <lastmod>2017-02-20T12:19:45+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/team-members.html</loc>
-  <lastmod>2017-02-20T12:19:46+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/cars/cd.html</loc>
-  <lastmod>2017-02-20T12:15:54+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/cars/ed.html</loc>
-  <lastmod>2017-02-20T12:15:54+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/sponsors/why.html</loc>
-  <lastmod>2017-02-20T12:19:45+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/sponsors/cd.html</loc>
-  <lastmod>2017-02-20T12:19:44+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/sponsors/ed.html</loc>
-  <lastmod>2017-02-20T12:19:44+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/join.html</loc>
-  <lastmod>2017-02-20T12:19:32+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/blog.html</loc>
-  <lastmod>2017-02-20T12:15:53+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/contact.html</loc>
-  <lastmod>2017-02-20T12:15:55+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/11.pdf</loc>
-  <lastmod>2017-02-20T12:16:07+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/12.pdf</loc>
-  <lastmod>2017-02-20T12:16:08+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/13.pdf</loc>
-  <lastmod>2017-02-20T12:16:09+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/14.pdf</loc>
-  <lastmod>2017-02-20T12:16:09+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/15.pdf</loc>
-  <lastmod>2017-02-20T12:16:10+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/cd/16.pdf</loc>
-  <lastmod>2017-02-20T12:16:11+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://raceup.it/data/ed/16.pdf</loc>
-  <lastmod>2017-02-20T12:16:12+00:00</lastmod>
-  <changefreq>always</changefreq>
-  <priority>0.64</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url><loc>http://raceup.it/</loc><changefreq>weekly</changefreq><priority>1.00</priority></url>
+<url><loc>https://raceup.it/team/us.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/members.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2016.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2015.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2014.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2013.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2012.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2011.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2010.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2009.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2008.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2007.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/team/2006.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/cars/cd.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/cars/ed.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/sponsors/why.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/sponsors/cd.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/sponsors/ed.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/join.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/careers.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/media.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/blog.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/contact.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/en</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/10/04/meetreparti.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/09/18/nottericercatori.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/07/25/varano-2k17.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/06/24/zf.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/05/06/galileo2017.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+<url><loc>https://raceup.it/2017/04/27/debut2017.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/04/15/donazione.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/03/22/mecspe4.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/03/19/mecspe3.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/03/13/mecspe2.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/03/05/mecspe.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/02/13/hello-world.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2016/12/03/raceup-joanneum-together.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2016/10/23/2016-in-review.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>http://raceup.it/en/</loc><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/09/18/nottericercatori</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/07/25/varano-2k17</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/10/04/meetreparti</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/06/24/zf</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/05/06/galileo2017</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/04/27/debut2017</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.69</priority></url>
+<url><loc>https://raceup.it/2017/04/15/donazione</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/index.html</loc><lastmod>2017-10-10T11:00:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2017/03/22/mecspe4</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2017/03/19/mecspe3</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2017/03/13/mecspe2</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2017/03/05/mecspe</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2017/02/13/hello-world</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2016/12/03/raceup-joanneum-together</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/2016/10/23/2016-in-review</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.56</priority></url>
+<url><loc>https://raceup.it/en/team/us.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/members.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2016.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2015.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2014.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2013.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2012.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2011.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2010.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2009.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2008.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2007.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/team/2006.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/cars/cd.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/cars/ed.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/sponsors/why.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/sponsors/cd.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/sponsors/ed.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/join.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/careers.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/media.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/blog.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<url><loc>https://raceup.it/en/contact.html</loc><lastmod>2017-10-10T11:00:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.46</priority></url>
+<!-- Generated by www.web-site-map.com -->
 </urlset>
+ 

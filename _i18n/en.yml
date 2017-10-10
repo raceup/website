@@ -6,6 +6,19 @@ global:
 langs:
   it: "Italiano"
   en: "English"
+months:
+  jan: "January"
+  feb: "February"
+  mar: "March"
+  apr: "April"
+  may: "May"
+  jun: "June"
+  jul: "July"
+  aug: "August"
+  sep: "September"
+  oct: "October"
+  nov: "November"
+  dic: "December"
 titles:
   home: "Race Up Team - Home"
   blog: "Blog"

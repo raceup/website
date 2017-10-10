@@ -6,29 +6,33 @@ title: titles.404
 <html>
   {% include head.html %}
   
-  	<article id="main">
-		<header class="special container">
-			<span class="icon fa-exclamation-circle "></span>
-			<h2>
-			{% if site.lang == "it" %}
-			Ahhhhhhhhhhh! Questa pagina non esiste
-			{% elsif site.lang == "en" %}
-			Ahhhhhhhhhhh! This page shall not be found!
-			{% endif %}
-			</h2>
-			<br>
-			<h4>
-			{% if site.lang == "it" %}
-			Niente paura. Puoi tornare alla <a href="/">pagina iniziale</a>, o sederti e ascoltare una capra che urla come un uomo.
-			{% elsif site.lang == "en" %}
-			Don't worry. You can either go back <a href="/en">home</a>, or sit back, relax and listen to this goat that shouts like a human.
-			{% endif %}
-			</h4>
-		</header>
-		<body align="center">
-			<iframe src="https://www.youtube.com/embed/SIaFtAKnqBU?autoplay=1&cc_load_policy=1" onload="this.width=screen.width * 0.5; this.height=screen.height * 0.5;"></iframe>
-		</body>
-	</article>
+	<body>
+		<article id="main">
+			<header class="special container">
+				<span class="icon fa-exclamation-circle "></span>
+				<h2>
+				{% if site.lang == "it" %}
+				Ahhhhhhhhhhh! Questa pagina non esiste
+				{% elsif site.lang == "en" %}
+				Ahhhhhhhhhhh! This page shall not be found!
+				{% endif %}
+				</h2>
+				<br>
+				<h4>
+				{% if site.lang == "it" %}
+				Niente paura. Puoi tornare alla <a href="/">pagina iniziale</a>, o sederti e ascoltare una capra che urla come un uomo.
+				{% elsif site.lang == "en" %}
+				Don't worry. You can either go back <a href="/en">home</a>, or sit back, relax and listen to this goat that shouts like a human.
+				{% endif %}
+				</h4>
+			</header>
 
-  {% include footer.html %}
+			<div id="capra">
+				<iframe src="https://www.youtube.com/embed/SIaFtAKnqBU?autoplay=1&cc_load_policy=1" onload="this.width=screen.width * 0.5; this.height=screen.height * 0.5;">
+				</iframe>
+			</div>
+		</article>
+
+		{% include footer.html %}
+	</body>
 </html>

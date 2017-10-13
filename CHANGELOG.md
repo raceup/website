@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.9.4 - 2017-10-13
+
+### Added
+- closing recruiting at 14 oct at 12:00 script
+
 ## 0.9.3 - 2017-10-10
 
 ### Refactor

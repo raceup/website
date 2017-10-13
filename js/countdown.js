@@ -19,6 +19,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "EXPIRED";
+        document.getElementById("countdown").innerHTML = "Candidature chiuse";
+        document.getElementById("careers").innerHTML = "Le candidature per la stagione 2017 - 2018 sono ufficialmente chiuse!<br>A tutti coloro che hanno inviato il curriculum arriverà una mail con la convocazione per i colloqui!<br>A breve vedrete il volto del nuovo Team.<br><br>State aggiornati!"
     }
 }, 1000);

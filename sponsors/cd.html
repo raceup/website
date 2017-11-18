@@ -6,10 +6,14 @@ title: titles.sponsors_cd
 <header class="special container">
 <span class="icon fa-briefcase"></span>
 <h2>
-Sponsors in partnership con Race Up Combustion Division
+{% if site.lang == "it" %}Sponsors in partnership con Race Up Combustion Division{% elsif site.lang == "en" %}Sponsors in partnership with Race Up Combustion Division{% endif %}
 </h2>
 <p>
+{% if site.lang == "it" %}
 Il progetto Race Up prosegue e si migliora ogni anno grazie al prezioso contributo economico e professionale di un nostro gruppo di affezionati partners. È grazie a loro se ogni anno Race Up può crescere e migliorare le prestazioni della propria vettura. Il nostro ringraziamento va a
+{% elsif site.lang == "en" %}
+Thanks to a group of loyal partners and to the valuable, economic and professional contributions, Race Up project goes on and keeps improving every year. Thanks to their help, Race up grows and improves car performance. Our gratitude goes to: 
+{% endif %}
 </p>
 </header>
 <section class="wrapper style3 container">

@@ -6,20 +6,18 @@ title: titles.blog
 <header class="special container">
 <span class="icon fa-envelope-o"></span>
 <h2><strong>Blog</strong></h2>
+<p>
 {% if site.lang == "it" %}
-<p>
 Rimani aggiornato su gli ultimi ritrovati tecnologici in casa Race Up..
-</p>
 {% elsif site.lang == "en" %}
-<p>
-Stay up to date on the latest technology in Race Up home ..
+Stay up to date on the latest technological innovations of Race Up team.
 </p>
 {% endif %}
 </header>
 <section class="wrapper style4 container">
 <ul class="posts">
 {% for post in site.posts %}
-<li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+<li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
 <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
 <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
 {{ post.excerpt }} {% if site.lang == "it" %}
@@ -43,7 +41,7 @@ Stay up to date on the latest technology in Race Up home ..
 <span class="icon fa-comments" id="about-us"></span>
 <h2>
 <strong>
-{% if site.lang == "it" %} Dicono di noi {% elsif site.lang == "en" %} About us {% endif %}
+{% if site.lang == "it" %}Dicono di noi {% elsif site.lang == "en" %}About us {% endif %}
 </strong>
 </h2>
 </header>
@@ -66,7 +64,7 @@ Stay up to date on the latest technology in Race Up home ..
 </section>
 <section class="wrapper style4 container">
 <h3>
-{% if site.lang == "it" %} Presentazione monoposto {% elsif site.lang == "en" %} Car launch {% endif %}
+{% if site.lang == "it" %}Presentazione monoposto {% elsif site.lang == "en" %}Car launch {% endif %}
 </h3>
 <ul class="posts">
 <li><a href="data/stampa/presentazione/Corriere_del_Veneto_11-05-2017.PDF">Corriere del Veneto (11 {% t months.may %})</a></li>

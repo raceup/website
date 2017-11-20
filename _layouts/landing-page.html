@@ -20,7 +20,7 @@
 {% for post in site.posts limit:5 %}
 <div class="gallery-cell">
 <div class="style3">
-<h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+<a href="{{ post.url }}.html"><span>{% t post.title %}</span></a>
 <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
 <div>
 {% if site.lang == "it" %}

@@ -1002,7 +1002,7 @@ input[type="reset"].small,
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    background: rgba(188, 202, 206, 0.15)
+    background: rgba(20, 20, 20, 0.15)
 }
 
 #header nav .cc-active {

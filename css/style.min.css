@@ -995,11 +995,6 @@ input[type="reset"].small,
     text-transform: none!important
 }
 
-#header nav ul li.submenu>a:before {
-    content: '\f107';
-    margin-right: .65em
-}
-
 #header nav ul li.active>a,
 #header nav ul li:hover>a {
     -moz-transition: all .2s ease-in-out;

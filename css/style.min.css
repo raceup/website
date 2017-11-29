@@ -1536,3 +1536,10 @@ a:hover .caption {
 #capra, #contact-info {
     text-align: center
 }
+
+.zoomer:hover img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

@@ -995,11 +995,6 @@ input[type="reset"].small,
     text-transform: none!important
 }
 
-#header nav ul li.submenu>a:before {
-    content: '\f107';
-    margin-right: .65em
-}
-
 #header nav ul li.active>a,
 #header nav ul li:hover>a {
     -moz-transition: all .2s ease-in-out;
@@ -1007,7 +1002,7 @@ input[type="reset"].small,
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    background: rgba(188, 202, 206, 0.15)
+    background: rgba(20, 20, 20, 0.15)
 }
 
 #header nav .cc-active {
@@ -1540,4 +1535,11 @@ a:hover .caption {
 
 #capra, #contact-info {
     text-align: center
+}
+
+.zoomer:hover img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }

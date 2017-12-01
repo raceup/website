@@ -12,14 +12,11 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
-    document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
-
-    // If the count down is over, write some text 
-    if (distance < 0) {
+    if (distance >= 0) {  // show careers info
+        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
+            minutes + "m " + seconds + "s ";
+        document.getElementById("careers").style.display = 'block';  // show div
+    } else {  // stop interval
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "Candidature chiuse";
-        document.getElementById("careers").innerHTML = "Le candidature per la stagione 2017 - 2018 sono ufficialmente chiuse!<br>A tutti coloro che hanno inviato il curriculum arriverà una mail con la convocazione per i colloqui!<br>A breve vedrete il volto del nuovo Team.<br><br>State aggiornati!"
     }
 }, 1000);

@@ -1,3 +1,5 @@
+encoding: utf-8
+
 # url
 url: "raceup.it"  # the base hostname & protocol for your site
 baseurl: ""  # the subpath of your site, e.g. /blog/
@@ -16,14 +18,14 @@ future: true
 permalink: /:year/:month/:day/:title
 
 # plugins
-gems: 
+plugins:
   - jekyll-multiple-languages-plugin
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["it", "en"]
 
 # to avoid redundancy, it is possible to exclude files and folders from being copied to the localization folders.
-exclude_from_localizations: ["javascript", "images", "css", "scripts", "tmp"]
+exclude_from_localizations: ["js", "images", "css", "scripts", "tmp"]
 
 # exclude from webpage
 exclude: ["run_site.sh", "upload_site.sh", "imgopt.sh", "scripts", "tmp", "CHANGELOG.md", "README.md", "LICENSE", "TODO.md"]

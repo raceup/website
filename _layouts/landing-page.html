@@ -1,63 +1,71 @@
 {% include lang.html %}
 {% include head.html %}
-<body class="index no-fouc" onload='$(".no-fouc").removeClass("no-fouc"),window.dispatchEvent(new Event("resize"))'>
+<body class="index no-fouc"
+      onload='$(".no-fouc").removeClass("no-fouc"),window.dispatchEvent(new Event("resize"))'>
 {% include header.html %}
 <div id="logo-header">
-<nav>
-<ul>
-<li class="image little"><a href="http://www.unipd.it/">
-    <img src="/images/logos/unipd.png" alt="Unipd logo"></a>
-</li>
-<li class="image little"><a href="https://www.dii.unipd.it/corsi/progetti/formula-sae">
-    <img src="/images/logos/dii.png" alt="DII logo"></a>
-</li>
-<li class="image little"><a href="http://www.ozracing.com/">
-    <img src="/images/logos/oz.png" alt="OZ logo"></a>
-</li>
-</ul>
-</nav>
+    <nav>
+        <ul>
+            <li class="image little"><a href="http://www.unipd.it/">
+                <img src="/images/logos/unipd.png" alt="Unipd logo"></a>
+            </li>
+            <li class="image little"><a
+                    href="https://www.dii.unipd.it/corsi/progetti/formula-sae">
+                <img src="/images/logos/dii.png" alt="DII logo"></a>
+            </li>
+            <li class="image little"><a href="http://www.ozracing.com/">
+                <img src="/images/logos/oz.png" alt="OZ logo"></a>
+            </li>
+        </ul>
+    </nav>
 </div>
 {% include banner.html %}
 <section class="wrapper style3 container" style="margin-bottom:.5em">
-<div class="row">
-<div id="newsGallery" class="4u">
-<h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
-<div class="gallery js-flickity">
-{% for post in site.posts limit:5 %}
-<div class="gallery-cell">
-<div class="style3">
-<a href="{{ post.url }}.html"><span>{% t post.title %}</span></a>
-<h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-<div>
-{% if site.lang == "it" %}
-<a href="{{ post.url }}.html" class="button special">Leggi tutto</a>
-{% elsif site.lang == "en" %}
-<a href="{{ post.url }}.html" class="button special">Read more</a>
-{% endif %}
-</div>
-</div>
-</div>
-{% endfor %}
-</div>
-</div>
-<div class="4u">
-<div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
-<blockquote cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/" class="fb-xfbml-parse-ignore">
-<a href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/">Race Up Team Combustion</a>
-</blockquote>
-</div>
-</div>
-<div class="4u">
-<div class="fb-page" data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
-<blockquote cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/" class="fb-xfbml-parse-ignore">
-<a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race Up Team Electric</a>
-</blockquote>
-</div>
-</div>
-</div>
+    <div class="row">
+        <div id="newsGallery" class="4u">
+            <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
+            <div class="gallery js-flickity">
+                {% for post in site.posts limit:5 %}
+                <div class="gallery-cell">
+                    <div class="style3">
+                        <a href="{{ post.url }}.html"><span>{% t post.title %}</span></a>
+                        <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+                        <div>
+                            {% if site.lang == "it" %}
+                            <a href="{{ post.url }}.html"
+                               class="button special">Leggi tutto</a>
+                            {% elsif site.lang == "en" %}
+                            <a href="{{ post.url }}.html"
+                               class="button special">Read more</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="4u">
+            <div class="fb-page"
+                 data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/"
+                 data-tabs="timeline" data-width="300" data-small-header="false"
+                 data-adapt-container-width="false" data-hide-cover="false"
+                 data-show-facepile="true">
+                <blockquote
+                        cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/"
+                        class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/">Race
+                        Up Team Combustion</a>
+                </blockquote>
+            </div>
+        </div>
+        <div class="4u">
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+            <script type="IN/CompanyProfile" data-id="11365793" data-format="inline" data-related="false"></script>
+        </div>
+    </div>
 </section>
 <div class="page-content">
-{{ content }}
+    {{ content }}
 </div>
 {% include footer.html %}
 <script src="/js/flickity.pkgd.js"></script>

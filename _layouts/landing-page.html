@@ -20,7 +20,14 @@
     </nav>
 </div>
 {% include banner.html %}
-<section class="wrapper style3 container" style="margin-bottom:.5em">
+
+<section class="wrapper style3 container" style="margin-top:.5em">
+    <p>
+        {% include small_header.html %}
+    </p>
+</section>
+
+<section class="wrapper style3 container">
     <div class="row">
         <div id="newsGallery" class="4u">
             <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
@@ -59,8 +66,18 @@
             </div>
         </div>
         <div class="4u">
-            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/CompanyProfile" data-id="11365793" data-format="inline" data-related="false"></script>
+            <div class="fb-page"
+                 data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/"
+                 data-tabs="timeline" data-width="300" data-small-header="false"
+                 data-adapt-container-width="false" data-hide-cover="false"
+                 data-show-facepile="true">
+                <blockquote
+                        cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/"
+                        class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race
+                        Up Team Electric</a>
+                </blockquote>
+            </div>
         </div>
     </div>
 </section>

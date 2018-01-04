@@ -3,75 +3,104 @@ layout: default
 title: titles.blog
 ---
 <article id="main">
-<header class="special container">
-<span class="icon fa-envelope-o"></span>
-<h2><strong>Blog</strong></h2>
-<p>
-{% if site.lang == "it" %}
-Rimani aggiornato sulla vita del Race UP team.
-{% elsif site.lang == "en" %}
-Stay up to date on the latest technological innovations of Race Up team.
-</p>
-{% endif %}
-</header>
-<section class="wrapper style4 container">
-<ul class="posts">
-{% for post in site.posts %}
-<li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
-<h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
-<h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-{{ post.excerpt }} {% if site.lang == "it" %}
-<div class="special">
-<ul class="buttons">
-<li><a href="{{ post.url | prepend: site.baseurl }}.html" class="button">Leggi tutto</a></li>
-</ul>
-</div>
-{% elsif site.lang == "en" %}
-<div class="special">
-<ul class="buttons">
-<li><a href="{{ post.url | prepend: site.baseurl }}.html" class="button">Read more</a></li>
-</ul>
-</div>
-{% endif %}
-</li>
-{% endfor %}
-</ul>
-</section>
-<header class="special container">
-<span class="icon fa-comments" id="about-us"></span>
-<h2>
-<strong>
-{% if site.lang == "it" %}Dicono di noi {% elsif site.lang == "en" %}About us {% endif %}
-</strong>
-</h2>
-</header>
-<section class="wrapper style4 container">
-<h3>Varano 2017</h3>
-<ul class="posts">
-<li><a href="data/stampa/varano/Avvenire_6-09-2017.PDF">Avvenire (6 {% t months.sep %})</a></li>
-<li><a href="data/stampa/varano/Ansa_24-07-2017.pdf">Ansa (24 {% t months.jul %})</a></li>
-<li><a href="data/stampa/varano/La_Repubblica_24-07-2017.pdf">La Repubblica (24 {% t months.jul %})</a></li>
-<li><a href="data/stampa/varano/Ansa_23-07-2017.PDF">Ansa (23 {% t months.jul %})</a></li>
-<li><a href="data/stampa/varano/Formula_Passion_23-07-2017.PDF">Formula Passion (23 {% t months.jul %})</a></li>
-<li><a href="data/stampa/varano/Sorma_17-07-2017.pdf">Sorma (17 {% t months.jul %})</a></li>
-</ul>
-</section>
-<section class="wrapper style4 container">
-<h3>ZF race camp 2017</h3>
-<ul class="posts">
-<li><a href="https://www.zf.com/corporate/en_de/press/list/release/release_33346.html">ZF (2 {% t months.jun %})</a></li>
-</ul>
-</section>
-<section class="wrapper style4 container">
-<h3>
-{% if site.lang == "it" %}Presentazione monoposto {% elsif site.lang == "en" %}Car launch {% endif %}
-</h3>
-<ul class="posts">
-<li><a href="data/stampa/presentazione/Corriere_del_Veneto_11-05-2017.PDF">Corriere del Veneto (11 {% t months.may %})</a></li>
-<li><a href="data/stampa/presentazione/Il_Mattino_11-05-2017.PDF">Il Mattino (11 {% t months.may %})</a></li>
-<li><a href="data/stampa/presentazione/Il_Mattino_11-05-2017_Articolo_2.PDF">Il Mattino bis (11 {% t months.may %})</a></li>
-<li><a href="data/stampa/presentazione/Il_Gazzettino_11-05-2017.PDF">Il Gazzettino (11 {% t months.may %})</a></li>
-<li><a href="data/stampa/presentazione/Il_Mattino_9-05-2017.PDF">Il Mattino (9 {% t months.may %})</a></li>
-</ul>
-</section>
+    <header class="special container">
+        <span class="icon fa-envelope-o"></span>
+        <h2><strong>Blog</strong></h2>
+        <p>
+            {% if site.lang == "it" %}
+            Rimani aggiornato sulla vita del Race UP team.
+            {% elsif site.lang == "en" %}
+            Stay up to date on the latest technological innovations of Race Up
+            team.
+        </p>
+        {% endif %}
+    </header>
+    <section class="wrapper style4 container">
+        <ul class="posts">
+            {% for post in site.posts %}
+            <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
+                <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+                {{ post.excerpt }} {% if site.lang == "it" %}
+                <div class="special">
+                    <ul class="buttons">
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}.html"
+                               class="button">Leggi tutto</a></li>
+                    </ul>
+                </div>
+                {% elsif site.lang == "en" %}
+                <div class="special">
+                    <ul class="buttons">
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}.html"
+                               class="button">Read more</a></li>
+                    </ul>
+                </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <header class="special container">
+        <span class="icon fa-comments" id="about-us"></span>
+        <h2>
+            <strong>
+                {% if site.lang == "it" %}Dicono di noi {% elsif site.lang ==
+                "en" %}About us {% endif %}
+            </strong>
+        </h2>
+    </header>
+    <section class="wrapper style4 container">
+        <div class="row">
+            <div class="4u">
+                <h3>Varano 2017</h3>
+                <ul class="posts">
+                    <li><a href="data/stampa/varano/Avvenire_6-09-2017.PDF">Avvenire (6
+                        {% t months.sep %})</a></li>
+                    <li><a href="data/stampa/varano/Ansa_24-07-2017.pdf">Ansa (24 {% t
+                        months.jul %})</a></li>
+                    <li><a href="data/stampa/varano/La_Repubblica_24-07-2017.pdf">La
+                        Repubblica (24 {% t months.jul %})</a></li>
+                    <li><a href="data/stampa/varano/Ansa_23-07-2017.PDF">Ansa (23 {% t
+                        months.jul %})</a></li>
+                    <li><a href="data/stampa/varano/Formula_Passion_23-07-2017.PDF">Formula
+                        Passion (23 {% t months.jul %})</a></li>
+                    <li><a href="data/stampa/varano/Sorma_17-07-2017.pdf">Sorma (17 {% t
+                        months.jul %})</a></li>
+                </ul>
+            </div>
+
+            <div class="4u">
+                <h3>ZF race camp 2017</h3>
+                <ul class="posts">
+                    <li>
+                        <a href="https://www.zf.com/corporate/en_de/press/list/release/release_33346.html">ZF
+                            (2 {% t months.jun %})</a></li>
+                </ul>
+            </div>
+
+            <div class="4u">
+                <h3>
+                    {% if site.lang == "it" %}Presentazione monoposto {% elsif site.lang
+                    == "en" %}Car launch {% endif %}
+                </h3>
+                <ul class="posts">
+                    <li>
+                        <a href="data/stampa/presentazione/Corriere_del_Veneto_11-05-2017.PDF">Corriere
+                            del Veneto (11 {% t months.may %})</a></li>
+                    <li><a href="data/stampa/presentazione/Il_Mattino_11-05-2017.PDF">Il
+                        Mattino (11 {% t months.may %})</a></li>
+                    <li>
+                        <a href="data/stampa/presentazione/Il_Mattino_11-05-2017_Articolo_2.PDF">Il
+                            Mattino bis (11 {% t months.may %})</a></li>
+                    <li>
+                        <a href="data/stampa/presentazione/Il_Gazzettino_11-05-2017.PDF">Il
+                            Gazzettino (11 {% t months.may %})</a></li>
+                    <li><a href="data/stampa/presentazione/Il_Mattino_9-05-2017.PDF">Il
+                        Mattino (9 {% t months.may %})</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </article>

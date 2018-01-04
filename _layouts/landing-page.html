@@ -1,7 +1,8 @@
 {% include lang.html %}
 {% include head.html %}
 <body class="index no-fouc"
-      onload='$(".no-fouc").removeClass("no-fouc"),window.dispatchEvent(new Event("resize"))'>
+      onload='$(".no-fouc").removeClass("no-fouc"), window.dispatchEvent(new
+      Event("resize"))'>
 {% include header.html %}
 <div id="logo-header">
     <nav>
@@ -19,13 +20,9 @@
         </ul>
     </nav>
 </div>
-{% include banner.html %}
 
-<section class="wrapper style3 container" style="margin-top:.5em">
-    <p>
-        {% include small_header.html %}
-    </p>
-</section>
+{% include banner.html %}
+{% include small_header.html %}
 
 <section class="wrapper style3 container">
     <div class="row">

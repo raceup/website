@@ -11,7 +11,7 @@ function getRacingData() {
                 ps2: "2017-03-23T00:00:00+01:00",
                 ps3: "2017-03-24T00:00:00+01:00",
                 qualify: "2017-03-24T00:00:00+01:00",
-                race: "2018-03-25T06:00:00+01:00"
+                race: "2018-01-11T17:20:00+00:00"
             }
         }
     }
@@ -24,7 +24,6 @@ function setTimeForCountdown(t, e, n) {
             timezone: i.utcOffset(),
             onTick: countdownTicker
         }),
-        $("span.startTime").text(i.utcOffset($("#timezone").val()).format("HH:mm on LL")),
         $("h2.grandprixtitle").text("2018 Formula 1 Grand Prix in " + n.location)
 }
 function countdownTicker(t) {

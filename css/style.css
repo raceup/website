@@ -1541,3 +1541,7 @@ a:hover .caption {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+
+#small_nav {
+    margin-top: 1em;
+}

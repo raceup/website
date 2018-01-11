@@ -358,7 +358,7 @@ All notable changes to this project will be documented in this file.
 - links to fsae page on fsae image in landing page
 
 ### Fixed
-- 'la squadra' not centered (/team/us.html)
+- 'la squadra' not centered (/team/history.html)
 - 'competizione' title
 - double line with 'contact us' menu
 

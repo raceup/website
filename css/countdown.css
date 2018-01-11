@@ -1,0 +1,58 @@
+.countdown {
+    margin: 0 auto;
+    max-width: 1064px
+}
+
+.countdown ul {
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 60px
+}
+
+.countdown ul li {
+    width: 266px;
+    height: 256px;
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #fff;
+    text-align: center;
+    background-image: url(../images/tyre-ohne-shadow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 40px 40px 0 rgba(0,0,0,.6);
+    border-radius: 50%;
+    position: relative
+}
+
+.countdown ul li>div.days,.countdown ul li>div.hours,.countdown ul li>div.minutes,.countdown ul li>div.seconds {
+    font-size: 80px;
+    line-height: 1;
+    margin-top: 79px
+}
+
+.countdown ul li>div.days span,.countdown ul li>div.hours span,.countdown ul li>div.minutes span,.countdown ul li>div.seconds span {
+    line-height: 1;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase
+}
+
+.countdown ul li>div.days-progress,.countdown ul li>div.hours-progress,.countdown ul li>div.minutes-progress,.countdown ul li>div.seconds-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    padding: 23px
+}

@@ -1549,3 +1549,7 @@ a:hover .caption {
     width: 45%;
     margin-left: 1em;
 }
+
+.centered {
+    text-align: center;
+}

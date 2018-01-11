@@ -1,1 +1,352 @@
-*{box-sizing:border-box}.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:80%;width:44px;height:44px;border:0;border-radius:50%;background:white;background:hsla(0,0%,100%,0.75);cursor:pointer;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:white}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09F}.flickity-prev-next-button:active{opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-page-dots{position:absolute;width:100%;bottom:-20px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}.gallery{background:white;color:black;font-size:20px}.gallery-cell{width:500px;height:200px;margin-right:10px}.gallery-cell:before{display:block;text-align:center;line-height:200px;color:white}.flickity-prev-next-button{width:60px;height:60px;background:white;opacity:.6}.flickity-prev-next-button:hover{background:transparent;opacity:1}.flickity-prev-next-button .arrow{fill:black}.flickity-prev-next-button.no-svg{color:black}.flickity-prev-next-button.previous{left:0}.flickity-prev-next-button.next{right:0}.flickity-prev-next-button:disabled{display:none}#quotesGallery .gallery-cell{width:95%}.carousel img{display:block;height:300px}.carousel iframe{display:block;height:300px}.awesomePeopleRaceUP{width:90%;height:1000px;margin-right:8%}.awesomePeopleRaceUPImg{display:flex;justify-content:center;align-items:center}@media screen and (min-width:256px){#newsGallery .gallery-cell{width:110%;height:200px}#newsGallery .flickity-page-dots{bottom:-25px}#newsGallery .flickity-prev-next-button{top:120%}#newsGallery{margin-bottom:5em}#quotesGallery .gallery-cell{height:700px}#quotesGallery .flickity-prev-next-button{top:80%}#quotesGallery .flickity-page-dots{bottom:55px}.awesomePeopleRaceUP{width:90%;height:800px;margin-right:8%}}@media screen and (min-width:384px){#newsGallery .gallery-cell{width:100%}#newsGallery .flickity-page-dots{bottom:-15px}#newsGallery .flickity-prev-next-button{top:90%}#quotesGallery .gallery-cell{height:500px}#quotesGallery .flickity-prev-next-button{top:70%}#quotesGallery .flickity-page-dots{bottom:2%}.awesomePeopleRaceUP{width:90%;height:650px;margin-right:8%}}@media screen and (min-width:512px){#newsGallery .gallery-cell{width:100%;height:300px}#newsGallery .flickity-page-dots{bottom:25px}#newsGallery .flickity-prev-next-button{top:80%}#newsGallery{margin-bottom:4em}#quotesGallery .gallery-cell{height:300px}#quotesGallery .flickity-prev-next-button{top:60%}#quotesGallery .flickity-page-dots{bottom:-10px}.awesomePeopleRaceUP{width:90%;height:500px;margin-right:8%}.awesomePeopleRaceUPImg{float:left}}@media screen and (min-width:768px){#newsGallery .gallery-cell{width:150%;height:400px}#newsGallery .flickity-page-dots{bottom:50px}#newsGallery{margin-bottom:1.5em}.carousel img{height:400px;margin-right:100px}.carousel iframe{height:400px;margin-right:100px}}
+* {
+    box-sizing: border-box
+}
+
+.flickity-enabled {
+    position: relative
+}
+
+.flickity-enabled:focus {
+    outline: 0
+}
+
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%
+}
+
+.flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.flickity-enabled.is-draggable {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+    cursor: -webkit-grabbing;
+    cursor: grabbing
+}
+
+.flickity-prev-next-button {
+    position: absolute;
+    top: 80%;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: white;
+    background: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.flickity-prev-next-button:hover {
+    background: white
+}
+
+.flickity-prev-next-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 5px #09F
+}
+
+.flickity-prev-next-button:active {
+    opacity: .6
+}
+
+.flickity-prev-next-button.previous {
+    left: 10px
+}
+
+.flickity-prev-next-button.next {
+    right: 10px
+}
+
+.flickity-rtl .flickity-prev-next-button.previous {
+    left: auto;
+    right: 10px
+}
+
+.flickity-rtl .flickity-prev-next-button.next {
+    right: auto;
+    left: 10px
+}
+
+.flickity-prev-next-button:disabled {
+    opacity: .3;
+    cursor: auto
+}
+
+.flickity-prev-next-button svg {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%
+}
+
+.flickity-prev-next-button .arrow {
+    fill: #333
+}
+
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1
+}
+
+.flickity-rtl .flickity-page-dots {
+    direction: rtl
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background: #333;
+    border-radius: 50%;
+    opacity: .25;
+    cursor: pointer
+}
+
+.flickity-page-dots .dot.is-selected {
+    opacity: 1
+}
+
+.gallery {
+    background: white;
+    color: black;
+    font-size: 20px
+}
+
+.gallery-cell {
+    width: 500px;
+    height: 200px;
+    margin-right: 10px
+}
+
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    color: white
+}
+
+.flickity-prev-next-button {
+    width: 60px;
+    height: 60px;
+    background: white;
+    opacity: .6
+}
+
+.flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1
+}
+
+.flickity-prev-next-button .arrow {
+    fill: black
+}
+
+.flickity-prev-next-button.no-svg {
+    color: black
+}
+
+.flickity-prev-next-button.previous {
+    left: 0
+}
+
+.flickity-prev-next-button.next {
+    right: 0
+}
+
+.flickity-prev-next-button:disabled {
+    display: none
+}
+
+#quotesGallery .gallery-cell {
+    width: 95%
+}
+
+.carousel img {
+    display: block;
+    height: 300px
+}
+
+.carousel iframe {
+    display: block;
+    height: 300px
+}
+
+.awesomePeopleRaceUP {
+    width: 90%;
+    height: 1000px;
+    margin-right: 8%
+}
+
+.awesomePeopleRaceUPImg {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media screen and (min-width: 256px) {
+    #newsGallery .gallery-cell {
+        width: 110%;
+        height: 200px
+    }
+
+    #newsGallery .flickity-page-dots {
+        bottom: -25px
+    }
+
+    #newsGallery .flickity-prev-next-button {
+        top: 120%
+    }
+
+    #newsGallery {
+        margin-bottom: 5em
+    }
+
+    #quotesGallery .gallery-cell {
+        height: 700px
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 80%
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: 55px
+    }
+
+    .awesomePeopleRaceUP {
+        width: 90%;
+        height: 800px;
+        margin-right: 8%
+    }
+}
+
+@media screen and (min-width: 384px) {
+    #newsGallery .gallery-cell {
+        width: 100%
+    }
+
+    #newsGallery .flickity-page-dots {
+        bottom: -15px
+    }
+
+    #newsGallery .flickity-prev-next-button {
+        top: 90%
+    }
+
+    #quotesGallery .gallery-cell {
+        height: 500px
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 70%
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: 2%
+    }
+
+    .awesomePeopleRaceUP {
+        width: 90%;
+        height: 650px;
+        margin-right: 8%
+    }
+}
+
+@media screen and (min-width: 512px) {
+    #newsGallery .gallery-cell {
+        width: 100%;
+        height: 300px
+    }
+
+    #newsGallery .flickity-page-dots {
+        bottom: 25px
+    }
+
+    #newsGallery .flickity-prev-next-button {
+        top: 80%
+    }
+
+    #newsGallery {
+        margin-bottom: 4em
+    }
+
+    #quotesGallery .gallery-cell {
+        height: 300px
+    }
+
+    #quotesGallery .flickity-prev-next-button {
+        top: 60%
+    }
+
+    #quotesGallery .flickity-page-dots {
+        bottom: -10px
+    }
+
+    .awesomePeopleRaceUP {
+        width: 90%;
+        height: 500px;
+        margin-right: 8%
+    }
+
+    .awesomePeopleRaceUPImg {
+        float: left
+    }
+
+    .carousel img {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #newsGallery .gallery-cell {
+        width: 150%;
+        height: 400px
+    }
+
+    #newsGallery .flickity-page-dots {
+        bottom: 50px
+    }
+
+    #newsGallery {
+        margin-bottom: 1.5em
+    }
+
+    .carousel img {
+        height: 400px;
+        margin-right: 100px;
+        margin-left: 150px;
+    }
+
+    .carousel iframe {
+        height: 400px;
+        margin-right: 100px
+    }
+}

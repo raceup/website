@@ -454,7 +454,6 @@ input[type="email"] {
     text-decoration: none;
     top: 0;
     width: 2.25em;
-    height: 2.25em
 }
 
 .icon.circle:hover,
@@ -988,7 +987,7 @@ input[type="reset"].small,
 #header nav ul li.submenu>a:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
+    font-family: FontAwesome, serif;
     font-style: normal;
     font-weight: normal;
     text-transform: none!important
@@ -1540,4 +1539,17 @@ a:hover .caption {
     transition: 0.6s ease;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+
+#small_nav {
+    margin-top: 1em;
+}
+
+#fb-container {
+    width: 45%;
+    margin-left: 1em;
+}
+
+.centered {
+    text-align: center;
 }

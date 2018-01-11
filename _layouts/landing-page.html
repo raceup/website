@@ -22,11 +22,10 @@
 </div>
 
 {% include banner.html %}
-{% include small_header.html %}
 
 <section class="wrapper style3 container">
     <div class="row">
-        <div id="newsGallery" class="4u">
+        <div id="newsGallery" class="6u">
             <h2>News dal <a href="{{ site.baseurl }}/blog.html">blog</a></h2>
             <div class="gallery js-flickity">
                 {% for post in site.posts limit:5 %}
@@ -48,11 +47,11 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="4u">
+        <div id="fb-container" class="6u">
             <div class="fb-page"
                  data-href="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/"
-                 data-tabs="timeline" data-width="300" data-small-header="false"
-                 data-adapt-container-width="false" data-hide-cover="false"
+                 data-tabs="timeline" data-small-header="false"
+                 data-adapt-container-width="true" data-hide-cover="false"
                  data-show-facepile="true">
                 <blockquote
                         cite="https://www.facebook.com/Race-UP-Team-Combustion-440618820789/"
@@ -62,27 +61,19 @@
                 </blockquote>
             </div>
         </div>
-        <div class="4u">
-            <div class="fb-page"
-                 data-href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/"
-                 data-tabs="timeline" data-width="300" data-small-header="false"
-                 data-adapt-container-width="false" data-hide-cover="false"
-                 data-show-facepile="true">
-                <blockquote
-                        cite="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/"
-                        class="fb-xfbml-parse-ignore">
-                    <a href="https://www.facebook.com/Race-UP-Team-Electric-802147286569414/">Race
-                        Up Team Electric</a>
-                </blockquote>
-            </div>
-        </div>
     </div>
 </section>
+
+{% include small_header.html %}
+
 <div class="page-content">
     {{ content }}
 </div>
+
 {% include footer.html %}
-<script src="/js/flickity.pkgd.js"></script>
+
+<script type="text/javascript" src="/js/flickity.pkgd.js"></script>
 <link rel="stylesheet" href="/css/flickity.min.css">
-<script src="/js/facebook.min.js"></script>
+
+<script type="text/javascript" src="/js/facebook.min.js"></script>
 </body>

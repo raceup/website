@@ -1553,3 +1553,8 @@ a:hover .caption {
 .centered {
     text-align: center;
 }
+
+#small_nav {
+    margin-top: -3em;
+    margin-bottom: -5em
+}

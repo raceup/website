@@ -1,6 +1,5 @@
 ## Add
-- new cd brochure
-- new ed/cd renders
+- new ed/cd brochure
 
 ## Fix
 - add prev emails from .vcf

@@ -1,5 +1,5 @@
 ## Add
-- new ed/cd brochure
+- 3 countdowns for events
 
 ## Fix
 - add prev emails from .vcf

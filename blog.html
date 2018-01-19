@@ -2,8 +2,9 @@
 layout: default
 title: titles.blog
 ---
+
 <article id="main">
-    <header class="special container">
+    <header id="blog" class="special container">
         <span class="icon fa-envelope-o"></span>
         <h2><strong>Blog</strong></h2>
         <p>
@@ -42,7 +43,8 @@ title: titles.blog
             {% endfor %}
         </ul>
     </section>
-    <header class="special container">
+
+    <header id="about" class="special container">
         <span class="icon fa-comments" id="about-us"></span>
         <h2>
             <strong>
@@ -83,7 +85,7 @@ title: titles.blog
             <div class="4u">
                 <h3>
                     {% if site.lang == "it" %}Presentazione monoposto {% elsif site.lang
-                    == "en" %}Car launch {% endif %}
+                    == "en" %}Car launch{% endif %}
                 </h3>
                 <ul class="posts">
                     <li>
@@ -103,4 +105,19 @@ title: titles.blog
             </div>
         </div>
     </section>
+
+    <header id="tech" class="special container">
+        <span class="icon fa-cogs"></span>
+        <h2 ><strong>Approfondimenti</strong></h2>
+        <p>
+            {% if site.lang == "it" %}
+            Sei curioso di conoscere le nostre scelte tecniche? Continua a leggere!
+            {% elsif site.lang == "en" %}
+            Want to discover our technical choices? Read on!
+            {% endif %}
+        </p>
+    </header>
+    <section class="wrapper style4 container">
+    </section>
 </article>
+<script type="text/javascript" src="/js/members.js"></script>

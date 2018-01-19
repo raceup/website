@@ -55,7 +55,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - members db
 - members page creator script
-- comments section in blog page
+- comments section in news page
 
 ### Fixed
 - uploader/syncer script
@@ -321,7 +321,7 @@ All notable changes to this project will be documented in this file.
 ## 0.6.2 - 2017-03-07
 
 ### Fixed
-- previous/next post link in blog
+- previous/next post link in news
 
 ## 0.6.1 - 2017-03-06
 
@@ -484,7 +484,7 @@ All notable changes to this project will be documented in this file.
 ## 0.4.5 - 2017-02-20
 
 ### Fixed
-- blog news url
+- news news url
 
 ### Changed
 - homepage title
@@ -560,7 +560,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - anonymous icon in team members page
-- post date now in blog.html
+- post date now in news.html
 
 ## 0.3.8 - 2017-02-13
 
@@ -616,7 +616,7 @@ All notable changes to this project will be documented in this file.
 ## 0.3.4 - 2017-02-11
 
 ### Fixed
-- post.title rendering in blog
+- post.title rendering in news
 - mobile logos header rendering
 - team-members.html layout
 
@@ -714,7 +714,7 @@ All notable changes to this project will be documented in this file.
 - cars technical data
 - 404 page
 - ed sponsors
-- 2 introductory posts
+- 2 introductory news
 - css class icon.square
 - post footer with share buttons
 - background color in 'contact us' button in footer
@@ -774,7 +774,7 @@ All notable changes to this project will be documented in this file.
 - it/en banner.html
 - it/en about.html
 - it/en index.html
-- it/en blog.html
+- it/en news.html
 - it/en cars
 - it/en team
 - it/en sponsors

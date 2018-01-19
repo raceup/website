@@ -19,27 +19,18 @@ title: titles.blog
     <section class="wrapper style4 container">
         <ul class="posts">
             {% for post in site.posts %}
-            <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
-                <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
-                <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-                {{ post.excerpt }} {% if site.lang == "it" %}
-                <div class="special">
-                    <ul class="buttons">
-                        <li>
-                            <a href="{{ post.url | prepend: site.baseurl }}.html"
-                               class="button">Leggi tutto</a></li>
-                    </ul>
-                </div>
-                {% elsif site.lang == "en" %}
-                <div class="special">
-                    <ul class="buttons">
-                        <li>
-                            <a href="{{ post.url | prepend: site.baseurl }}.html"
-                               class="button">Read more</a></li>
-                    </ul>
-                </div>
-                {% endif %}
-            </li>
+                <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
+                    <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                    <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+                    {{ post.excerpt }}
+                    <div class="special">
+                        <ul class="buttons">
+                            <li>
+                                <a href="{{ post.url | prepend: site.baseurl }}.html"
+                                   class="button">{% if site.lang == "it" %}Leggi tutto{% elsif site.lang == "en" %}Read more{% endif %}</a></li>
+                        </ul>
+                    </div>
+                </li>
             {% endfor %}
         </ul>
     </section>
@@ -118,6 +109,23 @@ title: titles.blog
         </p>
     </header>
     <section class="wrapper style4 container">
+        <ul class="posts">
+            {% for post in site.articles %}
+            <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
+                <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
+                <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+                {{ post.excerpt }}
+                <div class="special">
+                    <ul class="buttons">
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl }}.html"
+                               class="button">{% if site.lang == "it" %}Leggi tutto{% elsif site.lang == "en" %}Read more{% endif %}</a></li>
+                    </ul>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </section>
 </article>
+
 <script type="text/javascript" src="/js/members.js"></script>

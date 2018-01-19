@@ -2,7 +2,7 @@ encoding: utf-8
 
 # url
 url: "raceup.it"  # the base hostname & protocol for your site
-baseurl: ""  # the subpath of your site, e.g. /blog/
+baseurl: ""  # the subpath of your site, e.g. /news/
 
 # site
 title: Race Up Team
@@ -12,10 +12,6 @@ keywords: "raceup unipd fsae"
 
 # social
 twitter_username: RaceUpTeam
-
-# allow posts with date in the future
-future: true
-permalink: /:year/:month/:day/:title
 
 # plugins
 plugins:
@@ -35,3 +31,12 @@ markdown: kramdown
 kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
+
+# post cateogories
+collections:
+  articles:
+    output: true
+    permalink: /:year/:month/:day/:title
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title

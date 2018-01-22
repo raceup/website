@@ -114,7 +114,6 @@ title: titles.blog
             <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
                 <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
                 <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
-                {{ post.excerpt }}
                 <div class="special">
                     <ul class="buttons">
                         <li>

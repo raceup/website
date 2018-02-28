@@ -1,4 +1,4 @@
-# !/usr/bin/bash
+#!/usr/bin/env bash
 # coding: utf-8
 
 # Copyright 2017 Stefano Fogarollo
@@ -23,7 +23,7 @@ echo "Password for user '$USER' in $HOST:"
 read PASS
 
 TRG_FOLDER="/raceup.it"
-SRC_FOLDER="/home/stefano/Projects/Raceup/projects/webpage/raceup.it/"
+SRC_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
 excludes="--exclude-glob .* --exclude-glob .*/"  # exclude hidden files/directories
 OPTIONS="--reverse --only-newer --verbose $excludes"
 

@@ -18,7 +18,7 @@
 
 git push
 COMMIT_MSG=$(git log -1 --pretty=%B)
-OUTPUT_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
+OUTPUT_FOLDER="$HOME/Projects/raceup/projects/webpage/raceup.it/"
 BUILD_FOLDER="$HOME/.jekyll_build/"
 
 cd ..

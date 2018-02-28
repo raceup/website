@@ -23,7 +23,7 @@ echo "Password for user '$USER' in $HOST:"
 read PASS
 
 TRG_FOLDER="/raceup.it"
-SRC_FOLDER="$HOME/Projects/Raceup/projects/webpage/raceup.it/"
+SRC_FOLDER="$HOME/Projects/raceup/projects/webpage/raceup.it/"
 excludes="--exclude-glob .* --exclude-glob .*/"  # exclude hidden files/directories
 OPTIONS="--reverse --only-newer --verbose $excludes"
 

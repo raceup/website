@@ -4,13 +4,13 @@ Gli spaghetti al carbonio in salsa di resina epossidica
 
 I compositi sono dei materiali largamente utilizzati grazie alle loro eccezionali caratteristiche come resistenza meccanica, tenacità a frattura, rigidità, resistenza alla corrosione, all’urto e all’abrasione. Queste caratteristiche nascono dall’accoppiamento di diversi materiali in un assieme che lavora grazie alla loro azione combinata. I materiali compositi ben progettati e realizzati riescono ad incorporare le migliori proprietà dei singoli elementi riducendo l’effetto delle caratteristiche negative e per questo motivo vengono utilizzati per componenti strutturali in molteplici campi dell’ingegneria. I compositi migliori sono caratterizzati dalla disposizione di fibre ad alta resistenza e rigidità all’interno di una matrice che può essere di natura polimerica, metallica o ceramica. L’inglobamento del fascio di fibre in una matrice garantisce il trasferimento del carico tra le fibre e la loro protezione. All’interno di un composito possiamo trovare quattro fasi differenti che regolano le caratteristiche e le proprietà finali del materiale:
 
- 1. Matrice: è il componente che dà la continuità al materiale 
+ a- Matrice: è il componente che dà la continuità al materiale 
 
- 2. Rinforzo: è il costituente che migliora le caratteristiche della matrice, ed è per lo più costituito da fibre allineate in una direzione oppure distribuite casualmente nello spazio. Il costituente può essere composto anche da particelle anche se queste ultime conferiscono un aumento delle proprietà meccaniche minore rispetto alle fibre. 
+ b- Rinforzo: è il costituente che migliora le caratteristiche della matrice, ed è per lo più costituito da fibre allineate in una direzione oppure distribuite casualmente nello spazio. Il costituente può essere composto anche da particelle anche se queste ultime conferiscono un aumento delle proprietà meccaniche minore rispetto alle fibre. 
 
- 3. Interfaccia: è la zona di contatto tra matrice e fibre dove avvengono le interazioni chimico-fisiche 
+ c- Interfaccia: è la zona di contatto tra matrice e fibre dove avvengono le interazioni chimico-fisiche 
 
- 4. Porosità: è l’insieme delle imperfezioni dovute ad esempio all’intrusione di aria durante il processo di creazione del composito.
+ d- Porosità: è l’insieme delle imperfezioni dovute ad esempio all’intrusione di aria durante il processo di creazione del composito.
 
 Da qui la correzione al primo errore che spesso si incontra i quei tanto famosi dialoghi tra amici: chiamare il composito con il nome “Fibra di carbonio” senza specificare la matrice in cui sono immerse le fibre (porosità e interfaccia possiamo anche non nominarle per non appesantire il discorso). È come se al ristorante vi servissero degli spaghetti senza dire se il sugo è un buon ragù fatto in casa oppure del ketchup: la differenza come potete capire è sostanziale. Nel nostro particolare caso utilizziamo un composito a matrice di resina epossidica rinforzato con fibre di carbonio in quanto ci permette di avere un’elevata resistenza meccanica (σrott) e un’elevata rigidezza (sintetizzata dal valore del modulo elastico longitudinale E) mantenendo molto contenuto il peso complessivo, come si può notare dalla tabella sottostante:
 

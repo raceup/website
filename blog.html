@@ -110,7 +110,7 @@ title: titles.blog
     </header>
     <section class="wrapper style4 container">
         <ul class="posts">
-            {% for post in site.articles reversed limit:5 %}
+            {% for post in site.articles reversed %}
             <li class="wrapper {% if forloop.first %}style2 {% else %}style1 {% endif %}">
                 <h2><a href="{{ post.url }}.html">{% t post.title %}</a></h2>
                 <h4>{{ post.date | date: '%B %d, %Y' }}</h4>

@@ -1558,3 +1558,7 @@ a:hover .caption {
     margin-top: -3em;
     margin-bottom: -5em
 }
+
+.careers-list li {
+    padding-bottom: 50px;
+}

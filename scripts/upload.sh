@@ -4,11 +4,11 @@
 git push
 COMMIT_MSG=$(git log -1 --pretty=%B)
 OUTPUT_FOLDER="$HOME/Projects/raceup/projects/webpage/raceup.it/"
-BUILD_FOLDER="$HOME/.jekyll_build/"
+BUILD_FOLDER="$HOME/.jekyll/build/"
 
 cd ..
 yes | rm -R "$BUILD_FOLDER"  # clean builds
-jekyll build -d "$BUILD_FOLDER"  # build
+bundle exec jekyll build -d "$BUILD_FOLDER"  # build
 yes | rsync -av --delete --exclude=".*" "$BUILD_FOLDER"/* ${OUTPUT_FOLDER}  # copy
 
 cd ${OUTPUT_FOLDER}

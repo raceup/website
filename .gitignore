@@ -1,7 +1,13 @@
 ### Jekyll ###
-_site/
-.sass-cache/
-.jekyll-metadata
+### Jetbrains
 tmp/
 .idea
+
+### Gems
 .gems/
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

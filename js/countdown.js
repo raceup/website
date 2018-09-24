@@ -13,10 +13,9 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     if (distance >= 0) {  // show careers info
-        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " +
-            minutes + "m " + seconds + "s ";
+        document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
         document.getElementById("careers").style.display = 'block';  // show div
-    } else {  // stop interval
-        clearInterval(x);
+    } else {
+        clearInterval(x);  // stop interval
     }
-}, 1000);  // 1000ms => 1s
+}, 1000);  // 1000ms = 1s

@@ -1,7 +1,7 @@
 // Set the date we're counting down to
 var countDownDates = [
-    new Date("Sep 24, 2018 23:36:20").getTime(),
-    new Date("Oct 7, 2017 23:59:59").getTime()
+    new Date("Sep 6, 2018 23:36:20").getTime(),
+    new Date("Oct 7, 2018 23:59:59").getTime()
 ];
 
 /**

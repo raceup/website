@@ -1,6 +1,5 @@
 // Set the date we're counting down to
 var countDownDates = [
-    new Date("Oct 7, 2018 23:59:59").getTime(),
     new Date("Oct 12, 2018 23:59:59").getTime()
 ];
 
@@ -45,5 +44,4 @@ function runCountdown(htmlCountdown, date, updateInterval) {
     }, updateInterval * 1000);
 }
 
-runCountdown("countdown_0", countDownDates[0], 1);  // run first countdown
-runCountdown("countdown_1", countDownDates[1], 1);  //run second countdown
+runCountdown("countdown_1", countDownDates[0], 1);  //run countdown

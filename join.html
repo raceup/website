@@ -16,7 +16,12 @@ title: titles.join
     </header>
     <section class="wrapper style3 container">
 
-        {% include careers.html %}
+        {% if site.lang == "it" %}
+        Le nuove candidature apriranno a Settembre 2019. Resta aggiornato!
+        {% elsif site.lang == "en" %}
+        Applications will re-start in September 2019. Stay up to date!
+        {% endif %}
+
     </section>
 
     {% tf join.html %}

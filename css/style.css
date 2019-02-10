@@ -951,8 +951,7 @@ input[type="reset"].small,
 #header nav {
     letter-spacing: .075em;
     position: absolute;
-    right: 10em;
-    left: 10em;
+    width: 100%;
     text-transform: uppercase;
     font-weight: bold;
     top: .75em;

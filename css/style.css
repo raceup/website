@@ -945,16 +945,16 @@ input[type="reset"].small,
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10000
+    z-index: 10000;
 }
 
 #header nav {
     letter-spacing: .075em;
     position: absolute;
-    right: 1.5em;
+    right: 36px;
     text-transform: uppercase;
     font-weight: bold;
-    top: .75em
+    top: .75em;
 }
 
 #header nav ul li {

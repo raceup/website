@@ -1,0 +1,24 @@
+{
+  "name": "raceup.it",
+  "version": "1.0.0",
+  "description": "Official website for Race UP",
+  "main": "index.js",
+  "scripts": {
+    "install": "bundle install --path .gems",
+    "publish": "/bin/bash scripts/publish.sh",
+    "clean": "yes | rm -rf .jekyll/build/",
+    "serve": "bundle exec jekyll serve --watch --profile --trace -d .jekyll/build/",
+    "run": "npm run clean && npm run serve",
+    "upload": "/bin/bash scripts/upload.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raceup/website.git"
+  },
+  "author": "Race UP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raceup/website/issues"
+  },
+  "homepage": "https://github.com/raceup/website#readme"
+}

@@ -2,6 +2,7 @@
 ### Jetbrains
 tmp/
 .idea
+.jekyll/
 
 ### Gems
 .gems/

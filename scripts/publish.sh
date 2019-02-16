@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # coding: utf-8
 
+# ftp 195.167.144.90 to connect interactive
 HOST="ftp://195.167.144.90"
 USER="raceup"
 

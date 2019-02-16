@@ -1,8 +1,16 @@
 ---
-layout: default
-title: titles.car_cd
+title: titles.car_ed
 ---
-{% tf cars/cd.html %}
-<!-- flickity -->
-<script src="/js/flickity.pkgd.js"></script>
-<link rel="stylesheet" href="/css/flickity.min.css">
+
+{% include lang.html %}
+{% include head.html %}
+
+<article id="main" class="no-sidebar" onload='$(".no-fouc").removeClass("no-fouc"), window.dispatchEvent(new Event("resize"))'>
+    <header class="special container">
+        <span class="icon fa-car"></span>
+        <h2>MG 13.18</h2>
+    </header>
+
+    {% include keyshot_cd.html %}
+    {% tf cars/cd.html %}
+</article>

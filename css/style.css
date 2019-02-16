@@ -1562,3 +1562,8 @@ a:hover .caption {
 .careers-list li {
     padding-bottom: 50px;
 }
+
+#keyshot_rendering {
+    padding-top: 2em;
+    padding-bottom: 0;
+}

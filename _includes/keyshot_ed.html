@@ -1,0 +1,44 @@
+<!-- keyshot rendering -->
+<div id="KeyShotXR"></div>
+<script type="text/javascript" src="/js/keyshot/KeyShotXR.js"></script>
+<script type="text/javascript">
+	var keyshotXR;
+	var windowWidth = window.innerWidth;
+	var frameWidth = Math.min(windowWidth * 0.75, 1024);
+	var frameHeight = frameWidth * 0.6;
+	var marginLeft = (windowWidth - frameWidth) / 2.0 - 5;
+
+	function initKeyShotXR() {
+		var nameOfDiv = "KeyShotXR";
+		var folderName = "keyshot/ed";
+		var viewPortWidth = frameWidth;
+		var viewPortHeight = frameHeight;
+		var backgroundColor = "#FFFFFF";
+		var uCount = 28;
+		var vCount = 1;
+		var uWrap = true;
+		var vWrap = false;
+		var uMouseSensitivity = -0.0777778;
+		var vMouseSensitivity = 1;
+		var uStartIndex = 14;
+		var vStartIndex = 0;
+		var minZoom = 1;
+		var maxZoom = 1;
+		var rotationDamping = 0.96;
+		var downScaleToBrowser = true;
+		var addDownScaleGUIButton = false;
+		var downloadOnInteraction = false;
+		var imageExtension = "png";
+		var showLoading = true;
+		var loadingIcon = "Senza titolo-4.png"; // Set to empty string for default icon.
+		var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
+		var uReverse = false;
+		var vReverse = false;
+		var hotspots = {};
+
+		keyshotXR = new keyshotXR(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots);
+		document.getElementById("KeyShotXR").style.marginLeft = marginLeft + 'px';
+	}
+
+	window.onload = initKeyShotXR;
+</script>

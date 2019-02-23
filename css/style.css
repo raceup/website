@@ -1567,3 +1567,12 @@ a:hover .caption {
     padding-top: 2em;
     padding-bottom: 0;
 }
+
+#KeyShotXR {
+    margin-top: -10%;  /* decrease margin from title */
+    margin-bottom: -8%;  /* decrease margin from description */
+}
+
+#carDescription {
+    margin-top: -5%;  /* decrease margin from keyshot rendering */
+}

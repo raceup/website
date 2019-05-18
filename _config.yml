@@ -14,7 +14,7 @@ keywords: "raceup unipd fsae"
 twitter_username: RaceUpTeam
 
 # plugins
-gems:
+plugins:
   - jekyll-multiple-languages-plugin
 
 # jekyll-multiple-languages-plugin settings:

@@ -14,9 +14,15 @@ title: titles.join
             {% endif %}
         </h2>
     </header>
-    <section class="wrapper style3 container">
-        {% include join_us.html %}
-    </section>
+    <div class="wrapper style4 special container small" align="center">
+        <ul class="buttons">
+            {% include join_us.html %}
+        </ul>
+        <div id="contact-info">
+            Affrettati le candidature chiuderanno tra:
+            <h2 id="countdown_1"></h2>
+        </div>
+    </div>
 
     {% tf join.html %}
 </article>

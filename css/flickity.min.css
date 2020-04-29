@@ -346,7 +346,7 @@
     }
 
     .carousel iframe {
-        height: 400px;
-        margin-right: 100px
+        /* height: 400px; */
+        margin-right: 500px
     }
 }

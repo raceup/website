@@ -19,7 +19,13 @@ title: titles.join
             {% include join_us.html %}
         </ul>
         <div id="contact-info">
-            Affrettati le candidature chiuderanno tra:
+            {% if site.lang == "it" %}
+            <!-- Affrettati le candidature chiuderanno tra: -->
+            Le candidature sono chiuse
+            {% elsif site.lang == "en" %}
+            <!-- Open positions -->
+            Positions are closed
+            {% endif %}
             <h2 id="countdown_1"></h2>
         </div>
     </div>

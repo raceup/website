@@ -15,23 +15,23 @@ title: titles.join
         </h2>
     </header>
     <div class="wrapper style4 special container small" align="center">
-        <ul class="buttons">
+         <ul class="buttons">
             {% include join_us.html %}
-        </ul>
+        </ul> 
         <div id="contact-info">
             {% if site.lang == "it" %}
-            Affrettati le candidature chiuderanno tra:
-            <!-- Le candidature sono chiuse -->
+            <!-- Affrettati le candidature chiuderanno tra: -->
+            Le candidature sono chiuse
             {% elsif site.lang == "en" %}
-            Open untill:
-            <!-- Positions are closed -->
+            <!-- Open untill: -->
+            Positions are closed
             {% endif %}
-            <h2 id="countdown_1"></h2>
+            <!-- <h2 id="countdown_1"></h2> -->
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ojgya3DMit4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/ojgya3DMit4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <ul class="buttons">
             {% include download_brochure_recruitment.html %}
-        </ul>
+        </ul>-->
     </div>
 
     {% tf join.html %}

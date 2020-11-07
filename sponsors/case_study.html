@@ -1,0 +1,89 @@
+---
+layout: default
+title: titles.case_study
+---
+<article id="main">
+    <header class="special container">
+        <span class="icon fa-briefcase"></span>
+        <h2>
+            {% if site.lang == "it" %}Collaborazioni
+            {% elsif site.lang == "en" %}Collaborations
+            {% endif %}
+        </h2>
+        <p  align="center">
+            {% if site.lang == "it" %}
+            Se si vuole inserire qui breve descrizione della pagina
+            {% elsif site.lang == "en" %}
+            se si vuole inserire qui breve descrizione della pagini in inglese
+            {% endif %}
+        </p>
+    </header>
+    <section class="wrapper style1 container special">
+        <div class="row">
+            <div class="4u">
+                <header>
+                    <h2><strong>Aruba</strong></h2>
+                    <a class="image featured"><img src="http://placehold.it/700x400"
+                                                   alt="MG 11"></a>
+                </header>
+                <div style="min-height: 250px;">
+                    {% if site.lang == "it" %}
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                    {% elsif site.lang == "en" %}
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                    {% endif %}
+                </div>
+                <div>
+                    {% if site.lang == "it" %}
+                        <a class="button" href="{{ site.baseurl }}/">Approfondisci</a>
+                    {% elsif site.lang == "en" %}
+                        <a class="button" href="{{ site.baseurl }}/">Learn more</a>
+                    {% endif %}
+                    
+                </div>
+            
+                
+                  <!-- <div class="card-footer">
+                    <ul class="buttons">
+                        {% if site.lang == "it" %}
+                            <li><a href="{{ site.baseurl }}/" class="Approfondisci">Scarica la nostra brochure!</a></li>
+                        {% elsif site.lang == "en" %}
+                            <li><a href="{{ site.baseurl }}/" class="Learn more">Download our brochure!</a></li>
+                        {% endif %}
+                    </ul>-->
+            </div>
+            <div class="4u">
+                <header>
+                    <h2><strong>Aruba 2</strong></h2>
+                    <a class="image featured"><img src="http://placehold.it/700x400"
+                                                   alt="MG 11"></a>
+                </header>
+                <div style="min-height: 250px;">
+                    {% if site.lang == "it" %}
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    {% elsif site.lang == "en" %}
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    {% endif %}
+                </div>
+                <div>
+                    {% if site.lang == "it" %}
+                        <a class="button" href="{{ site.baseurl }}/">Approfondisci</a>
+                    {% elsif site.lang == "en" %}
+                        <a class="button" href="{{ site.baseurl }}/">Learn more</a>
+                    {% endif %}
+                    
+                </div>
+            
+                
+                  <!-- <div class="card-footer">
+                    <ul class="buttons">
+                        {% if site.lang == "it" %}
+                            <li><a href="{{ site.baseurl }}/" class="Approfondisci">Scarica la nostra brochure!</a></li>
+                        {% elsif site.lang == "en" %}
+                            <li><a href="{{ site.baseurl }}/" class="Learn more">Download our brochure!</a></li>
+                        {% endif %}
+                    </ul>-->
+            </div>
+        </div>
+    </section>
+</article>

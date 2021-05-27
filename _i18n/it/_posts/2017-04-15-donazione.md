@@ -13,4 +13,4 @@ In fondo alla Home del nostro nuovo sito web troverete un nuovo pulsante [DONAZI
 Perché supportarci? Semplice, perché ci volete bene 
 
 
-### Un grazie ed un saluto da tutto il **Race Up Team**
+### Un grazie ed un saluto da tutto il **Race UP Team**

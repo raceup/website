@@ -9,4 +9,4 @@ description: Donazione Paypal attiva!
 
 Donation campaign
 
-### Un grazie ed un saluto da tutto il **Race Up Team**
+### Un grazie ed un saluto da tutto il **Race UP Team**

@@ -5,9 +5,9 @@ url: "raceup.it"  # the base hostname & protocol for your site
 baseurl: ""  # the subpath of your site, e.g. /news/
 
 # site
-title: Race Up Team
+title: Race UP Team
 email: info@raceup.it
-description: Race Up is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
+description: Race UP is the FSAE team of the University of Padova. Since 2006 we build one of the fastest racing car in FSAE competitions.
 keywords: "raceup unipd fsae"
 
 # social

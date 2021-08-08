@@ -2,7 +2,7 @@
 layout: default
 title: titles.join
 ---
-
+<link rel="stylesheet" href="/css/collaps.css">
 <article id="main">
     <header class="special container">
         <span class="icon fa-briefcase"></span>
@@ -33,9 +33,151 @@ title: titles.join
             {% include download_brochure_recruitment.html %}
         </ul>-->
     </div>
+    <section class="wrapper style3 container">
+        <header class="special-title">
+            <h2>Reparti del Team</h2>
+        </header>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+            <button class="collapsible">Business & Marketing</button>
+            <div class="content">
+                {% if site.lang == "it" %}
+                <p>Il reparto Business & Marketing è un reparto trasversale alle 2 divisioni. Si occupa interamente dello sviluppo del Business Plan e insieme alle divisioni sviluppa il Cost Report. Si occupa, inoltre, della gestione della comunicazione del Team e quindi dei social network, della gestione finanziaria delle risorse del Team, della gestione degli Sponsor e della gestione di eventi e fiere.</p>
+                {% elsif site.lang == "en" %}
+                <p>Il reparto Business & Marketing è un reparto trasversale alle 2 divisioni. Si occupa interamente dello sviluppo del Business Plan e insieme alle divisioni sviluppa il Cost Report. Si occupa, inoltre, della gestione della comunicazione del Team e quindi dei social network, della gestione finanziaria delle risorse del Team, della gestione degli Sponsor e della gestione di eventi e fiere.</p>
+                {% endif %}
+            </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Powertrain CD</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Si occupa dello sviluppo e della manutenzione del motore (Honda CBR 600 RR). Progetta l'impianto di aspirazione, l'impianto alimentazione, l'impianto di scarico e l'impianto di raffreddamento. Si occupa inoltre della gestione e del miglioramento del cambio, attraverso, ad esempio, l’alleggerimento e l’ottimizzazione di quest’ultimo.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Powertrain ED</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Gestisce l’apparato propulsivo della vettura, composto da 4 motori sincroni IPM, tramite il cablaggio ad alta tensione. Per controllare i motori vengono usati inverter trifase, mantenuti in temperatura di esercizio da un sistema di raffreddamento sviluppato internamente al reparto. Gli obiettivi finali sono rendere la macchina il più veloce possibile  ottimizzando tutto l’impianto di propulsione.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Frame & Ergonomy</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Questo reparto si occupa della progettazione e produzione del telaio monoscocca e traliccio e di altri componenti a esso correlati (roll bars, volante, sedile, ecc), soddisfando requisiti di rigidezza e resistenza imposti dal regolamento, limitando i pesi e garantendo l’ergonomia e la sicurezza per il pilota, grazie all’impiego di materiali compositi rinforzati con fibre di carbonio e aramidiche. La progettazione è condotta sviluppando modelli analitici e numerici (FEM), validando infine i risultati mediante prove di laboratorio.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Mechanical Structure</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Uno dei compiti di questo reparto è la progettazione della trasmissione esterna e di tutti i componenti connessi. Inoltre, collabora a stretto contatto con il reparto vehicle dynamics per progettare il gruppo ruota e il sistema sospensivo. Infine vi è la progettazione del sistema sterzante della vettura e il dimensionamento dell’impianto frenante.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Aerodynamics</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Il reparto aerodinamica progetta un pacchetto aerodinamico che garantisca elevata deportanza e aumento delle accelerazioni laterali e longitudinali mantenendo una resistenza all’avanzamento non eccessiva. Inoltre esegue uno studio del corretto bilanciamento aerodinamico e sviluppa il sistema DRS insieme alla costruzione dell’intero pacchetto con impiego di materiali compositi per ottenere anche una fondamentale riduzione del peso. Questi obiettivi sono raggiunti attraverso un approfondito impiego di simulazioni fluidodinamiche computazionali al calcolatore.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+            <button class="collapsible">Electronics (CD)</button>
+            <div class="content">
+                {% if site.lang == "it" %}
+                <p>Il reparto elettronica prepara e e sviluppa le schede elettroniche e si occupa della stagnatura delle stesse. Inoltre, gestisce la telemetria e lettura tramite centralina dei dati emessi dai sensori precedentemente collaudati. Altro compito fondamentale è quello della progettazione del cablaggio a bassa tensione insieme alla programmazione e gestione del display per la lettura dei dati da parte del pilota. Infine, si occupa anche della gestione delle comunicazioni radio tra pilota e team.</p>
+                {% elsif site.lang == "en" %}
+                <p></p>
+                {% endif %}
+            </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Electronics (ED)</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Il reparto si occupa della progettazione e della realizzazione delle schede elettroniche per la gestione dell’accumulatore, della sensoristica e dei sistemi di sicurezza. Viene inoltre progettato e assemblato il pacco batteria. E’ nostro compito realizzare il cablaggio di bassa tensione e il sistema di telemetria per l’archiviazione e l’analisi dei dati provenienti dai sensori.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+            <button class="collapsible">Vehicle Dynamics</button>
+            <div class="content">
+                {% if site.lang == "it" %}
+                <p>Questo reparto si occupa della progettazione del sistema di sospensioni, gruppo ruota e sterzo in collaborazione con il reparto Mechanical structures. Inoltre,  esegue delle analisi cinematiche e analisi sul comportamento degli pneumatici. Ottimizza le prestazioni della vettura tramite lo studio di assetti e infine fa uso di un modello multibody per simulare il comportamento dinamico della vettura.</p>
+                {% elsif site.lang == "en" %}
+                <p></p>
+                {% endif %}
+            </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Software (ED)</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Il reparto software si occupa della programmazione dei numerosi microcontrollori presenti in vettura, partendo dalla scelta e della studio dell’hardware, fino alla stesura di un codice efficiente. segue poi uno sviluppo e un mantenimento del software di telemetria ed elaborazione dei dati ottenuti e inoltre gestisce il server del team e supporto IT per tutti gli altri reparti.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+    </section>
 
     {% tf join.html %}
 </article>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
 
 <script src="/js/flickity.pkgd.js"></script>
 <script src="/js/countdown.js"></script>

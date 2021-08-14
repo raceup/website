@@ -4,6 +4,7 @@ title: titles.join
 ---
 <link rel="stylesheet" href="/css/collaps.css">
 <article id="main">
+
     <header class="special container">
         <span class="icon fa-briefcase"></span>
         <h2>
@@ -20,19 +21,23 @@ title: titles.join
         </ul> 
         <div id="contact-info">
             {% if site.lang == "it" %}
-            <!-- Affrettati le candidature chiuderanno tra: -->
-            Le candidature sono chiuse
+            Affrettati le candidature chiuderanno tra:
+            <!--Le candidature sono chiuse-->
             {% elsif site.lang == "en" %}
-            <!-- Open untill: -->
-            Positions are closed
+            Open until:
+            <!--Positions are closed-->
             {% endif %}
-            <!-- <h2 id="countdown_1"></h2> -->
+            <h2 id="countdown_1"></h2>
         </div>
-        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/ojgya3DMit4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/ojgya3DMit4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
         <ul class="buttons">
             {% include download_brochure_recruitment.html %}
-        </ul>-->
+        </ul>
+        <div id="contact-info"> 
+            Dopo aver compilato il form, <strong>ricordati di spedire il tuo CV</strong>, completo di Foto ed eventuali certificazioni e in formato PDF, rinominato secondo la forma: <b>DIVISIONE_REPARTO_COGNOME_NOME_CV.PDF</b> riportando prima del cognome la sigla ED se la candidatura è pertinente alla divisione elettrica, CD se la candidatura è pertinente alla divisione combustion o IND se indifferente (es. ED_POWERTRAIN_ROSSI_MARIO_CV), al seguente indirizzo: <b>info@raceup.it</b>
+        </div>
     </div>
+
     <section class="wrapper style3 container">
         <header class="special-title">
             <h2>Reparti del Team</h2>
@@ -51,58 +56,24 @@ title: titles.join
         </div>
         <div class="row" align="center" >
             <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
-                <button class="collapsible">Powertrain CD</button>
-                <div class="content">
-                    {% if site.lang == "it" %}
-                    <p>Si occupa dello sviluppo e della manutenzione del motore (Honda CBR 600 RR). Progetta l'impianto di aspirazione, l'impianto alimentazione, l'impianto di scarico e l'impianto di raffreddamento. Si occupa inoltre della gestione e del miglioramento del cambio, attraverso, ad esempio, l’alleggerimento e l’ottimizzazione di quest’ultimo.</p>
-                    {% elsif site.lang == "en" %}
-                    <p></p>
-                    {% endif %}
-                </div>
-            </section>
-        </div>
-        <div class="row" align="center" >
-            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
-                <button class="collapsible">Powertrain ED</button>
-                <div class="content">
-                    {% if site.lang == "it" %}
-                    <p>Gestisce l’apparato propulsivo della vettura, composto da 4 motori sincroni IPM, tramite il cablaggio ad alta tensione. Per controllare i motori vengono usati inverter trifase, mantenuti in temperatura di esercizio da un sistema di raffreddamento sviluppato internamente al reparto. Gli obiettivi finali sono rendere la macchina il più veloce possibile  ottimizzando tutto l’impianto di propulsione.</p>
-                    {% elsif site.lang == "en" %}
-                    <p></p>
-                    {% endif %}
-                </div>
-            </section>
-        </div>
-        <div class="row" align="center" >
-            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
-                <button class="collapsible">Frame & Ergonomy</button>
-                <div class="content">
-                    {% if site.lang == "it" %}
-                    <p>Questo reparto si occupa della progettazione e produzione del telaio monoscocca e traliccio e di altri componenti a esso correlati (roll bars, volante, sedile, ecc), soddisfando requisiti di rigidezza e resistenza imposti dal regolamento, limitando i pesi e garantendo l’ergonomia e la sicurezza per il pilota, grazie all’impiego di materiali compositi rinforzati con fibre di carbonio e aramidiche. La progettazione è condotta sviluppando modelli analitici e numerici (FEM), validando infine i risultati mediante prove di laboratorio.</p>
-                    {% elsif site.lang == "en" %}
-                    <p></p>
-                    {% endif %}
-                </div>
-            </section>
-        </div>
-        <div class="row" align="center" >
-            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
-                <button class="collapsible">Mechanical Structure</button>
-                <div class="content">
-                    {% if site.lang == "it" %}
-                    <p>Uno dei compiti di questo reparto è la progettazione della trasmissione esterna e di tutti i componenti connessi. Inoltre, collabora a stretto contatto con il reparto vehicle dynamics per progettare il gruppo ruota e il sistema sospensivo. Infine vi è la progettazione del sistema sterzante della vettura e il dimensionamento dell’impianto frenante.</p>
-                    {% elsif site.lang == "en" %}
-                    <p></p>
-                    {% endif %}
-                </div>
-            </section>
-        </div>
-        <div class="row" align="center" >
-            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
                 <button class="collapsible">Aerodynamics</button>
                 <div class="content">
                     {% if site.lang == "it" %}
-                    <p>Il reparto aerodinamica progetta un pacchetto aerodinamico che garantisca elevata deportanza e aumento delle accelerazioni laterali e longitudinali mantenendo una resistenza all’avanzamento non eccessiva. Inoltre esegue uno studio del corretto bilanciamento aerodinamico e sviluppa il sistema DRS insieme alla costruzione dell’intero pacchetto con impiego di materiali compositi per ottenere anche una fondamentale riduzione del peso. Questi obiettivi sono raggiunti attraverso un approfondito impiego di simulazioni fluidodinamiche computazionali al calcolatore.</p>
+                    <p>
+                        Il reparto aerodynamics si occupa di produrre un pacchetto aerodinamico che garantisca la massima competitività nelle prove dinamiche degli eventi e i giusti livelli di portata alle componenti dedicate al raffreddamento.
+                        Durante l'anno resta in stretto contatto con tutti i reparti, specialmente il reparto chassis and ergonomics che li aiuta a dimensionare i supporti delle ali e a trovare, attraverso analisi FEM, il giusto layup per la realizzazione delle componenti.
+                        Collabora inoltre con il reparto powertrain per garantire il giusto apporto di aria ai radiatori della vettura, fondamentare per il raffreddamento dei motori, e con il reparto vehicle dynamics per migliorare la performance della vettura.
+                    </p>
+                    <h1> Progettazione </h1>
+                    <p>Partendo da modelli realizzati da software CAD realizziamo simulazioni CFD per analizzare e ottimizzare i componenti aerodinamici. 
+                        I nostri disegni sono basati su superfici parametriche di livello avanzato realizzate con Catia V5, mentre per l’ottimizzazione CFD sfruttiamo le simulazioni RANS su Star CCM+
+                        </p>
+                    <h1>Analisi</h1>
+                    <p>Dopo aver concluso le simulazioni, inizia la fase di post-processing. Grazie alle interfacce di Star CCM+, siamo in grado di analizzare scene scalari, vettoriali e non solo, per capire come si comporta il flusso attorno alla vettura. In base a ciò che vediamo in questa fase e grazie alle conoscenze acquisite durante gli studi, siamo in grado di apportare le modifiche necessarie al pacchetto aerodinamico per arrivare a completare i nostri obiettivi. </p>
+                    <h1> Manufacturing</h1>
+                    <p>Grazie all’aiuto dei nostri sponsor realizziamo dei modelli in MDF delle nostre appendici aerodinamiche. Da questi, otteniamo degli stampi su cui poi andremo a laminare il prodotto finale. Utilizziamo principalmente fibre di carbonio pre-preg ma anche fibra di vetro e kevlar. Alla fine, assembliamo e regoliamo l'assetto dei dispositivi in macchina.
+                        Inoltre, ci occupiamo di validare simulazioni e performance ipotizzate attraverso test in pista e dispositivi per il rilevamento dei flussi come ad esempio tubi di pitot.
+                        </p>
                     {% elsif site.lang == "en" %}
                     <p></p>
                     {% endif %}
@@ -114,8 +85,10 @@ title: titles.join
             <button class="collapsible">Electronics (CD)</button>
             <div class="content">
                 {% if site.lang == "it" %}
-                <p>Il reparto elettronica prepara e e sviluppa le schede elettroniche e si occupa della stagnatura delle stesse. Inoltre, gestisce la telemetria e lettura tramite centralina dei dati emessi dai sensori precedentemente collaudati. Altro compito fondamentale è quello della progettazione del cablaggio a bassa tensione insieme alla programmazione e gestione del display per la lettura dei dati da parte del pilota. Infine, si occupa anche della gestione delle comunicazioni radio tra pilota e team.</p>
-                {% elsif site.lang == "en" %}
+                <p>Il reparto elettronica prepara e e sviluppa le schede elettroniche e si occupa della stagnatura delle stesse. Inoltre, gestisce la telemetria e lettura tramite centralina dei dati emessi dai sensori precedentemente collaudati. Altro compito fondamentale è quello della progettazione del cablaggio a bassa tensione per una vettura di Formula Student, insieme alla programmazione e gestione del display per la lettura dei dati da parte del pilota e degli altri reparti.
+                    Si occupa inoltre anche della gestione delle comunicazioni radio tra pilota e team.
+                    Lavorare in questo reparto ti consente di applicare in maniera pratica quanto appreso dalle materie universitarie, soprattutto elettronica e programmazione, visto che si occupa anche della stesura del codice della centralina.</p>
+                    {% elsif site.lang == "en" %}
                 <p></p>
                 {% endif %}
             </div>
@@ -126,7 +99,23 @@ title: titles.join
                 <button class="collapsible">Electronics (ED)</button>
                 <div class="content">
                     {% if site.lang == "it" %}
-                    <p>Il reparto si occupa della progettazione e della realizzazione delle schede elettroniche per la gestione dell’accumulatore, della sensoristica e dei sistemi di sicurezza. Viene inoltre progettato e assemblato il pacco batteria. E’ nostro compito realizzare il cablaggio di bassa tensione e il sistema di telemetria per l’archiviazione e l’analisi dei dati provenienti dai sensori.</p>
+                    <p>
+                        Il reparto Electronics della divisione elettrica si occupa della gestione dell'elettronica di bassa tensione della macchina a livello hardware, quindi tutto ciò che permette alla centralina di rilevare correttamente i valori ottenuti dai sensori posti in auto.
+                        Si occupa inoltre della posa del cablaggio in macchina, di tutte le schede di bassa tensione e alcune di alta; fino a quest'anno si è sempre occupato anche della progettazione e costruzione della batteria
+                        Il reparto elettronica ha sempre gestito anche la progettazione e la costruzione della batteria di alta tensione, che dal prossimo anno passerà tuttavia al reparto Powertrain, alla quale collaborano anche altri reparti.
+                    </p>
+
+                    <h1>ORGANIZZAZIONE DELLA STAGIONE</h1>
+                    <p>
+                        Nei primi mesi di lavoro (fino a gennaio/febbraio) si progetta la macchina in tutte le sue parti, lavorando insieme in un'analisi che permetta di individuare a priori i problemi che potrebbero nascere e le loro possibili soluzioni, in modo da sviluppare un concept adeguato fin da subito.
+                        Da metà febbraio circa, invece, si inizia a costruire la vera e propria auto, saldando le schede prodotte,testandole, fino a montarle in macchina collegandole al cablaggio della vettura per vederle lavorare insieme.
+                        Dopo di ché inizia la fase di test, durante la quale il repartosvolge un ruolo fondamentale per capire cosa succede nella vettura.
+                    </p>
+
+                    <h1>OBIETTIVI</h1>
+                    <p>
+                        Gli obiettivi dipendono dall'andamento dell'anno precedente: quest'anno per esempio lavoreremo sull'affidabilità delle schede e sulla creazione di un buon sistema di acquisizione dati.
+                    </p>
                     {% elsif site.lang == "en" %}
                     <p></p>
                     {% endif %}
@@ -135,16 +124,129 @@ title: titles.join
         </div>
         <div class="row" align="center" >
             <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
-            <button class="collapsible">Vehicle Dynamics</button>
-            <div class="content">
-                {% if site.lang == "it" %}
-                <p>Questo reparto si occupa della progettazione del sistema di sospensioni, gruppo ruota e sterzo in collaborazione con il reparto Mechanical structures. Inoltre,  esegue delle analisi cinematiche e analisi sul comportamento degli pneumatici. Ottimizza le prestazioni della vettura tramite lo studio di assetti e infine fa uso di un modello multibody per simulare il comportamento dinamico della vettura.</p>
-                {% elsif site.lang == "en" %}
-                <p></p>
-                {% endif %}
-            </div>
+                <button class="collapsible">Chassis & Ergonomics</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Questo reparto si occupa della progettazione e produzione del telaio monoscocca e traliccio e di altri componenti a esso correlati (roll bars, volante, sedile, ecc), soddisfando requisiti di rigidezza e resistenza imposti dal regolamento, limitando i pesi e garantendo l’ergonomia e la sicurezza per il pilota, grazie all’impiego di materiali compositi rinforzati con fibre di carbonio e aramidiche. La progettazione è condotta sviluppando modelli analitici e numerici (FEM), validando infine i risultati mediante prove di laboratorio.</p>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
             </section>
         </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Mechanical Structures</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>
+                        Il reparto mechanical structures si occupa del dimensionamento dei vari componenti di sterzo, sospensioni, freni e trasmissione esterna, con l'aiuto di software CAD e simulazione FEM. 
+                        I componenti vengono validati tramite i test in laboratorio e i test in pista.
+                        Il reparto lavora a stretto contatto con i reparto vehicle dynamics e chassis and ergonomics per la progettazione del gruppo ruota e del sistema sospensivo.
+                        L'obiettivo fondamentale è quello di aumentare la rigidezza dei componenti e aumentare l'efficienza riducendo il peso.
+                        Inoltre si occupa di disegnare e realizzare altre strutture meccaniche necessarie agli eventi, come per esempio il quick jack per sollevare la vettura, la pushbar, il carrello gomme e il carrello batteria
+                        Oltre alle competenze pratiche fornite, come il lavoro in officina e l'utilizzo di macchine utensili quali tornio e fresa, lavorare in questo reparto ti consente, di conoscere in prima persona le aziende sponsor che producono i pezzi, interfacciarti con esse e cogliere consigli da esperti del settore.
+                    </p>
+                    <div class="row" align="center">
+                        <div class="3u">
+                            <section>
+                                <a name="ms" class="image featured"><img
+                                        src="/images/join/MS_CD_1.jpg"></a>
+                            </section>
+                        </div>
+                    </div>
+                    {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Powertrain (CD)</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Il reparto powertrain della divisione combustion si occupa principlamente dello sviluppo e della manutenzione del motore Honda CBR RR.
+                        Inoltre, progetta gli impianti di alimentazione, di scarico e di raffreddamento e si occupa della gestione del cambio, attraverso un continuo processo di ottimizzazione.
+                    </p>
+                        <h1>ORGANIZZAZIONE DELLA STAGIONE</h1>
+                        <p>All'inizio della stagione si esaminano i problemi riscontrati nel corso degli eventi estivi e a partire da questi si individuano i componenti coinvolti e si valutano le possibili soluzioni. 
+                        Si fissano quindi gli sviluppi da conseguire nel corso dell'anno: i primi mesi vengono dedicati alla progettazione dei componenti che richiedono miglioramenti mentre a partire da gennaio si iniziano i lavori di produzione e messa a punto della nuova vettura.
+                        Finalmente, nell'arco della primavera, si procede allo svolgimento dei test in pista in preparazione alle competizioni estive.</p>
+                        <div class="row" align="center">
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain1" class="image featured"><img
+                                            src="/images/join/cd_power1.jpg"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain2" class="image featured"><img
+                                            src="/images/join/cd_power2.jpg"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain3" class="image featured"><img
+                                            src="/images/join/cd_power3.png"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain4" class="image featured"><img
+                                            src="/images/join/cd_power4.jpg"></a>
+                                </section>
+                            </div>
+                        </div>
+                        {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+                <button class="collapsible">Powertrain (ED)</button>
+                <div class="content">
+                    {% if site.lang == "it" %}
+                    <p>Il reparto powertrain della divisione elettrica si occupa principlamente dell'apparato propulsivo della vettura, composto da quattro motori sincroni AMK, tramite il cablaggio ad alta tensione.
+                        Dal prossimo anno si occuperà anche del pacco batteria, della gestione della potenza e della frenata rigenerativa, cercando di implementare un algoritmo efficiente che permetta di migliorare le prestazioni.
+                        Il reparto lavora in stretto contatto con gli aerodinamici per lo sviluppo di un sistema di raffreddamento che mantenga in temperatura di esercizio gli inverter trifase che controllano i motori.
+                        É il reparto con più margine di migliroamento, e ha l'obiettivo di ottimizzare l'impianto di propulsione rendendo la macchina più veloce ed affidabile.</p>
+                        <div class="row" align="center">
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain1" class="image featured"><img
+                                            src="/images/join/ed_power1.JPG"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain2" class="image featured"><img
+                                            src="/images/join/ed_power2.png"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain3" class="image featured"><img
+                                            src="/images/join/ed_power3.png"></a>
+                                </section>
+                            </div>
+                            <div class="3u">
+                                <section>
+                                    <a name="powertrain4" class="image featured"><img
+                                            src="/images/join/ed_power4.png"></a>
+                                </section>
+                            </div>
+                        </div>
+                        {% elsif site.lang == "en" %}
+                    <p></p>
+                    {% endif %}
+                </div>
+            </section>
+        </div>
+        
         <div class="row" align="center" >
             <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
                 <button class="collapsible">Software (ED)</button>
@@ -157,7 +259,20 @@ title: titles.join
                 </div>
             </section>
         </div>
-    </section>
+
+        <div class="row" align="center" >
+            <section class="12u" style="padding-top: 0!important; margin: 1em 0 0em 0!important;">
+            <button class="collapsible">Vehicle Dynamics</button>
+            <div class="content">
+                {% if site.lang == "it" %}
+                <p>Questo reparto si occupa della progettazione del sistema di sospensioni, gruppo ruota e sterzo in collaborazione con il reparto Mechanical structures. Inoltre,  esegue delle analisi cinematiche e analisi sul comportamento degli pneumatici. Ottimizza le prestazioni della vettura tramite lo studio di assetti e infine fa uso di un modello multibody per simulare il comportamento dinamico della vettura.</p>
+                {% elsif site.lang == "en" %}
+                <p></p>
+                {% endif %}
+            </div>
+            </section>
+        </div>
+    </section>   
 
     {% tf join.html %}
 </article>

@@ -26,6 +26,11 @@
 
 {% include banner.html %}
 
+
+<div class="page-content">
+    {{ content }}
+</div>
+
 <section class="wrapper style3 container">
     <div class="row">
         <div id="ig-containder" class="6u">         
@@ -55,8 +60,14 @@
     </div>
 </section>
 
-<div class="page-content">
-    {{ content }}
+<div id="cta">
+    <footer>
+        <ul class="buttons">
+            {% include download_brochure.html %}
+            <li><a href="{{ site.baseurl }}/contact.html"
+                   class="button special">{% t global.contact %}!</a></li>
+        </ul>
+    </footer>
 </div>
 
 {% include footer.html %}
@@ -66,3 +77,5 @@
 
 <script type="text/javascript" src="/js/facebook.min.js"></script>
 </body>
+
+

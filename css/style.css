@@ -1574,5 +1574,5 @@ a:hover .caption {
 }
 
 #carDescription {
-    margin-top: -5%;  /* decrease margin from keyshot rendering */
+    margin-top: 0;  /* decrease margin from keyshot rendering */
 }

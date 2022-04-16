@@ -32,6 +32,9 @@ header {
 header.major {
     padding-bottom: 0
 }
+.depth-1{
+    display: none;
+}
 
 header.special {
     margin-bottom: 3em;

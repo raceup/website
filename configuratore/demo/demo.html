@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Race UP Configurator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../jquery.product-configurator.css" type="text/css">
+	<link rel="stylesheet" href="../jquery.product-configurator.dark.css" type="text/css">
+	<script src="jquery.js"></script>
+	<script src="../jquery.product-configurator.js"></script>
+	<style>
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			position: relative;
+			overflow: hidden;
+		}
+	</style>
+	<script>
+		$(document).ready(function () {
+			var options = {
+				"name": '<img src="img/raceup.png" width="50%">',
+				"currency": "&euro;",
+				"loading": true,
+				"categories": [
+
+					{
+						"name": "Aeropack",
+						"thumbnail": "img/thumbnail-telaio.png",
+						"items": [
+							{
+								"name": "High downforce",
+								"price": 10000,
+								"image": "img/aeropack/aeropack-full.png",
+								"thumbnail": "img/aeropack/aeropack-full.png",
+								"default": true
+							},
+							{
+								"name": "Medium downforce",
+								"price": 10000,
+								"image": "img/aeropack/aeropack-medium.png",
+								"thumbnail": "img/aeropack/aeropack-full.png",
+								"default": true
+							},
+							{
+								"name": "Low downforce",
+								"price": 9500,
+								"image": "img/aeropack/aeropack-low.png",
+								"thumbnail": "img/aeropack/aeropack-full.png",
+								"default": true
+							},														
+							{
+								"name": "No front wing",
+								"price": 0,
+								"image": "img/aeropack/aeropack-nofrontwing.png",
+								"thumbnail": "img/aeropack/aeropack-nofrontwing.png",
+							},
+
+						]
+					},
+
+					{
+						"name": "Monocoque",
+						"thumbnail": "img/thumbnail-telaio.png",
+						"items": [
+
+							{
+								"name": "Red",
+								"price": 1400.50,
+								"image": "img/telaio/telaio-rosso.png",
+								"thumbnail": "img/telaio/telaio-rosso.png",
+							},
+							{
+								"name": "Green",
+								"price": 1400,
+								"image": "img/telaio/telaio-verde.png",
+								"thumbnail": "img/telaio/telaio-verde.png",
+							},
+							{
+								"name": "Blue",
+								"price": 1400,
+								"image": "img/telaio/telaio-blu.png",
+								"thumbnail": "img/telaio/telaio-blu.png",
+							},
+							{
+								"name": "Black",
+								"price": 1400,
+								"image": "img/telaio/telaio-nero.png",
+								"thumbnail": "img/telaio/telaio-nero.png",
+								"default": true
+							},
+							{
+								"name": "Yellow",
+								"price": 1400,
+								"image": "img/telaio/telaio-giallo.png",
+								"thumbnail": "img/telaio/telaio-giallo.png",
+							},
+						]
+					},
+
+					{
+						"name": "Wheels",
+						"thumbnail": "img/ruote/ruote-road.png",
+						"items": [
+							{
+								"name": "Race",
+								"price": 100,
+								"image": "img/ruote/ruote-road.png",
+								"thumbnail": "img/ruote/ruote-road.png",
+								"default": true
+							},
+							{
+								"name": "Ice",
+								"price": 140,
+								"image": "img/ruote/ruote-ice.png",
+								"thumbnail": "img/ruote/ruote-ice.png",
+							},
+							{
+								"name": "Off-road",
+								"price": 200,
+								"image": "img/ruote/ruote-offroad.png",
+								"thumbnail": "img/ruote/ruote-offroad.png",
+							},
+						]
+					},
+
+					{
+						"name": "Suspension",
+						"thumbnail": "img/ruote/ruote-road.png",
+						"items": [
+							{
+								"name": "High",
+								"price": 1100,
+								"thumbnail": "img/ruote/ruote-road.png",
+								"default": true
+							},
+							{
+								"name": "Medium",
+								"price": 1100,
+								"thumbnail": "img/ruote/ruote-ice.png",
+							},
+							{
+								"name": "Low",
+								"price": 1100,
+								"thumbnail": "img/ruote/ruote-offroad.png",
+							},
+						]
+					},	
+
+					{
+						"name": "Powertrain",
+						"items": [
+							{
+								"name": "2RD",
+								"price": 8000,
+								"default": true
+							},
+							{
+								"name": "4WD",
+								"price": 13000,
+							},
+						]
+					},
+
+					{
+						"name": "Battery",
+						"items": [
+							{
+								"name": "Standard-10kWh",
+								"price": 7000,
+								"default": true
+							},
+							{
+								"name": "Plus-13kWh",
+								"price": 9000,
+							},
+						]
+					},		
+					
+					{
+						"name": "Brakes",
+						"items": [
+							{
+								"name": "Standard-performance",
+								"price": 800,
+								"default": true
+							},
+							{
+								"name": "High-performance",
+								"price": 1000,
+							},
+						]
+					},	
+					
+					{
+						"name": "Steering-wheel",
+						"items": [
+							{
+								"name": "Basic",
+								"price": 450,
+								"default": true
+							},
+							{
+								"name": "Medium",
+								"price": 550,
+							},
+							{
+								"name": "Pro",
+								"price": 650,
+							},
+						]
+					},		
+					
+					{
+						"name": "Foundamental-components",
+						"items": [
+							{
+								"name": "Electric system",
+								"price": 992,
+								"default": true
+							},
+							{
+								"name": "Miscellaneus",
+								"price": 6065,
+								"default": true
+							},
+							{
+								"name": "Frame",
+								"price": 8530,
+								"default": true
+							},
+							{
+								"name": "Cooling",
+								"price": 1840,
+								"default": true
+							},
+							{
+								"name": "Sensors",
+								"price": 2300,
+								"default": true
+							},
+						]
+					},						
+
+				]
+			};
+			$('body').productConfigurator(options);
+		});
+	</script>
+</head>
+
+<body>
+
+</body>
+
+</html>

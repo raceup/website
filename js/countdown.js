@@ -1,7 +1,7 @@
 // Set the date we're counting down to
-var countDownDates = [
-    new Date("Oct 14, 2022 10:00:00").getTime()
-];
+//var countDownDates = [
+//    new Date("Oct 14, 2022 10:00:00").getTime()
+//];
 
 /**
  * Dynamically displays date in the countdown HTML element
